@@ -4,11 +4,7 @@ description: Configure subdomain delegation, DMARC, SPF, DKIM, and IP pools for 
 ---
 # Email deliverability
 
-The following information is for administrators who configure sending infrastructure to support marketers and email content creators. It describes deliverability features and how to configure subdomains, authentication, and IP pools. See the following topics for additional information about email channels:
-
-* Configuring email channels - [Email channel configuration](../admin/email-channel-configuration.md)
-* Creating emails - [Add emails to journeys](../marketing/email-channel.md)
-* Designing email content - [Email content authoring](../content/email-authoring.md)
+The following information is for administrators who configure sending infrastructure to support marketers and email content creators. It describes deliverability features and how to configure subdomains, authentication, and IP pools.
 
 Email deliverability in [!DNL Adobe Marketo Optimizer] is the set of infrastructure and authentication configurations that help email messages reach the recipient's inbox, not the spam folder, and not blocked by ISPs (Internet Service Providers).
 
@@ -24,6 +20,12 @@ It uses the following building blocks, configured by an administrator, typically
 >[!TIP]
 >
 >Treat deliverability and channel setup as a one-time administrator activity. When configured, marketers and email authors do not need to revisit it.
+>
+> See the following topics for additional information about email channels:
+>
+>* Configuring email channels - [Email channel configuration](../admin/email-channel-configuration.md)
+>* Creating emails - [Add emails to journeys](../marketing/email-channel.md)
+>* Designing email content - [Email content authoring](../content/email-authoring.md)
 
 ## Current limitations {#limitations}
 

@@ -6,11 +6,11 @@ role: User, Admin
 
 # High-level architecture
 
-[!DNL Adobe Marketo Optimizer] integrates with Marketo Engage to deliver a 360-degree view of B2B leads. A bidirectional, trusted sync keeps Marketo Engage and Marketo Optimizer aligned, giving both platforms a single, shared view of People, Companies, Custom Objects, and Activities. High-performance, near-real-time data flow ensures records stay current and actionable, so campaigns and journeys can respond to leads the moment they engage.
+[!DNL Adobe Marketo Optimizer] integrates with [!DNL Adobe Marketo Engage] to deliver a 360-degree view of B2B leads. A bidirectional, trusted sync keeps Marketo Engage and Marketo Optimizer aligned, giving both platforms a single, shared view of People, Companies, Custom Objects, and Activities. High-performance, near-real-time data flow ensures records stay current and actionable, so campaigns and journeys can respond to leads the moment they engage.
 
 ## Data foundation
 
-Marketo Optimizer and Marketo Engage share a common data foundation that keeps both platforms synchronized while feeding downstream analytics.
+[!DNL Marketo Optimizer] and [!DNL Marketo Engage] share a common data foundation that keeps both platforms synchronized while feeding downstream analytics.
 
 ![Marketo Optimizer and Marketo Engage architecture diagram that shows how the two products' services, runtimes, and data stores connect across Microsoft Azure and AWS](./assets/marketo-optimizer-architecture.svg)
 

@@ -4,7 +4,7 @@ description: Complete documentation for Marketo Optimizer - explore the availabl
 ---
 # Adobe Marketo Optimizer Documentation
 
-[!DNL Adobe Marketo Optimizer] is an AI-first marketing automation solution that empowers marketers and business development representatives to plan programs, orchestrate personalized person journeys, and qualify prospects. Use conversational AI to build campaigns, manage audiences, and deliver content across email and WhatsApp channels.
+[!DNL Adobe Marketo Optimizer] is an AI-first marketing automation solution that empowers marketers and business development representatives to plan programs, orchestrate personalized person journeys, and qualify prospects. Use conversational AI to build and execute coordinated marketing and sales engagement with personalized, AI-powered content for B2B leads and accounts.
 
 ## Start with the basics {#basics}
 
