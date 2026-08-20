@@ -9,7 +9,7 @@ hide: true
 + [Adobe Marketo Optimizer documentation](guide-overview.md)
 + [Data architecture](data-architecture.md)
 + Get started {#start}
-   + [Setup checklist](./start/setup-prime.md)
+   + [Setup check list](./start/setup-check-list.md)
    + [User management](./start/user-management.md)
    + [Email deliverability](./start/email-deliverability.md)
 + [Home page](./home-insights/home-page.md)
