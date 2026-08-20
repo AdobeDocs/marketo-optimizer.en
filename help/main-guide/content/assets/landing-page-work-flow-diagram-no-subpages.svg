@@ -1,0 +1,71 @@
+<svg width="100%" viewBox="0 0 536 94" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Landing page creation process</title>
+  <desc>Four-step flowchart: Create the landing page, Configure the primary page, Test and check alerts, Publish the landing page.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .box-fill { fill: #FCEBEB; stroke: #A32D2D; }
+      .box-text { font-family: sans-serif; font-size: 11px; font-weight: 500; fill: #791F1F; }
+      .icon { fill: none; stroke: #A32D2D; stroke-linecap: round; stroke-linejoin: round; }
+      .arr { stroke: #A32D2D; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- === STEP 1: Create the landing page === -->
+  <rect x="0" y="0" width="112" height="94" rx="8" stroke-width="0.5" class="box-fill"/>
+  <g transform="translate(56,26) scale(0.9)" class="icon" stroke-width="1.8">
+    <path d="M-14,10 L-6,-8 L0,-4 L-8,14 Z"/>
+    <path d="M-6,-8 L-2,-12 L4,-6 L0,-4 Z"/>
+    <path d="M-14,10 L-16,14 L-12,12 Z" fill="#A32D2D"/>
+    <path d="M4,2 Q8,-6 14,-4 L10,4 L14,8 Q6,14 2,8 Z"/>
+    <line x1="2" y1="8" x2="10" y2="16"/>
+  </g>
+  <text class="box-text" x="56" y="60" text-anchor="middle" dominant-baseline="central">Create the</text>
+  <text class="box-text" x="56" y="74" text-anchor="middle" dominant-baseline="central">landing page</text>
+
+  <!-- Arrow 1 -->
+  <line x1="112" y1="47" x2="128" y2="47" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- === STEP 2: Configure the primary page === -->
+  <rect x="128" y="0" width="112" height="94" rx="8" stroke-width="0.5" class="box-fill"/>
+  <g transform="translate(184,26)" class="icon" stroke-width="1.6">
+    <rect x="-14" y="-14" width="28" height="22" rx="2"/>
+    <line x1="-14" y1="-8" x2="14" y2="-8"/>
+    <line x1="-8" y1="-2" x2="8" y2="-2"/>
+    <line x1="-8" y1="2" x2="8" y2="2"/>
+  </g>
+  <text class="box-text" x="184" y="60" text-anchor="middle" dominant-baseline="central">Configure the</text>
+  <text class="box-text" x="184" y="74" text-anchor="middle" dominant-baseline="central">primary page</text>
+
+  <!-- Arrow 2 -->
+  <line x1="240" y1="47" x2="256" y2="47" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- === STEP 3: Test and check alerts === -->
+  <rect x="256" y="0" width="138" height="94" rx="8" stroke-width="0.5" class="box-fill"/>
+  <g transform="translate(325,26)" class="icon" stroke-width="1.6">
+    <path d="M-6,-14 L-6,-2 L-14,12 Q-14,16 -8,16 L8,16 Q14,16 14,12 L6,-2 L6,-14 Z"/>
+    <line x1="-6" y1="-14" x2="6" y2="-14"/>
+    <circle cx="10" cy="10" r="6" fill="#A32D2D" stroke="#A32D2D"/>
+    <path d="M7,10 L9,13 L14,7" stroke="white" stroke-width="1.4" fill="none"/>
+  </g>
+  <text class="box-text" x="325" y="60" text-anchor="middle" dominant-baseline="central">Test and</text>
+  <text class="box-text" x="325" y="74" text-anchor="middle" dominant-baseline="central">check alerts</text>
+
+  <!-- Arrow 3 -->
+  <line x1="394" y1="47" x2="406" y2="47" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- === STEP 4: Publish the landing page === -->
+  <rect x="406" y="0" width="130" height="94" rx="8" stroke-width="0.5" class="box-fill"/>
+  <g transform="translate(471,26)" class="icon" stroke-width="1.6">
+    <path d="M-16,4 L14,-12 L6,16 L0,6 Z"/>
+    <path d="M0,6 L14,-12"/>
+    <path d="M-16,4 L0,6"/>
+    <circle cx="10" cy="10" r="6" fill="#A32D2D" stroke="#A32D2D"/>
+    <path d="M7,10 L9,13 L14,7" stroke="white" stroke-width="1.4" fill="none"/>
+  </g>
+  <text class="box-text" x="471" y="60" text-anchor="middle" dominant-baseline="central">Publish the</text>
+  <text class="box-text" x="471" y="74" text-anchor="middle" dominant-baseline="central">landing page</text>
+</svg>
