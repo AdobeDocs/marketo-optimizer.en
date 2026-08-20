@@ -4,9 +4,9 @@ description: Reused section about using the navigation tree for content authorin
 ---
 # Content authoring - navigation
 
-As you work with the content in the visual design space, you can access the components, columns, and content elements using the navigation tree. Click the _[!UICONTROL Navigation tree]_ icon ( ![Navigation tree icon](../main-guide/assets/do-not-localize/icon-navigation-tree.svg) ) on the left to display the tree.
+As you work with the content in the visual design space, you can access the components, columns, and content elements using the navigation tree. Click the _[!UICONTROL Navigation tree]_ icon ( ![Navigation tree icon](../user-guide/assets/do-not-localize/icon-navigation-tree.svg) ) on the left to display the tree.
 
-![Access the content layers](../main-guide/content/assets/content-design-layers.png){width="800" zoomable="yes"}
+![Access the content layers](../user-guide/content/assets/content-design-layers.png){width="800" zoomable="yes"}
 
 The following example outlines steps to adjust padding and vertical alignment inside a structure component with columns.
 
@@ -16,7 +16,7 @@ The following example outlines steps to adjust padding and vertical alignment in
 
    You can also select it from the structure tree. The editable parameters for that column are displayed in the _[!UICONTROL Settings]_ and _[!UICONTROL Styles]_ tabs on the right.
 
-    ![Column components displayed in the visual designer](../main-guide/content/assets/content-design-layers-column-select.png){width="800" zoomable="yes"}
+    ![Column components displayed in the visual designer](../user-guide/content/assets/content-design-layers-column-select.png){width="800" zoomable="yes"}
 
 1. To edit the column properties, click the _[!UICONTROL Styles]_ tab on the right and change them according to your needs:
 
@@ -31,7 +31,7 @@ The following example outlines steps to adjust padding and vertical alignment in
 
    * Expand the **[!UICONTROL Advanced]** section to define inline styles for the column.
 
-    ![Change the styles for the selected column](../main-guide/content/assets/content-design-layers-column-styles.png){width="700" zoomable="yes"}
+    ![Change the styles for the selected column](../user-guide/content/assets/content-design-layers-column-styles.png){width="700" zoomable="yes"}
 
 1. If needed, repeat these steps to adjust the alignment and padding for the other columns in the component.
 

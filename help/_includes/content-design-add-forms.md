@@ -10,7 +10,7 @@ The following example outlines steps to add a form as you design your landing pa
 
 1. Under the **[!UICONTROL Contents]** section, drag the **[!UICONTROL Form]** item and drop it into a structural component on the page design space.
 
-   ![Drag a Form component into the visual design space](../main-guide/content/assets/content-design-add-form.png){width="600"}
+   ![Drag a Form component into the visual design space](../user-guide/content/assets/content-design-add-form.png){width="600"}
 
    >[!TIP]
    >
@@ -18,7 +18,7 @@ The following example outlines steps to add a form as you design your landing pa
 
 1. Click the _Form_ icon in component toolbar, or use the **[!UICONTROL Embed Form]** properties on the right to select the published form.
 
-   ![Select the published form](../main-guide/content/assets/content-design-add-form-properties.png){width="600"}
+   ![Select the published form](../user-guide/content/assets/content-design-add-form-properties.png){width="600"}
 
 1. If you want to override the default **[!UICONTROL Follow up type]** for the form, change the setting according to the requirements for your page or template.
 
@@ -34,7 +34,7 @@ The following example outlines steps to add a form as you design your landing pa
      >
      >If you want to use the form for downloading a file, you can specify a URL for the hosted file. With this configuration, the submit button functions as a download button.
 
-     ![Change the follow-up setting](../main-guide/content/assets/content-design-add-form-follow-up.png){width="280"}
+     ![Change the follow-up setting](../user-guide/content/assets/content-design-add-form-follow-up.png){width="280"}
 
 1. If you want to limit the form display by device type, change the **[!UICONTROL Display Options]** setting:
 
