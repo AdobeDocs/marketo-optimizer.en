@@ -144,7 +144,7 @@ After validating the simulation results:
 
 1. Connect the people audience to the journey entry node.
 
-2. [Publish the journey](./journeys-overview.md).
+2. [Publish the journey](./person-journeys.md#publish).
 
 After the journey is live, the next best path node runs at execution time. As each person reaches the node, the AI evaluates them in real time using the latest signals and routes them to the most relevant path.
 
