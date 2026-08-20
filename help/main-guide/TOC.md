@@ -93,11 +93,4 @@ hide: true
 
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
-
-+ AI Assistant {#ai-assistant}
-    + [Overview](./ai-assistant/ai-assistant-overview.md)
-    + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
-    + [Question guidance](./ai-assistant/question-guidance.md)
-    + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
-    + [Generative AI for content](./ai-assistant/generative-ai-content.md)
 -->
