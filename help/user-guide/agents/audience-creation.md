@@ -142,3 +142,4 @@ After creating or updating a list, AI Assistant offers: _"Would you like me to v
 | **Name collisions** | Not auto-resolved — if the name is taken, AI Assistant asks you for a different one rather than silently appending a suffix. |
 | **Approval required** | AI Assistant will not create or modify a list until you click **[!UICONTROL Proceed]**, confirm, or give a clear go-ahead (_"approved"_, _"looks good"_, _"build it"_). |
 | **Static snapshot population** | Membership in static lists created from criteria fills in over a few minutes — not instantly. |
+
