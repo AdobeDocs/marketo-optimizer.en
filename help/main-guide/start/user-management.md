@@ -15,7 +15,7 @@ After provisioning is complete and sandboxes are bound, complete the following s
 
 ## Configure the product profile {#config-profile}
 
-As an administrator, you can complete these tasks in the Adobe Admin Console, which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. To learn more about its functions and capabilities, refer to the [Admin Console overview](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) page.
+As an administrator, you can complete these tasks in the [!DNL Adobe Admin Console], which is a central place to administer and manage your Adobe product licenses and users. In the Admin Console, you can create and manage users in a single location instead of within your various individual solutions. To learn more about its functions and capabilities, refer to the [Admin Console overview](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) page.
 
 ### Access the Admin Console {#admin-console}
 
