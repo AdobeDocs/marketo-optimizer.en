@@ -12,7 +12,7 @@ After you add a webinar to a program, build one or more [journeys](./person-jour
 
 >[!NOTE]
 >
->This page covers building these journeys by hand. To have the AI Assistant build the same journeys for you from a template, see [Create webinars with AI Assistant](../agents/webinar-creation.md).
+>This page covers building these journeys by hand. To have the Coworker build the same journeys for you from a template, see [Create webinars with Coworker](../agents/webinar-creation.md).
 
 ## Build a promotion journey {#build-promotion-journey}
 

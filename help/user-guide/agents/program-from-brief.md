@@ -12,7 +12,7 @@ In [!DNL Adobe Marketo Optimizer], [_program_](../marketing/programs.md) is the 
 
 ## Brief upload
 
-Click the _Attach_ icon in the chat input to upload the file, and then describe what you want. The brief's text is extracted and handed to the assistant as context (you'll see a "Campaign Brief uploaded: filename (NkB)" indicator in the chat).
+Click the _Attach_ icon in the chat input to upload the file, and then describe what you want. The brief's text is extracted and handed to Coworker as context (you'll see a "Campaign Brief uploaded: filename (NkB)" indicator in the chat).
 
 ### Supported file types
 
@@ -21,11 +21,11 @@ Click the _Attach_ icon in the chat input to upload the file, and then describe 
 | `.txt`, `.md` | Read directly in the browser |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | Sent to the backend text-extraction service |
 
-A file with a name containing *brief* is automatically tagged as a campaign brief; otherwise the assistant infers it from context.
+A file with a name containing *brief* is automatically tagged as a campaign brief; otherwise Coworker infers it from context.
 
 ### Size limit
 
-Brief text is truncated to approximately 30,000 characters (~7.5K tokens) before reaching the assistant. Very long briefs are cut off at that point (indicated by a `(truncated to 29KB)` note). Put essential campaign details up front.
+Brief text is truncated to approximately 30,000 characters (~7.5K tokens) before reaching Coworker. Very long briefs are cut off at that point (indicated by a `(truncated to 29KB)` note). Put essential campaign details up front.
 
 ## Recommended brief contents
 
@@ -37,7 +37,7 @@ The flow intake reads the brief for the following inputs — include as many as 
 * Journey design — count, entry criteria, touchpoints/timing, and a go-live date
 * Tokens (reusable values such as event date, venue, subject line)
 
-AI Assistant requests anything that is missing before building.
+Coworker requests anything that is missing before building.
 
 ## Build phases
 
@@ -45,7 +45,7 @@ The skill runs in three phases: **INTAKE → APPROVE → BUILD**. Nothing is cre
 
 ### Intake
 
-The assistant extracts the following from the brief and prompts for anything missing:
+Coworker extracts the following from the brief and prompts for anything missing:
 
 * Program name
 * Parent folder (defaults to workspace root if unspecified)
@@ -57,7 +57,7 @@ The assistant extracts the following from the brief and prompts for anything mis
 
 ### Approve
 
-The assistant presents a confirmation summary before proceeding:
+Coworker presents a confirmation summary before proceeding:
 
    `I'll create {program} in folder {id}, with {N} token(s), {N} dynamic people list(s), and {N} journey(s). Shall I proceed?`
 
@@ -115,7 +115,7 @@ Programs are **permanently bound** to a tenant-defined program type at creation 
 
 | Case | Behavior |
 |---|---|
-| **Multiple types available** | Matches brief wording to a type (such as tradeshow/booth/expo = *Tradeshow*/*Event*; webinar = *Webinar*/*Event*; nurture/drip = *Nurture*; no clear signal = *Default*). If no match is found, the assistant lists available types and asks. |
+| **Multiple types available** | Matches brief wording to a type (such as tradeshow/booth/expo = *Tradeshow*/*Event*; webinar = *Webinar*/*Event*; nurture/drip = *Nurture*; no clear signal = *Default*). If no match is found, Coworker lists available types and asks. |
 | **Default-only tenant** | Uses *Default* and notes that an admin can add custom [program types](../admin/program-types.md). |
 | **No types configured** | Stops — creation would fail. Prompts an admin to provision program types before retrying. |
 
@@ -138,14 +138,14 @@ Programs are **permanently bound** to a tenant-defined program type at creation 
 | **Required internal fields** | `parent` and `programTypeId` are always set; omitting `parent` causes access-denied; omitting type silently falls back to *Default* |
 | **Journey requires people list** | The `smartListId` from Step 4 is mandatory for Step 5; the flow enforces this |
 | **Async list membership** | Static (from criteria) lists populate over several minutes — not instant |
-| **Error handling** | Tool failures are reported with the exact error; the assistant prompts to confirm input and retry |
+| **Error handling** | Tool failures are reported with the exact error; Coworker prompts to confirm input and retry |
 | **Name collisions** | Not auto-resolved — a different name will be requested |
 | **Scope** | Marketo Optimizer only; [!DNL Marketo Engage] users should use the separate program-creation / program-planning skills |
 
 
 ## QA check
 
-After the build completes, AI Assistant offers:
+After the build completes, Coworker offers:
 
 > "Would you like me to run a QA check to validate everything before launch?"
 

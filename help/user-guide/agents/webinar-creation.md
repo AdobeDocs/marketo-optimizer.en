@@ -3,7 +3,6 @@ title: Create and Promote Webinars
 description: Use the chat interace in Marketo Optimizer to schedule a webinar, add co-hosts and presenters, build promotion and nurture journeys, and check reporting — all in natural language.
 keywords: 
 role: User
-feature: AI Assistant
 ---
 
 # Create and promote webinars

@@ -21,7 +21,7 @@ Interactive webinars let you plan, promote, deliver, and follow up on a live or 
 
 You can create a webinar two ways:
 
-* **Conversation experience** - Ask the AI Assistant to schedule, promote, and report on a webinar in natural language. See [Create webinars with AI Assistant](../agents/webinar-creation.md).
+* **Conversation experience** - Ask the Coworker to schedule, promote, and report on a webinar in natural language. See [Create webinars with Coworker](../agents/webinar-creation.md).
 
 * **Point-and-click** - Use the _[!UICONTROL Programs]_ workspace to add a webinar asset, design it, add co-hosts and presenters, build promotion and follow-up journeys, and review reporting. See [Create and design a webinar](create-webinar.md) and [Webinar promotion and follow-up journeys](webinar-journeys.md).
 

@@ -10,7 +10,7 @@ The _Home_ page is your launch pad in Adobe Marketo Optimizer. Select the _Home_
 
 ## Input box
 
-A large _Ask a question or start a task_ input sits at the center of the home page. Enter anything here to start working with the AI conversational panel, or use the _Attach_ ( **+**) icon to add a file (such as a campaign brief or a CSV) before you send. This is the same AI Assistant available throughout Marketing Management, but starting here opens a fresh conversation.
+A large _Ask a question or start a task_ input sits at the center of the home page. Enter anything here to start working with the AI conversational panel, or use the _Attach_ ( **+**) icon to add a file (such as a campaign brief or a CSV) before you send. This is the same Coworker available throughout Marketing Management, but starting here opens a fresh conversation.
 
 ## Intent buttons
 
