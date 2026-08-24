@@ -2,7 +2,7 @@
 user-guide-title: Marketo Optimizer Documentation
 user-guide-description: Learn about Adobe Marketo Optimizer and how you can use it to execute coordinated marketing and sales engagement with personalized, AI-powered content for B2B leads and accounts.
 hide: true
-nudge: purple
+nudge: red
 ---
 
 # Marketo Optimizer User Guide {#user}
