@@ -1,6 +1,6 @@
 ---
 title: Person Details
-description: View a person's AI-generated persona, engagement, and intent summary, activity history, profile attributes, and company details, and ask AI Assistant questions about the record in Marketo Optimizer.
+description: View a person's AI-generated persona, engagement, and intent summary, activity history, profile attributes, and company details, and ask Coworker questions about the record in Marketo Optimizer.
 ---
 
 # Person details
@@ -10,7 +10,7 @@ In [!DNL Adobe Marketo Optimizer], when you click a person's name on the _[!UICO
 * An AI-generated persona, engagement, and intent summary
 * A full activity history
 * Profile and company attributes
-* AI Assistant chat interface scoped to answer questions about the person
+* Coworker chat interface scoped to answer questions about the person
 
 ## Open person details {#open-person-details}
 
@@ -101,15 +101,15 @@ The **[!UICONTROL Company]** tab displays firmographic data associated with the 
 
 Fields without available data are shown as a dash.
 
-## Ask AI Assistant about a person {#ask-ai-assistant}
+## Ask Coworker about a person {#ask-coworker}
 
-Open the **[!UICONTROL AI Assistant]** panel icon near the top of the page to get help with the current person record. The panel opens scoped to that person — a chip below the message thread (for example, _person: [Person Name]_) confirms which record your prompts target.
+Open the **[!UICONTROL Coworker]** panel icon near the top of the page to get help with the current person record. The panel opens scoped to that person — a chip below the message thread (for example, _person: [Person Name]_) confirms which record your prompts target.
 
-![Person details - AI Assistant](./assets/people-list-person-details-ai-assistant.png){width="700" zoomable="yes"}
+![Person details - Coworker](./assets/people-list-person-details-coworker.png){width="700" zoomable="yes"}
 
 ### Start from a suggested prompt {#suggested-prompts}
 
-When you open the panel from a person details page, AI Assistant greets you with a contextual welcome message and default suggested prompts, such as:
+When you open the panel from a person details page, Coworker greets you with a contextual welcome message and default suggested prompts, such as:
 
 * _Help me understand [Person Name]_
 * _Tell me about [Person Name]'s persona_
@@ -119,6 +119,6 @@ Click a suggested prompt, or type your own question in the input box at the bott
 
 ### Review the response {#review-response}
 
-Selecting a prompt runs a multi-step [skill](../agents/skills.md), shown as sequential status steps (for example, _Lookup person by ID_ and _Get person story_) while AI Assistant composes the answer. The response is a structured summary that can include profile details, engagement history, and email performance for the person.
+Selecting a prompt runs a multi-step [skill](../agents/skills.md), shown as sequential status steps (for example, _Lookup person by ID_ and _Get person story_) while Coworker composes the answer. The response is a structured summary that can include profile details, engagement history, and email performance for the person.
 
-Use the thumbs-up/thumbs-down control to rate the response. As with all AI Assistant output, review the response before using it. For more information, see the [Adobe Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}.
+Use the thumbs-up/thumbs-down control to rate the response. As with all Coworker output, review the response before using it. For more information, see the [Adobe Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}.

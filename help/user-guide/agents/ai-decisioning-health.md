@@ -11,14 +11,14 @@ Use AI-decisioning health to see what data flows in from [!DNL Marketo Engage] a
 
 ## Open AI-decisioning health {#open}
 
-Open the report from either the home page or the AI Assistant chat.
+Open the report from either the home page or the Coworker chat.
 
 * On the _Home_ page, select the **[!UICONTROL AI-decisioning health]** card in the Quick access row. The card leads the row and shows story volume and persona-classification progress, such as 929 stories, 32% persona classified.
-* In the AI Assistant chat box, ask about your personalization data directly, or type `/` and select **[!UICONTROL AI-decisioning health]**.
+* In the Coworker chat box, ask about your personalization data directly, or type `/` and select **[!UICONTROL AI-decisioning health]**.
 
 ![Quick access row on the home page, showing the AI-decisioning health card first, followed by Marketing, Assets, and Reports.](./assets/ai-decisioning-health-quick-access.png){width="600"}
 
-Both paths open the report inside the AI Assistant workspace.
+Both paths open the report inside the Coworker workspace.
 
 ## Chat welcome and follow-up prompts {#chat-welcome}
 
@@ -26,7 +26,7 @@ Opening AI-decisioning health from chat displays a welcome message, _[!UICONTROL
 
 Below the card, under _[!UICONTROL What would you like to do next?]_, AI-decisioning health suggests follow-up prompts based on your own data's specific gaps. For example, if 67.7% of your leads lack a persona classification, one suggested prompt reads _Why are 67.7% of leads unclassified by persona?_ Select a suggested prompt, or ask your own question, to get a direct answer without leaving chat.
 
-![AI Assistant chat panel showing the welcome message for AI-decisioning health, a card that opens the report, and four suggested follow-up prompts.](./assets/ai-decisioning-health-highlights.png){width="800" zoomable="yes"}
+![Coworker chat panel showing the welcome message for AI-decisioning health, a card that opens the report, and four suggested follow-up prompts.](./assets/ai-decisioning-health-highlights.png){width="800" zoomable="yes"}
 
 ## Report overview {#report-overview}
 
@@ -74,7 +74,7 @@ If you open AI-decisioning health and then navigate away, it reappears under **[
 
 Planned enhancements for AI-decisioning health include:
 
-* A dedicated entry in the AI Assistant skills catalog.
+* A dedicated entry in the Coworker skills catalog.
 * Guided "ask how" actions that walk you through fixing a flag.
 * A dedicated next steps tab.
 

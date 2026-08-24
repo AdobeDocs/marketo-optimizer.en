@@ -12,7 +12,7 @@ In [!DNL Adobe Marketo Optimizer], [_people lists_](../audiences/people-lists.md
 
 ## Supported workflows {#workflows}
 
-AI Assistant supports three audience creation workflows and determines which one applies from your request. If your intent is ambiguous, it asks before proceeding.
+Coworker supports three audience creation workflows and determines which one applies from your request. If your intent is ambiguous, it asks before proceeding.
 
 | Workflow | When to use it | Example prompt |
 |---|---|---|
@@ -22,16 +22,16 @@ AI Assistant supports three audience creation workflows and determines which one
 
 ## Create a people list from scratch {#create-from-scratch}
 
-Before generating anything, AI Assistant confirms all four of the following. It asks for any that are missing — in a single message.
+Before generating anything, Coworker confirms all four of the following. It asks for any that are missing — in a single message.
 
 1. **Rules / criteria** — A plain-language description of who belongs in the list.
 1. **Name** — What to call the list.
-1. **Location** — Which program the list should live in. Provide a program name and AI Assistant finds it; if there are multiple matches it asks you to pick.
-1. **Type** — Dynamic (filter-based, auto-updating) or static (fixed membership). This is required — AI Assistant will not guess; if you don't specify, it asks.
+1. **Location** — Which program the list should live in. Provide a program name and Coworker finds it; if there are multiple matches it asks you to pick.
+1. **Type** — Dynamic (filter-based, auto-updating) or static (fixed membership). This is required — Coworker will not guess; if you don't specify, it asks.
 
 ### Dynamic lists {#dynamic-lists}
 
-For dynamic lists, AI Assistant proactively suggests including personalization attributes to make targeting richer. These attributes are **_included by default — you opt out, not in_**:
+For dynamic lists, Coworker proactively suggests including personalization attributes to make targeting richer. These attributes are **_included by default — you opt out, not in_**:
 
 | Attribute | Why it helps |
 |---|---|
@@ -39,16 +39,16 @@ For dynamic lists, AI Assistant proactively suggests including personalization a
 | **Derived Intent** | Inferred purchase-intent signals that surface in-market accounts. |
 | **Engagement Tier** | Calculated engagement level that prioritizes engaged contacts. |
 
-Tell AI Assistant if you want to remove any of these before it proceeds.
+Tell Coworker if you want to remove any of these before it proceeds.
 
 ### Static lists {#static-lists}
 
 * **Static, no criteria** — The list is created empty, ready for you to add members manually.
-* **Static from criteria (a snapshot)** — AI Assistant builds the matching set and copies those people in. Population is asynchronous — AI Assistant confirms the list was created but notes that it may take a few minutes for people to appear. It will not claim the list is ready immediately.
+* **Static from criteria (a snapshot)** — Coworker builds the matching set and copies those people in. Population is asynchronous — Coworker confirms the list was created but notes that it may take a few minutes for people to appear. It will not claim the list is ready immediately.
 
 ## Review card {#review-card}
 
-Nothing is created until you approve it. After you describe your criteria, AI Assistant presents an interactive _People List Creation Review_ card (for adaptations from [!DNL Marketo Engage] lists, the card is titled _People List Conversion Review_).
+Nothing is created until you approve it. After you describe your criteria, Coworker presents an interactive _People List Creation Review_ card (for adaptations from [!DNL Marketo Engage] lists, the card is titled _People List Conversion Review_).
 
 Each row in the card represents one condition:
 
@@ -69,19 +69,19 @@ A _Conversion Summary_ tallies _N High Confidence_ and _N Low Confidence_, with 
 **Card actions:**
 
 * **Proceed** — Creates the list using only the checked rules.
-* **Describe the changes you want in chat** — Pre-fills the input with _"I want to change: "_ so you can refine; AI Assistant regenerates and shows a fresh card, keeping rules you had already approved.
+* **Describe the changes you want in chat** — Pre-fills the input with _"I want to change: "_ so you can refine; Coworker regenerates and shows a fresh card, keeping rules you had already approved.
 
-You can also type a follow-up at any point (for example, _"also restrict to companies over 500 employees"_) and AI Assistant regenerates the card.
+You can also type a follow-up at any point (for example, _"also restrict to companies over 500 employees"_) and Coworker regenerates the card.
 
 ## Attribute mapping {#attribute-mapping}
 
-When you describe criteria, AI Assistant translates each condition into a real, known person-level attribute. Three outcomes can appear on the Review card:
+When you describe criteria, Coworker translates each condition into a real, known person-level attribute. Three outcomes can appear on the Review card:
 
 1. **Matched (high confidence)** — Your condition maps directly to an attribute (for example, _"email is acme.com"_ maps to the `email` attribute). Checked by default.
 1. **Approximate (low confidence)** — The closest available attribute differs in name or data model (for example, a Marketo _Amount_ filter approximated as _Lead Score_). Shown with a note explaining the difference; unchecked by default.
 1. **Not found** — The condition couldn't be mapped to any known attribute. Shown as _"No equivalent found"_; no rule is generated.
 
-This is why a list you describe might come back with fewer rules than conditions you specified — unmatched conditions are surfaced explicitly rather than silently dropped. If important criteria land as "not found," rephrase them using the attribute's real name and AI Assistant re-tries.
+This is why a list you describe might come back with fewer rules than conditions you specified — unmatched conditions are surfaced explicitly rather than silently dropped. If important criteria land as "not found," rephrase them using the attribute's real name and Coworker re-tries.
 
 >[!NOTE]
 >
@@ -89,12 +89,12 @@ This is why a list you describe might come back with fewer rules than conditions
 
 ## Edit rules for an existing list {#edit-rules}
 
-When you ask to change rules on a list you already have, AI Assistant establishes which list and which edit mode:
+When you ask to change rules on a list you already have, Coworker establishes which list and which edit mode:
 
 * **Add / append** (default for _"add rules"_, _"add more rules"_) — new rules are merged with the existing ones.
 * **Replace** (default for _"replace rules"_, _"change rules to"_) — new rules replace all existing rules on the list.
 
-AI Assistant summarizes what will be applied and clearly states whether it's adding or replacing, then asks you to confirm before it commits. After applying, it reports the total rule count and how many were added or replaced.
+Coworker summarizes what will be applied and clearly states whether it's adding or replacing, then asks you to confirm before it commits. After applying, it reports the total rule count and how many were added or replaced.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ AI Assistant summarizes what will be applied and clearly states whether it's add
 
 ## Audience overlap {#overlap}
 
-Ask AI Assistant to compare two people lists (for example, _"Show me the overlap between 'Q3 Webinar' and 'Enterprise Accounts'"_) and it renders a _People List Overlap_ card:
+Ask Coworker to compare two people lists (for example, _"Show me the overlap between 'Q3 Webinar' and 'Enterprise Accounts'"_) and it renders a _People List Overlap_ card:
 
 * A header badge showing the count: **"{N} in common."**
 * A stats row with each list's total member count and the overlap as **"X% of A · Y% of B."**
@@ -116,12 +116,12 @@ Ask AI Assistant to compare two people lists (for example, _"Show me the overlap
 |---|---|
 | **Table size** | Shows up to 200 members; beyond that it notes _"Showing 200 of N — ask me to refine the query to narrow results."_ |
 | **Overlap computation** | Computed on email address; people without an email are excluded from the intersection. |
-| **List size** | Reads up to approximately the first ~1,000 members of each list. For larger lists AI Assistant tells you results are partial. |
-| **Draft dynamic lists** | Can't be compared — a list that hasn't been published has no live segment. AI Assistant asks you to publish it first or use a static list instead. |
+| **List size** | Reads up to approximately the first ~1,000 members of each list. For larger lists Coworker tells you results are partial. |
+| **Draft dynamic lists** | Can't be compared — a list that hasn't been published has no live segment. Coworker asks you to publish it first or use a static list instead. |
 
 ## QA validation {#qa-validation}
 
-After creating or updating a list, AI Assistant offers: _"Would you like me to verify the list is correctly configured?"_ If you accept, it re-fetches the list and reports the following checks:
+After creating or updating a list, Coworker offers: _"Would you like me to verify the list is correctly configured?"_ If you accept, it re-fetches the list and reports the following checks:
 
 | Check | Result |
 |---|---|
@@ -135,11 +135,11 @@ After creating or updating a list, AI Assistant offers: _"Would you like me to v
 
 | Limitation | Detail |
 |---|---|
-| **Static-list adaptation from [!DNL Marketo Engage]** | You can't adapt a [!DNL Marketo Engage] static list (or an email or other non-filter asset) into a people list. Static lists are explicit member IDs and can't be expressed as filters; AI Assistant asks for a Smart List or Smart Campaign instead. |
+| **Static-list adaptation from [!DNL Marketo Engage]** | You can't adapt a [!DNL Marketo Engage] static list (or an email or other non-filter asset) into a people list. Static lists are explicit member IDs and can't be expressed as filters; Coworker asks for a Smart List or Smart Campaign instead. |
 | **Activity- and membership-based filters** | When adapting from [!DNL Marketo Engage], filters like _Email Was Opened_, _Visited Web Page_, _Form Was Filled Out_, _Member of List_, and _Member of Smart Campaign_ have no people-list equivalent and come back as "No equivalent found." |
 | **Company-level conditions** | Translated to the nearest person-level attribute where possible (people lists operate on person attributes) and flagged low-confidence when the fit is loose. |
-| **Deeply nested AND/OR logic** | Complex nested logic may collapse to a top-level AND/OR; AI Assistant notes this when it happens. |
-| **Name collisions** | Not auto-resolved — if the name is taken, AI Assistant asks you for a different one rather than silently appending a suffix. |
-| **Approval required** | AI Assistant will not create or modify a list until you click **[!UICONTROL Proceed]**, confirm, or give a clear go-ahead (_"approved"_, _"looks good"_, _"build it"_). |
+| **Deeply nested AND/OR logic** | Complex nested logic may collapse to a top-level AND/OR; Coworker notes this when it happens. |
+| **Name collisions** | Not auto-resolved — if the name is taken, Coworker asks you for a different one rather than silently appending a suffix. |
+| **Approval required** | Coworker will not create or modify a list until you click **[!UICONTROL Proceed]**, confirm, or give a clear go-ahead (_"approved"_, _"looks good"_, _"build it"_). |
 | **Static snapshot population** | Membership in static lists created from criteria fills in over a few minutes — not instantly. |
 

@@ -12,7 +12,7 @@ description: Complete documentation for Marketo Optimizer - explore the availabl
   <tr style="border: 0;">
   <td valign="top"><a href="/help/prime/setup-prime.md"><img src="assets/do-not-localize/setup-teal.svg"  alt="Setup checklist"></a> </td>
   <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="assets/do-not-localize/home-page-teal.svg"  alt="Home page"></a> </td>
-  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="assets/do-not-localize/ai-assistant-teal.svg"  alt="AI Assistant chat interface"></a> </td>
+  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="assets/do-not-localize/coworker-teal.svg"  alt="Coworker chat interface"></a> </td>
   <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="assets/do-not-localize/marketing-hub-teal.svg"  alt="Marketing activities hub"></a> </td>
   <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="assets/do-not-localize/asset-management-teal.svg"  alt="Digital asset management"></a> </td>
   <tr style="border: 0;">
@@ -23,7 +23,7 @@ description: Complete documentation for Marketo Optimizer - explore the availabl
     <div><strong>Home page</strong><br/><br/>Explore the navigation essentials in the application centered around the home page.</div>
     </td>
     <td valign="top">
-    <div><strong>AI Assistant</strong><br/><br/>Use natural language to plan programs, build journeys, manage audiences, and create content with agentic AI skills.
+    <div><strong>Coworker</strong><br/><br/>Use natural language to plan programs, build journeys, manage audiences, and create content with agentic AI skills.
     </div>
     </td>
     <td valign="top">
@@ -59,7 +59,7 @@ Complete initial setup and configuration, then learn how to navigate the applica
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
-AI Assistant
+Coworker
 
 Use natural language to plan programs, build journeys, manage audiences, and create content with agentic AI skills.
 
@@ -124,8 +124,8 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
       <strong>Get started</strong><br/><a href="./start/setup-prime.md">Setup checklist</a><br/><a href="./start/user-management.md">User management</a><br/><a href="./start/email-deliverability.md">Email deliverability</a>
     </td>
     <td valign="top">
-      <img src="assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="AI Assistant"><br/>
-      <strong>AI Assistant</strong><br/><a href="./agents/chat-interface.md">Chat interface</a><br/><a href="./agents/skills.md">Skills</a><br/><a href="./agents/program-from-brief.md">Create program from brief</a><br/><a href="./agents/audience-creation.md">Create audiences for programs</a>
+      <img src="assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Coworker"><br/>
+      <strong>Coworker</strong><br/><a href="./agents/chat-interface.md">Chat interface</a><br/><a href="./agents/skills.md">Skills</a><br/><a href="./agents/program-from-brief.md">Create program from brief</a><br/><a href="./agents/audience-creation.md">Create audiences for programs</a>
     </td>
     <td valign="top">
       <img src="assets/do-not-localize/icon-paths.svg" width="35px" alt="Marketing management"><br/>

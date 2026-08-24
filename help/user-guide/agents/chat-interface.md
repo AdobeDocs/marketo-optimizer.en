@@ -1,12 +1,12 @@
 ---
 title: Chat interface
-description: Use the AI Assistant chat panel in Marketo Optimizer to build programs, journeys, and lists using natural language or the slash (/) menu.
+description: Use the Coworker chat panel in Marketo Optimizer to build programs, journeys, and lists using natural language or the slash (/) menu.
 ---
 # Chat interface
 
 The chat panel is embedded throughout [!DNL Adobe Marketo Optimizer]. It is where you interact with the AI agents using plain language to build programs and journeys, create and compare people lists, investigate leads, configure scoring, and more.
 
-Select the _AI Assistant_ icon in the left navigation to open the panel. The panel header has four controls:
+Select the _Coworker_ icon in the left navigation to open the panel. The panel header has four controls:
 
 | Control | Description |
 |---------|-------------|
@@ -20,7 +20,7 @@ At the bottom of the panel is the message box where you can:
 * Add a message and press **Enter** to send (**Shift+Enter** inserts a newline).
 * Attach a file using the _Attach_ icon (supported formats: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Use CSV and spreadsheet uploads to start a lead import. 
 
-## Ask AI Assistant
+## Ask Coworker
 
 There are two equally valid ways to get work done — you never have to use the slash menu.
 
@@ -32,7 +32,7 @@ There are two equally valid ways to get work done — you never have to use the 
 
 The agent matches your wording to the right skill behind the scenes and runs the appropriate workflow.
 
-**The forward-slash (/) menu** — Type `/` to open a browsable menu of everything the assistant can do. This is useful when you want to discover capabilities or jump straight to a known workflow.
+**The forward-slash (/) menu** — Type `/` to open a browsable menu of everything Coworker can do. This is useful when you want to discover capabilities or jump straight to a known workflow.
 
 ## The slash (/) menu
 
@@ -66,7 +66,7 @@ Connectors open a modal instead of inserting text. Navigation shortcuts take you
 
 A skill is a packaged workflow the agent knows how to run — the building blocks behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one job (for example, "publish a journey", "compare two people lists", "build a scoring model").
 
-See _[AI Assistant Skills](./skills.md)_ for a complete list of currently supported skills.
+See _[Coworker Skills](./skills.md)_ for a complete list of currently supported skills.
 
 Key things to know about skills:
 
@@ -76,12 +76,12 @@ Key things to know about skills:
 
 ## Follow-up prompts
 
-After the assistant replies, it often shows a row of clickable follow-up prompts tailored to what you just did — for example, after creating a journey it might offer _"Publish this journey"_ or _"Add a wait step"_. Click one to continue without typing. These are suggestions only; you can always type your own next message instead.
+After Coworker replies, it often shows a row of clickable follow-up prompts tailored to what you just did — for example, after creating a journey it might offer _"Publish this journey"_ or _"Add a wait step"_. Click one to continue without typing. These are suggestions only; you can always type your own next message instead.
 
 ## Tips
 
 * **Be specific with identifiers.** When investigating or editing, include the email address, person name, journey name, or list name so the agent acts on the right asset.
-* **Use `/` to explore.** If you're not sure what the assistant can do, open the `/` menu and skim the categories.
+* **Use `/` to explore.** If you're not sure what Coworker can do, open the `/` menu and skim the categories.
 * **Edit the starter prompt.** Selecting a skill gives you a template — replace the `[bracketed]` placeholders before sending.
 * **Upload first for imports.** For a lead import, attach the CSV first, then describe what you want to do with it.
 * **Start a new conversation** when you switch to an unrelated task, so earlier context doesn't affect the new request.

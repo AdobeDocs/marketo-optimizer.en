@@ -14,7 +14,7 @@ nudge: red
    + [User management](./start/user-management.md)
    + [Email deliverability](./start/email-deliverability.md)
 + [Home page](./home-insights/home-page.md)
-+ AI Assistant {#ai-assistant}
++ Coworker capabilities {#coworker}
    + [Chat interface](./agents/chat-interface.md)
    + [Skills](./agents/skills.md)
    + [Create program from brief](./agents/program-from-brief.md)

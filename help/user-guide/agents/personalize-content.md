@@ -25,7 +25,7 @@ The _Content Personalization_ skill turns one email into persona-based, data-inf
 
 ## Prerequisites {#prerequisites}
 
-* Access to [!DNL Marketo Optimizer] with AI Assistant enabled.
+* Access to [!DNL Marketo Optimizer] with Coworker enabled.
 * [Derived personas](../audiences/personas.md) resolved in your data. The skill relies on these classifications to build persona cohorts. Custom persona support is planned for a future release.
 * Enough historical data for insights. If insights are not available for a persona cohort, the skill tells you that data is insufficient and falls back to general best practices for that persona.
 * An [email template](../content/templates.md) or an existing email referenced by a [_Send Email_ action node](../marketing/action-nodes.md).
@@ -41,7 +41,7 @@ This flow authors a new email and personalizes it in the same conversation.
 
 1. **Review the draft.**
 
-   AI Assistant maps your content to the template and produces a draft email. You can make basic text edits inline.
+   Coworker maps your content to the template and produces a draft email. You can make basic text edits inline.
 
    >[!WARNING]
    >
@@ -51,11 +51,11 @@ This flow authors a new email and personalizes it in the same conversation.
 
 1. **Review the resolved persona cohorts**.
 
-   AI Assistant inspects your data and returns the persona cohorts that match your description, with a count for each. Revise the target-group description and try again if needed.
+   Coworker inspects your data and returns the persona cohorts that match your description, with a count for each. Revise the target-group description and try again if needed.
 
 1. **Confirm the target group**.
 
-   Then AI Assistant retrieves insights for each resolved persona cohort.
+   Then Coworker retrieves insights for each resolved persona cohort.
 
 1. **Select the sections to personalize**, such as the subject line or a body section, and review the generated variants.
 
@@ -65,7 +65,7 @@ This flow authors a new email and personalizes it in the same conversation.
 
    All variants are stored in one AI Personalized Email, not as separate emails.
 
-<!-- screenshot: AI Assistant chat panel showing the resolved persona cohorts with counts, and the "Personalized variants" review grid -->
+<!-- screenshot: Coworker chat panel showing the resolved persona cohorts with counts, and the "Personalized variants" review grid -->
 
 ## Analyze an existing email {#analyze-existing-email}
 
@@ -81,9 +81,9 @@ Select **[!UICONTROL Analyze this Email]** to run an email audit:
 
 1. **Review the email audit.**
 
-   AI Assistant resolves your description into persona segments and shows an **Email audit** card listing each segment, then reviews the email against each one to highlight what resonates and what to improve.
+   Coworker resolves your description into persona segments and shows an **Email audit** card listing each segment, then reviews the email against each one to highlight what resonates and what to improve.
 
-1. AI Assistant asks what to do next, including **[!UICONTROL See section-by-section audit]** and **[!UICONTROL Personalize this email]**.
+1. Coworker asks what to do next, including **[!UICONTROL See section-by-section audit]** and **[!UICONTROL Personalize this email]**.
 
 1. Select **[!UICONTROL See section-by-section audit]** to open an **_Email analysis_** view with a persona selector and specific recommendations for each section.
 
@@ -101,15 +101,15 @@ Select **[!UICONTROL Personalize this email]** on a _Send Email_ action node, or
 
 1. **Review the resolved persona cohorts.**
 
-   AI Assistant inspects your data and returns the persona cohorts that match your description, with a count for each. Revise the target-group description and try again if needed.
+   Coworker inspects your data and returns the persona cohorts that match your description, with a count for each. Revise the target-group description and try again if needed.
 
-   If you arrived at this step from an email audit, AI Assistant continues directly from the audit insights.
+   If you arrived at this step from an email audit, Coworker continues directly from the audit insights.
 
 1. **Select the sections to personalize** in the email preview, such as the subject line and specific content sections, and confirm.
 
 1. **Review the generated variants.**
 
-   In addition to persona, variants can also vary by industry, for example a CXO in healthcare compared with a CXO in financial services. AI Assistant presents a **[!UICONTROL Personalized variants]** grid, one card per persona cohort, each with a subject line, headline, body, and a **[!UICONTROL Preview]** option. 
+   In addition to persona, variants can also vary by industry, for example a CXO in healthcare compared with a CXO in financial services. Coworker presents a **[!UICONTROL Personalized variants]** grid, one card per persona cohort, each with a subject line, headline, body, and a **[!UICONTROL Preview]** option. 
    
    Select the _Information_ icon on a card to see the insight behind that variant (the persona it's based on and the engagement insight that shaped it) and regenerate a variant if needed.
 
@@ -117,7 +117,7 @@ Select **[!UICONTROL Personalize this email]** on a _Send Email_ action node, or
 
 1. **Save the set.**
 
-   Click **[!UICONTROL Save]** and confirm. AI Assistant confirms the email is now available in the AI Library, then asks whether to apply the changes to the original email also, which updates it in place.
+   Click **[!UICONTROL Save]** and confirm. Coworker confirms the email is now available in the AI Library, then asks whether to apply the changes to the original email also, which updates it in place.
 
 <!-- screenshot: "Personalized variants" grid showing persona cards with subject, headline, body, Preview, and the info-icon insight tooltip -->
 

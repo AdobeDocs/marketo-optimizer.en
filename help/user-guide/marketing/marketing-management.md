@@ -12,7 +12,7 @@ Marketing Management uses a three-region layout: a chat panel on the left, a wor
 
 ## Chat panel {#chat-panel}
 
-The chat panel runs alongside your work so you can ask the [AI Assistant](../agents/chat-interface.md) to do things in context. The panel header includes the following controls:
+The chat panel runs alongside your work so you can ask the [Coworker](../agents/chat-interface.md) to do things in context. The panel header includes the following controls:
 
 | Control | Description |
 |---------|-------------|

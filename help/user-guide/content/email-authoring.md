@@ -18,7 +18,7 @@ In [!DNL Marketo Optimizer], every email is associated with a _[!UICONTROL Send 
 
 * [Select an existing template](#templates) from a list of built-in or custom email templates. This method is best for repeatable email use cases.
 
-<!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assistant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
+<!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have Coworker convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
 ![Create your email page](./assets/email-design-create-your-email.png){width="800" zoomable="yes"}
 
@@ -263,7 +263,7 @@ Beyond `default`, the personalization editor includes built-in Handlebars helper
 
 +++AI-assisted expressions {#ai-personalization}
 
-The AI Assistant in the personalization editor can generate Handlebars expressions from a plain-language description, explain what an existing expression does, and identify potential issues. Use it to accelerate expression authoring, especially for conditional logic or date-formatting helpers.
+The Coworker in the personalization editor can generate Handlebars expressions from a plain-language description, explain what an existing expression does, and identify potential issues. Use it to accelerate expression authoring, especially for conditional logic or date-formatting helpers.
 
 +++
 

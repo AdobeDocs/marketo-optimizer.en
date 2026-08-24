@@ -128,23 +128,23 @@ When you configure segmentation for a person journey in a [_Split paths_ node](.
 
 ## Configure engagement score weighting {#configure-weighting}
 
-In [!DNL Marketo Optimizer], you can configure engagement score weighting directly from the [AI Assistant chat interface](../agents/chat-interface.md).
+In [!DNL Marketo Optimizer], you can configure engagement score weighting directly from the [Coworker chat interface](../agents/chat-interface.md).
 
 For background on engagement score models, weighting bands, and activity weights, see [Configure custom engagement score weighting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
-1. Open the **[!UICONTROL AI Assistant]** chat panel from the left side of the screen (chat icon).
+1. Open the **[!UICONTROL Coworker]** chat panel from the left side of the screen (chat icon).
 
 1. In the chat input field, type the forward slash command followed by your intent. For example:
   
    `/engagement-configuration Configure activity weights for the person engagement score model`
 
-   As you type `/`, AI Assistant displays a list of available slash commands and skills. The engagement configuration command routes directly to the Engagement Score Weighting page.
+   As you type `/`, Coworker displays a list of available slash commands and skills. The engagement configuration command routes directly to the Engagement Score Weighting page.
 
-   ![Access the engagement configuration skill in AI Assistant](./assets/engagement-score-weighting-ai-assistant-skill.png){width="700" zoomable="yes"}
+   ![Access the engagement configuration skill in Coworker](./assets/engagement-score-weighting-coworker-skill.png){width="700" zoomable="yes"}
 
 1. Click the _Submit_ (up arrow) icon or press Enter.
 
-   AI Assistant processes the request and opens an **[!UICONTROL Engagement Configuration]** tab in the main content area next to the chat panel.
+   Coworker processes the request and opens an **[!UICONTROL Engagement Configuration]** tab in the main content area next to the chat panel.
 
 ### Review the engagement score weighting list {#review-weighting-list}
 
@@ -158,7 +158,7 @@ After the tab opens, the _Engagement Score Weighting_ page displays all existing
 | **Last updated** | Most recent save timestamp |
 | **Last updated by** | User who last saved changes |
 
-![Engagement score weighting models](./assets/engagement-score-weighting-ai-assistant-config.png){width="700" zoomable="yes"}
+![Engagement score weighting models](./assets/engagement-score-weighting-coworker-config.png){width="700" zoomable="yes"}
 
 At any given time, only **one** model can be Active. The currently active model is applied to all engagement score calculations.
 
