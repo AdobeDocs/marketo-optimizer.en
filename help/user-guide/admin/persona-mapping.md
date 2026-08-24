@@ -1,7 +1,6 @@
 ---
 title: Persona Mapping
 description: Learn how to set up persona mapping in Marketo Optimizer. Map person attributes to define personas and use Derived Persona filtering in people lists and person journeys.
-badge: label="GA" type="informative" tooltip="This feature is not available until GA"
 ---
 # Persona mapping
 

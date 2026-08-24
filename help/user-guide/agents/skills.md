@@ -1,8 +1,8 @@
 ---
-title: AI Assistant Skills
-description: Review AI Assistant skills in Marketo Optimizer — packaged workflows for programs, journeys, audiences, scoring, content, and send-time optimization.
+title: Coworker Skills
+description: Review Coworker skills in Marketo Optimizer — packaged workflows for programs, journeys, audiences, scoring, content, and send-time optimization.
 ---
-# AI Assistant skills
+# Coworker skills
 
 A _skill_ is a packaged workflow the agent knows how to run — the building blocks behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one job (for example, "publish a journey", "compare two people lists", "build a scoring model"). 
 

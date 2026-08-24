@@ -116,7 +116,7 @@ In the navigation pane, additional features are available to help you build your
 
 * **[!UICONTROL Favorites]** - Attributes that you have added to favorites display in this list. This allows you to quickly access your most frequently used items. To add an attribute to your favorites, click the ellipsis menu and choose **[!UICONTROL Add to favorites]**.
 
-The AI Assistant can generate Handlebars expressions from plain-language descriptions, explain existing expressions, and identify potential issues.
+The Coworker can generate Handlebars expressions from plain-language descriptions, explain existing expressions, and identify potential issues.
 
 When your personalization expression is ready, click **[!UICONTROL Confirm]** or **[!UICONTROL Insert]** to add it to your content.
 
