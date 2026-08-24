@@ -21,7 +21,7 @@ nudge: red
    + [Create audiences for programs](./agents/audience-creation.md)
    + [Personalize email content by persona](./agents/personalize-content.md)
    + [Create custom scoring models](./agents/lead-scoring-model.md)
-   * [Create and promote webinars](./agents/webinar-creation.md)
+   + [Create and promote webinars](./agents/webinar-creation.md)
 + AI decisioning {#ai-decisioning}
    + [Overview](./agents/ai-decisioning.md)
    + [AI-decisioning health](./agents/ai-decisioning-health.md)
