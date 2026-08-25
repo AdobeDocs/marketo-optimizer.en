@@ -20,6 +20,8 @@ For comprehensive information about the asset history, you can use the Adobe Con
 
 C2PA metadata persists with the image file. When an image that was generated or edited with generative AI is uploaded to or exported from [!DNL Adobe Marketo Optimizer], its C2PA metadata is preserved.
 
+For additional details about automatic attachment of C2PA metadata across Adobe CX Enterprise applications, see [_Generative AI content transparency_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} in the AI in CX Enterprise guide.
+
 >[!NOTE]
 >
 >Some methods of importing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, might not preserve the original C2PA metadata. In these cases, C2PA metadata cannot be read from the source and none is created for the result.

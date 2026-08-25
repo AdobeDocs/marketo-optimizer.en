@@ -60,7 +60,7 @@ nudge: red
 + Content {#content}
    + Assets {#assets}
       + [Overview](./content/digital-asset-management.md)
-      + {hide-from-toc} [C2PA metadata](./content/c2pa-metadata.md)
+      + [C2PA metadata](./content/c2pa-metadata.md)
    + Templates {#templates}
       + [Overview](./content/templates.md)
       + [Create templates](./content/templates-create.md)
