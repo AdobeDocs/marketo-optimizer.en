@@ -10,11 +10,11 @@ description: Complete documentation for Marketo Optimizer - explore the availabl
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
-  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="assets/do-not-localize/setup-teal.svg"  alt="Setup checklist"></a> </td>
-  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="assets/do-not-localize/home-page-teal.svg"  alt="Home page"></a> </td>
-  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="assets/do-not-localize/coworker-teal.svg"  alt="Coworker chat interface"></a> </td>
-  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="assets/do-not-localize/marketing-hub-teal.svg"  alt="Marketing activities hub"></a> </td>
-  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="assets/do-not-localize/asset-management-teal.svg"  alt="Digital asset management"></a> </td>
+  <td valign="top"><a href="./start/setup-check-list.md"><img src="assets/do-not-localize/setup-teal.svg"  alt="Setup checklist"></a> </td>
+  <td valign="top"><a href="./home-insights/home-page.md"><img src="assets/do-not-localize/home-page-teal.svg"  alt="Home page"></a> </td>
+  <td valign="top"><a href="./agents/chat-interface.md"><img src="assets/do-not-localize/coworker-teal.svg"  alt="Coworker chat interface"></a> </td>
+  <td valign="top"><a href="./marketing/marketing-management.md"><img src="assets/do-not-localize/marketing-hub-teal.svg"  alt="Marketing activities hub"></a> </td>
+  <td valign="top"><a href="./content/digital-asset-management.md"><img src="assets/do-not-localize/asset-management-teal.svg"  alt="Digital asset management"></a> </td>
   <tr style="border: 0;">
     <td valign="top">
     <div><strong>Setup</strong><br/><br/>Complete initial setup and configuration so that your marketing team can get started.</div>
@@ -34,11 +34,11 @@ description: Complete documentation for Marketo Optimizer - explore the availabl
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/prime/start/setup-prime.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/home-insights/home-page.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/agents/chat-interface.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/marketing/marketing-management.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/content/digital-asset-management.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./start/setup-check-list.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./home-insights/home-page.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./agents/chat-interface.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./marketing/marketing-management.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./content/digital-asset-management.md"><img src="assets/learn-more.svg"></a></td>
     </tr>
 </table>
 
@@ -52,7 +52,7 @@ Get Started
 
 Complete initial setup and configuration, then learn how to navigate the application and use the home page.
 
-[Administrator setup](./start/setup-prime.md) <br/>
+[Administrator setup](./start/setup-check-list.md) <br/>
 [Home page](./home-insights/home-page.md)
 :::
 
@@ -121,7 +121,7 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
   <tr style="border: 0;">
     <td valign="top">
       <img src="assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="./start/setup-prime.md">Setup checklist</a><br/><a href="./start/user-management.md">User management</a><br/><a href="./start/email-deliverability.md">Email deliverability</a>
+      <strong>Get started</strong><br/><a href="./start/setup-check-list.md">Setup checklist</a><br/><a href="./start/user-management.md">User management</a><br/><a href="./start/email-deliverability.md">Email deliverability</a>
     </td>
     <td valign="top">
       <img src="assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Coworker"><br/>
