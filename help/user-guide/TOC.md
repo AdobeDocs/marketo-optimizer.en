@@ -90,7 +90,6 @@ nudge: red
       + [Form preset configuration](./admin/configuration-presets-forms.md)
    + [Business rules](./admin/business-rules.md)
    + [Program types](./admin/program-types.md)
-+ [Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
