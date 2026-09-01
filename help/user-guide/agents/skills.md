@@ -1,10 +1,10 @@
 ---
 title: Coworker Skills
-description: Review Coworker skills in Marketo Optimizer — packaged workflows for programs, journeys, audiences, scoring, content, and send-time optimization.
+description: Review CX Enterprise Coworker skills in Marketo Optimizer — packaged workflows for programs, journeys, audiences, scoring, content, and send-time optimization.
 ---
 # Coworker skills
 
-A _skill_ is a packaged workflow the agent knows how to run — the building blocks behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one job (for example, "publish a journey", "compare two people lists", "build a scoring model"). 
+A _skill_ is a packaged workflow that Coworker knows how to run — the building blocks behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one job (for example, "publish a journey", "compare two people lists", "build a scoring model"). 
 
 >[!NOTE]
 >
@@ -14,7 +14,7 @@ A _skill_ is a packaged workflow the agent knows how to run — the building blo
 
 | Skill | What it does | Access | Product surface | Impact / data flow |
 |---|---|---|---|---|
-| `falco-program-creation` | End-to-end [!DNL Marketo Optimizer] program creation — program, subfolders, tokens, lists, journeys. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer]. See _[Create a program from a brief](./program-from-brief.md)_. |
+| `falco-program-creation` | End-to-end [!DNL Marketo Optimizer] program creation — program, subfolders, tokens, lists, journeys. <p>See _[Create a program from a brief](./program-from-brief.md)_. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer]. |
 | `adapt-program` | Generate migration stories from [!DNL Marketo Engage] programs for [!DNL Marketo Optimizer] adaptation. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Engage], writes [!DNL Marketo Optimizer] |
 | `folder-creation` | Create organizational folders in the asset tree. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
 | `program-creation` *(Build Programs)* | Create Marketo programs from a campaign brief. | Write | [!DNL Marketo Engage] | Reads + writes [!DNL Marketo Engage] |
@@ -37,7 +37,7 @@ A _skill_ is a packaged workflow the agent knows how to run — the building blo
 
 | Skill | What it does | Access | Product | Backend (data flow) |
 |---|---|---|---|---|
-| `audience-creation` | Adapt a [!DNL Marketo Engage] smartlist, create a people list, or add/update rules. | Write | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Engage] + reads/writes [!DNL Marketo Optimizer].  See _[Create audiences for programs](./audience-creation.md)_. |
+| `audience-creation` | Adapt a [!DNL Marketo Engage] smartlist, create a people list, or add/update rules. <p>See _[Create audiences for programs](./audience-creation.md)_. | Write | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Engage] + reads/writes [!DNL Marketo Optimizer].  |
 | `people-list-comparison` | Compare two people lists and show overlapping members. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] |
 | `import-leads` | Inspect CSV data quality and commit imports to [!DNL Marketo Engage]. | Read+Write | Both | Reads + writes [!DNL Marketo Engage] |
 | `lead-investigation` *(Investigate Leads)* | Investigate a lead's activity, scoring, qualification, lifecycle. | Read | [!DNL Marketo Engage] | Reads [!DNL Marketo Engage] |
@@ -54,7 +54,7 @@ A _skill_ is a packaged workflow the agent knows how to run — the building blo
 
 | Skill | What it does | Access | Product | Backend (data flow) |
 |---|---|---|---|---|
-| `scoring-studio` | List/get scoring models and build/publish them. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] (scoring service); reads [!DNL Marketo Engage] lead fields/activity types. See _[Create custom scoring models](./lead-scoring-model.md)_. |
+| `scoring-studio` | List/get scoring models and build/publish them. <p>See _[Create custom scoring models](./lead-scoring-model.md)_. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] (scoring service); reads [!DNL Marketo Engage] lead fields/activity types. |
 | `engagementconfiguration` | Show engagement config and edit/update weights. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
 | `intentconfiguration` | Show intent config and set/update weights. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
 | `intent-query` | Query and explain intent scores by person/segment/list. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] |
@@ -82,4 +82,3 @@ These skills span more than one backend:
 - **`scoring-studio`** — reads [!DNL Marketo Engage] lead fields/activity types alongside [!DNL Marketo Optimizer] scoring service.
 
 All `falco-mcp_*` and journey/token/scoring/STO/FCS tools hit [!DNL Marketo Optimizer] services; CSV/program/lead tools hit [!DNL Marketo Engage].
-
