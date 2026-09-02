@@ -15,7 +15,7 @@ It uses the following building blocks, configured by an administrator, typically
 1. [Confirm the IP pool](#ip-pools) used to send email for your subdomain.
 1. [Create one or more email channel configurations](../admin/email-channel-configuration.md#create-email-channel-configuration) that bind a subdomain, IP pool, and sender identity.
 
-![Email deliverability setup for Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![Email deliverability setup for Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
