@@ -31,7 +31,7 @@ A _skill_ is a packaged workflow that Coworker knows how to run — the building
 | `journey-stop` | Abort, close, stop, halt, or kill journeys. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
 | `journey-reentry` | Configure re-entry: allow/disallow, cooldown, max entries. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | Run a traffic-control simulation showing profile routing. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] (simulation) |
-| `journey-observability` | Debug/monitor progression — paths, timing, splits, stalls, dwell. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (static-list check) |
+| `journey-observability` | Debug/monitor progression — paths, timing, splits, stalls, dwell. <p>See _[Debug and monitor journey progression](./journey-observability.md)_. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (static-list check) |
 
 ## Audiences and people {#audiences-people}
 

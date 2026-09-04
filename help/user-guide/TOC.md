@@ -22,6 +22,7 @@ nudge: red
    + [Personalize email content by persona](./agents/personalize-content.md)
    + [Create custom scoring models](./agents/lead-scoring-model.md)
    + [Create and promote webinars](./agents/webinar-creation.md)
+   + [Monitor and debug journey progression](./agents/journey-observability.md)
 + AI decisioning {#ai-decisioning}
    + [Overview](./agents/ai-decisioning.md)
    + [AI-decisioning health](./agents/ai-decisioning-health.md)
