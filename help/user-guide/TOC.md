@@ -23,6 +23,7 @@ nudge: red
    + [Create custom scoring models](./agents/lead-scoring-model.md)
    + [Create and promote webinars](./agents/webinar-creation.md)
    + [Monitor and debug journey progression](./agents/journey-observability.md)
+   + [Configure and analyze intent](./agents/intent.md)
 + AI decisioning {#ai-decisioning}
    + [Overview](./agents/ai-decisioning.md)
    + [AI-decisioning health](./agents/ai-decisioning-health.md)
@@ -56,6 +57,7 @@ nudge: red
    + [Person details](./audiences/person-details.md)
    + [Event-based audiences](./audiences/event-based-audiences.md)
    + [Person engagement scores](./audiences/engagement-scores.md)
+   + [Intent model configuration](./audiences/intent-configuration.md)
    + [Derived personas](./audiences/personas.md)
    + [Destinations](./audiences/destinations.md)
 + Content {#content}
