@@ -1,6 +1,13 @@
 ---
 title: Fragment Authoring
 description: Author reusable content fragments with visual design tools - add structure, assets, personalization, conditional content, and linked URL tracking for emails and templates in Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/KbnYkUMVfjBv5ST55WwAqYiMDkynwSw4BKIP0bsE-DI'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Fragment authoring
 

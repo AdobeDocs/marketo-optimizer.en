@@ -1,6 +1,10 @@
 ---
 title: Listen for an Event Node
 description: Configure Listen for an event nodes in Marketo Optimizer - set event triggers, apply optional filters, and advance people when activities or data changes occur.
+TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJOsjgc8'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 ---
 # Listen for an event node
 

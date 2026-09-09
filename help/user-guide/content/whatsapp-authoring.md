@@ -1,9 +1,25 @@
 ---
 title: WhatsApp Authoring
 description: Create WhatsApp messages for person journeys using approved Meta templates, personalization tokens, and delivery settings in Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/BSXYq8UkffBwDDc4wVl4b2MPjNh83-8nrQx-YS57-9U'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # WhatsApp authoring
 

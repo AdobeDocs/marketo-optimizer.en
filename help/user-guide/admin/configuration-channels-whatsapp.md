@@ -1,6 +1,22 @@
 ---
 title: WhatsApp Channel Configuration
 description: Connect your WhatsApp Business Account through Meta's Cloud API to enable WhatsApp messaging in Marketo Optimizer person journeys.
+TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # WhatsApp channel configuration
 

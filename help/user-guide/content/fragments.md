@@ -1,6 +1,13 @@
 ---
 title: Fragments
 description: Create, manage, and reuse visual content fragments for emails and templates - build reusable blocks, publish versions, track usage in Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
 ---
 # Fragments
 

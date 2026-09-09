@@ -1,6 +1,10 @@
 ---
 title: Content authoring - link tracking
 description: Reused section about editing the link tracking for content authoring
+TQID: 'https://experienceleague.adobe.com/i2sBEFuDaKS-jGumYhjqpqftwrkK5JELlzmDkMIatIY'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 ---
 # Content authoring - link tracking
 

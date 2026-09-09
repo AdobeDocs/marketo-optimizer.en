@@ -1,6 +1,16 @@
 ---
 title: Intent Configuration
 description: Learn how to configure activity weights that drive the person intent score model, from AI-suggested defaults to activating a custom weighting model.
+TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 
 # Intent configuration

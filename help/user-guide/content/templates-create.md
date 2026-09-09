@@ -1,6 +1,20 @@
 ---
 title: Create email templates
 description: Learn how to create email templates in Marketo Optimizer — create new, save an email from a journey as a template, or convert a design image to an email template.
+TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 
 # Create email templates

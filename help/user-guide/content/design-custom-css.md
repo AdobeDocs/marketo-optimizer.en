@@ -3,6 +3,17 @@ title: Add Custom CSS for Your Content
 description: Add custom CSS to emails and landing pages for advanced styling and precise design control beyond standard components in Marketo Optimizer.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+TQID: 'https://experienceleague.adobe.com/RLYXBvEepwNcQ9B9W3Sao-RP49HtbxFomlgu7R8APAg'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Add custom CSS for your content
 

@@ -1,6 +1,15 @@
 ---
 title: Conditional Content
 description: Create dynamic content variants with conditional rules based on profile attributes and events for personalized emails and fragments in Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/-zyX02yagsaPV4Oc-1JQWUzSUZWDLiyIiQCyyy0EDiE'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 ---
 
 # Conditional content

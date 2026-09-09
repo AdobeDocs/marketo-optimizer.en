@@ -3,6 +3,18 @@ title: C2PA Metadata
 description: Learn how Adobe Marketo Optimizer automatically applies C2PA metadata to images generated with generative AI, and what this means for your content.
 feature: Assets, Content
 role: User
+TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # C2PA metadata
 

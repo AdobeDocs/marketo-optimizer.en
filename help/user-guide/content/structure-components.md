@@ -3,6 +3,10 @@ title: Structure Components
 description: Use structure components for email, landing page, and fragment layouts. Drag columns, set styles, and configure mobile display in Marketo Optimizer.
 feature: Content Design Tools
 role: User
+TQID: 'https://experienceleague.adobe.com/eOGHy4YuwsQwVGCTF18v-os4TZAJhdAvoWoGBA7t3v4'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 ---
 # Structure components {#structure-components}
 

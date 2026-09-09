@@ -1,6 +1,15 @@
 ---
 title: Email templates
 description: Learn how to access and manage email templates in Marketo Optimizer, including how to organize templates using folders.
+TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
 ---
 
 # Email templates
