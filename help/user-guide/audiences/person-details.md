@@ -1,6 +1,13 @@
 ---
 title: Person Details
 description: View a person's AI-generated persona, engagement, and intent summary, activity history, profile attributes, and company details, and ask Coworker questions about the record in Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 ---
 
 # Person details

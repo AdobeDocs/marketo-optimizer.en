@@ -4,6 +4,16 @@ description: Build promotion, delivery-day, and post-webinar nurture journeys ar
 keywords: 
 role: User
 feature: Person Journeys
+TQID: 'https://experienceleague.adobe.com/9NJrT-Y66XXF1-mWDO80WpymCB6ujrkjkR87MhKuiB8'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 
 # Webinar promotion and follow-up journeys

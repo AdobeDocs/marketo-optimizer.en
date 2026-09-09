@@ -1,6 +1,13 @@
 ---
 title: Form Design
 description: Design forms with field types, validation, styling, and XDM schema attributes for business data collection in Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Form design
 

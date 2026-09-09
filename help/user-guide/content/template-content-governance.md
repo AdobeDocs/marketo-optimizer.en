@@ -1,6 +1,13 @@
 ---
 title: Content Governance for templates
 description: Use governance settings in Marketo Optimizer to lock content in email templates at the structure or component level, controlling what email authors can edit.
+TQID: 'https://experienceleague.adobe.com/0QZuUrqbF97W7c9yZzBYY39EC7DmbadKxXOJxjxDDy8'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 
 # Content governance for templates

@@ -1,6 +1,13 @@
 ---
 title: Split and Merge Paths Nodes
 description: Learn how to use split and merge paths nodes in person journeys to segment people into distinct paths based on defined conditions, then reunite them at a common point downstream.
+TQID: 'https://experienceleague.adobe.com/XMN7lgb77bFlJkNXrmPf9ZSCV-GgIuybtr-O3AsqT2U'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 ---
 # Split and merge paths nodes
 

@@ -3,6 +3,17 @@ title: Create and Publish Landing Pages
 description: Create, design, and publish landing pages for person journeys - build from scratch, import HTML, add forms, personalize content, and link from emails in Marketo Optimizer.
 feature: Landing Pages, Content Design Tools
 role: User
+TQID: 'https://experienceleague.adobe.com/XIXt4QcgK7VALQqpPHf6GqhCwEsV3mlyV1ZrgrIXi0s'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
 ---
 # Create and publish landing pages
 
