@@ -1,6 +1,22 @@
 ---
 title: Programs
 description: Learn how to use programs to organize your marketing efforts and manage marketing collateral and journeys from a single place.
+TQID: 'https://experienceleague.adobe.com/RljL2N9P22AbWB6jSSaQ-iKlpTSz8d3cGNrIKatMH4o'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 ---
 # Programs
 

@@ -1,6 +1,16 @@
 ---
 title: Destinations
 description: Learn about required permissions, supported destinations, and how to connect a destination in Marketo Optimizer to activate static people lists to advertising and social platforms.
+TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 ---
 # Destinations
 

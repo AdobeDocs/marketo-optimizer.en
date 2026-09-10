@@ -1,6 +1,13 @@
 ---
 title: Wait Node
 description: Configure Wait nodes in Marketo Optimizer - pause journey progression by duration, date, or advanced day and time scheduling.
+TQID: 'https://experienceleague.adobe.com/W9j3kslXSLhHBPKfCPfI5ur90TKVIdx-sVJvoaquL3A'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
 ---
 # Wait node
 

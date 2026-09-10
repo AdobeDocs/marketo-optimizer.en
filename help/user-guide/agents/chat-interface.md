@@ -1,6 +1,24 @@
 ---
 title: Chat interface
 description: Use the Coworker chat panel in Marketo Optimizer to build programs, journeys, and lists using natural language or the slash (/) menu.
+TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Chat interface
 

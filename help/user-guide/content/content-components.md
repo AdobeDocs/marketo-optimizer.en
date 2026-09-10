@@ -3,6 +3,13 @@ title: Content Components
 description: Design emails, landing pages, and fragments with content components - add buttons, text, images, forms, and containers in Marketo Optimizer.
 feature: Content Design Tools
 role: User
+TQID: 'https://experienceleague.adobe.com/Hn4e9lbl-jUJgsxVOwbTppfcphZqYGxvSrt-UMZDR0I'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Content components {#content-components}
 

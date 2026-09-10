@@ -84,6 +84,7 @@ nudge: red
       + [Structure components](./content/structure-components.md)
       + [Content components](./content/content-components.md)
       + [Custom CSS](./content/design-custom-css.md)
++ [Scoring Studio](./labs/scoring-studio.md)
 + [Privacy management](./admin/privacy-management.md)
 + Administration {#admin}
    + Channels {#channels}

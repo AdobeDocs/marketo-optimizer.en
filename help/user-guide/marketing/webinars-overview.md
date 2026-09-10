@@ -4,6 +4,23 @@ description: Learn the concepts behind Interactive Webinars in Marketo Optimizer
 keywords: 
 role: User
 feature: Channels
+TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

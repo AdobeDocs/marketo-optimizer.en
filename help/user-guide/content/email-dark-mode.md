@@ -1,6 +1,13 @@
 ---
 title: Dark Mode for Email Content
 description: Learn about dark mode email design in Marketo Optimizer. Preview rendering, customize settings, and test across email clients.
+TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
 # Dark mode for email content {#dark-mode}
 

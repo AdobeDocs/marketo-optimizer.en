@@ -1,6 +1,15 @@
 ---
 title: Person Audience Journey Node
 description: Configure the person audience node in Journey Optimizer B2B to specify which profiles enter a journey using dynamic people lists or event-based audiences.
+TQID: 'https://experienceleague.adobe.com/WqM-yLPadt6lBFtqJOGUxDtk0fm6n6S29wQTRSWB8fY'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 ---
 # Person audience node
 

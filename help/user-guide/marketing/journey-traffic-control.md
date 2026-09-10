@@ -1,6 +1,22 @@
 ---
 title: Journey Traffic Control
 description: Learn how Journey traffic control in Marketo Optimizer uses AI scoring across seven weighted dimensions to enroll each person into only their single best-fit journey when audiences overlap.
+TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Journey traffic control
 

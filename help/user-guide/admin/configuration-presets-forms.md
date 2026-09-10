@@ -1,6 +1,18 @@
 ---
 title: Forms Configuration
 description: Placeholder
+TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Forms configurations
 

@@ -1,6 +1,15 @@
 ---
 title: Landing Pages
 description: Create, design, and publish landing pages for person journeys - build from scratch, import HTML, add forms, personalize content, and link from emails in Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
 ---
 # Landing pages
 

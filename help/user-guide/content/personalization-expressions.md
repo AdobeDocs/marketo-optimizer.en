@@ -3,6 +3,13 @@ title: Personalization Editor
 description: Learn how to use the personalization editor in Marketo Optimizer to select, arrange, customize, and validate profile-attribute tokens in emails, WhatsApp messages, landing pages, and URL fields.
 feature: Content Design Tools
 role: User
+TQID: 'https://experienceleague.adobe.com/5aPDp4kMpQo7LtE6CEUQWf2IbyeSMoW6iN5ZR-f-kLI'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Personalization editor
 

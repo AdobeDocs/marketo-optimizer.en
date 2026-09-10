@@ -1,6 +1,10 @@
 ---
 title: Content authoring - components (Prime)
 description: Reused section about using components and content elements for content authoring in Marketo Optimizer
+TQID: 'https://experienceleague.adobe.com/7EU78PMciq8nvrkohzXERfWQMCqpHDse7gfaM-A8U0w'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 ---
 # Content authoring - components (Prime)
 

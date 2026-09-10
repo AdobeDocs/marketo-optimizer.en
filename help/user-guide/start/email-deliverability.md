@@ -1,6 +1,30 @@
 ---
 title: Email Deliverability Configuration
 description: Configure subdomain delegation, DMARC, SPF, DKIM, and IP pools for Marketo Optimizer.
+TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Email deliverability
 

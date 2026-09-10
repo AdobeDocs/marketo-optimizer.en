@@ -3,6 +3,22 @@ title: Email Channel Configuration
 description: Create and manage email channel configurations that bind sender identity, subdomain, IP pool, email type, and URL tracking for Marketo Optimizer.
 feature: Administration
 role: Admin
+TQID: 'https://experienceleague.adobe.com/VDqL3u2vPJ8YGJgZCx5lE0Xt1-WvAEBBwFiMZGj7w90'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Email channel configuration
 

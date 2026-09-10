@@ -1,6 +1,13 @@
 ---
 title: Person Journey Nodes
 description: Learn about person journey nodes in Marketo Optimizer - audience, actions, events, waits, path splits, and AI-driven next best path routing.
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 ---
 # Person journey nodes
 

@@ -1,6 +1,20 @@
 ---
 title: AI Decisioning
 description: Understand AI decisioning in Marketo Optimizer, the intelligence layer behind journey traffic control, next best path, send-time optimization, and other capabilities that replace static rules with outcome-driven automation.
+TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+  - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 
 # AI decisioning

@@ -1,6 +1,13 @@
 ---
 title: Create Custom Scoring Models
 description: Build, preview, and publish custom lead scoring models in Marketo Optimizer using the Scoring Studio skill in the Coworker chat interface.
+TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 ---
 # Create custom scoring models
 
@@ -49,7 +56,7 @@ You can build and configure models entirely through Coworker using natural langu
 When your model is finalized, instruct Coworker to publish it. The publish process handles the following automatically:
 
 | Step | What happens |
-|---|---|
+| --- | --- |
 | **Rule compilation** | All scoring rules are compiled and validated |
 | **Score task creation** | A scheduled score task is created and configured to run daily |
 

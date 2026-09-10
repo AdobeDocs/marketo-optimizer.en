@@ -1,9 +1,18 @@
 ---
 title: Create and Design a Webinar
-description: "Add a webinar asset to a program, design it in [!DNL Adobe Connect], add co-hosts and presenters, run a test session, and edit a live webinar in [!DNL Marketo Optimizer]."
+description: Add a webinar asset to a program, design it in [!DNL Adobe Connect], add co-hosts and presenters, run a test session, and edit a live webinar in [!DNL Marketo Optimizer].
 keywords: 
 role: User
 feature: Channels
+TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 ---
 
 # Create and design a webinar

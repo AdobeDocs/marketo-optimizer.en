@@ -1,6 +1,10 @@
 ---
 title: Content authoring - add forms
 description: Reused section about adding forms in landing pages and templates
+TQID: 'https://experienceleague.adobe.com/glo6SZqT-pu3uOiIckj0K70xPrjryxuTUaKYAcjv7lA'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 ---
 # Content authoring - add forms
 

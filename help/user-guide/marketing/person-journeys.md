@@ -1,6 +1,17 @@
 ---
 title: Person Journeys
 description: Create, publish, and manage person journeys in Marketo Optimizer - browse the journey list, design multistep flows, and duplicate or delete journeys.
+TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
+  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 ---
 # Person Journeys
 
