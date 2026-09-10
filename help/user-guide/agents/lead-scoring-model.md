@@ -56,7 +56,7 @@ You can build and configure models entirely through Coworker using natural langu
 When your model is finalized, instruct Coworker to publish it. The publish process handles the following automatically:
 
 | Step | What happens |
-|---|---|
+| --- | --- |
 | **Rule compilation** | All scoring rules are compiled and validated |
 | **Score task creation** | A scheduled score task is created and configured to run daily |
 
