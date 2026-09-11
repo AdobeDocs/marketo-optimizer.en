@@ -9,22 +9,12 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Audiences
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-    internal-label: Journeys
-  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-    internal-label: Content Management
-  - id: a659ad61-de21-559d-a901-02e2fb329ff5
     internal-label: Administration
-  - id: d4203578-d294-5145-b397-f26f4488a904
-    internal-label: Channels
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
