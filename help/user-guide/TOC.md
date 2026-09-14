@@ -55,7 +55,7 @@ nudge: red
 + Reports {#reports}
    + [Overview](./reports/reports-overview.md)
    + {hide-from-toc} [Person Journey Overview](./reports/person-journey-overview-report.md)
-   + {hide-from-toc} [Engagement](./reports/engagement-report.md)
+   + [Engagement](./reports/engagement-report.md)
    + {hide-from-toc} [Email Engagement](./reports/email-engagement-report.md)
    + {hide-from-toc} [Web Engagement](./reports/web-engagement-report.md)
 + Audiences {#audiences}
