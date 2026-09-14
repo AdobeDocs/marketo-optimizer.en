@@ -16,7 +16,7 @@ feature_v2:
 
 Use the [!UICONTROL Email Engagement] report to review email deliverability and engagement performance across your instance, broken down by email and journey.
 
-_To open the report:_
+_To view the report:_
 
 1. In the left navigation, select **[!UICONTROL Reports]**.
 1. Click the _List_ icon ( ![List icon](../assets/do-not-localize/icon-table-of-contents.svg) ) and select **[!UICONTROL Email Engagement]** in the _[!UICONTROL Table of contents]_ panel.

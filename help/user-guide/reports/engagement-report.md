@@ -13,7 +13,7 @@ feature_v2:
 
 Use the [!UICONTROL Engagement] report to review how people engage with your marketing programs, including engagement by person and engagement trends over time.
 
-_To open the report:_
+_To view the report:_
 
 1. In the left navigation, select **[!UICONTROL Reports]**.
 1. Click the _List_ icon ( ![List icon](../assets/do-not-localize/icon-table-of-contents.svg) ) and select **[!UICONTROL Engagement]** in the _[!UICONTROL Table of contents]_ panel.

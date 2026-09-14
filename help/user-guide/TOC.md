@@ -54,7 +54,7 @@ nudge: red
 + [Journey traffic control](./marketing/journey-traffic-control.md)
 + Reports {#reports}
    + [Overview](./reports/reports-overview.md)
-   + {hide-from-toc} [Person Journey Overview](./reports/person-journey-overview-report.md)
+   + [Person Journey Overview](./reports/person-journey-overview-report.md)
    + [Engagement](./reports/engagement-report.md)
    + {hide-from-toc} [Email Engagement](./reports/email-engagement-report.md)
    + {hide-from-toc} [Web Engagement](./reports/web-engagement-report.md)
