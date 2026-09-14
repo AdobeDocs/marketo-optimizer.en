@@ -23,7 +23,7 @@ _To view the report:_
 The [!UICONTROL Engagement] report includes two tiles.
 
 * **[!UICONTROL Engagement by People]** - Shows engagement across the people in your instance.
-* **[!UICONTROL People Engagement Over Time]** - Shows how people engagement trends over time.
+* **[!UICONTROL People Engagement Over Time]** - Shows how people engagement changes over time.
 
 >[!NOTE]
 >
