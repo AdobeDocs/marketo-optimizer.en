@@ -40,10 +40,9 @@ A _skill_ is a packaged workflow that Coworker knows how to run — the building
 
 | Skill | What it does | Access | Product surface | Impact / data flow |
 |---|---|---|---|---|
-| `falco-program-creation` | End-to-end [!DNL Marketo Optimizer] program creation — program, subfolders, tokens, lists, journeys. <p>See _[Create a program from a brief](./program-from-brief.md)_. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer]. |
 | `adapt-program` | Generate migration stories from [!DNL Marketo Engage] programs for [!DNL Marketo Optimizer] adaptation. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Engage], writes [!DNL Marketo Optimizer] |
 | `folder-creation` | Create organizational folders in the asset tree. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `program-creation` *(Build Programs)* | Create Marketo programs from a campaign brief. | Write | [!DNL Marketo Engage] | Reads + writes [!DNL Marketo Engage] |
+| `program-creation` *(Build Programs)* | Create Marketo programs from a campaign brief.  <p>See _[Create a program from a brief](./program-from-brief.md)_. | Write | [!DNL Marketo Engage] | Reads + writes [!DNL Marketo Engage] |
 | `program-planning` *(Plan Campaigns)* | Transform briefs into setup/implementation documents. | Read | [!DNL Marketo Engage] | Reads [!DNL Marketo Engage] |
 | `program-qa` *(Validate Programs)* | Validate/audit programs (rules-only, test plan, or brief). | Read | [!DNL Marketo Engage] | Reads [!DNL Marketo Engage] |
 
