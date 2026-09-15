@@ -43,7 +43,7 @@ For each path that you define for the node, use the following filter types to ma
 
 >[!BEGINSHADEBOX]
 
-**Supported Marketo Engage activities for condition filters**
+**Supported [!DNL Marketo Optimizer] activities for condition filters**
 
 For path conditions, [!DNL Marketo Optimizer] supports activities from the [!DNL Marketo Engage] instance that is connected as the data source. 
 
