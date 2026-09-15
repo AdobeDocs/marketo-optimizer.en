@@ -125,4 +125,4 @@ You can build event filters around the following [!DNL Marketo Engage] activitie
 
    ![Timeout options enabled for the Listen for event journey node](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}
 
-   You can choose to end the path here or take a different action by setting another path. To create a new path in the journey where you can add actions and events applicable to accounts when the event does not occur, select the **[!UICONTROL Set timeout path]** check box.
+   You can choose to end the path here or take a different action by setting another path. To create a new path in the journey where you can add actions and events applicable to profiles when the event does not occur, select the **[!UICONTROL Set timeout path]** check box.
