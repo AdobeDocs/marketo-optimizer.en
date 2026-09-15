@@ -17,6 +17,8 @@ Scoring Studio includes a model list, an editable canvas for each model, and the
 
 The model list is the landing view for Scoring Studio. It shows every scoring model in your [!DNL Marketo Optimizer] instance as rows in a table, or as cards if you switch to grid view.
 
+![The Scoring Studio model list shows active scoring models with their dimensions, signals, and last modified details.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
+
 | Column | Description |
 | --- | --- |
 | Name | Select a model name to open it on the canvas. |
@@ -27,8 +29,6 @@ The model list is the landing view for Scoring Studio. It shows every scoring mo
 | Last modified by | The person who last changed the model. |
 | Created on | The date the model was created. |
 | Created by | The person who created the model. |
-
-![The Scoring Studio model list shows active scoring models with their dimensions, signals, and last modified details.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 Use the search field to find a model by name, or filter the list by status. Select a row's **[!UICONTROL More menu]** to **[!UICONTROL Edit]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Archive]**, or **[!UICONTROL Delete]** a model.
 

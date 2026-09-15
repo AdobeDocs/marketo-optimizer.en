@@ -26,7 +26,7 @@ topic_v2:
 
 # High-level architecture
 
-[!DNL Adobe Marketo Optimizer] integrates with [!DNL Adobe Marketo Engage] to deliver a 360-degree view of B2B leads. A bidirectional, trusted sync keeps [!DNL Marketo Engage] and [!DNL Marketo Optimizer] aligned, giving both platforms a single, shared view of People, Companies, Custom Objects, and Activities. High-performance, near-real-time data flow ensures records stay current and actionable, so campaigns and journeys can respond to leads the moment they engage.
+[!DNL Adobe Marketo Optimizer] integrates with [!DNL Adobe Marketo Engage] to deliver a comprehensive view of B2B leads. A bidirectional, trusted sync keeps [!DNL Marketo Engage] and [!DNL Marketo Optimizer] aligned, giving both platforms a single, shared view of People, Companies, Custom Objects, and Activities. High-performance, near-real-time data flow ensures records stay current and actionable, so campaigns and journeys can respond to leads the moment they engage.
 
 ## Data foundation
 
@@ -54,9 +54,17 @@ Leads and companies update instantly in both directions without creating duplica
 
 This near-zero latency design means analytics dashboards and downstream systems are fed on a near-real-time basis, enabling live campaign optimization and fast follow-up on high-priority leads.
 
+### [!DNL Marketo Engage] activity data support in journeys
+
+Synchronized [!DNL Marketo Engage] activity data powers event-based journey building in [!DNL Marketo Optimizer]. Use activities like form fills, web visits, and email engagement to trigger, filter, and branch person journeys.
+
+* [Event triggers for the Listen for an event node](./marketing/listen-for-event-nodes.md#event-triggers)
+* [Event filters for the Listen for an event node](./marketing/listen-for-event-nodes.md#event-filters)
+* [Matched person filters for split paths nodes](./marketing/split-merge-paths-nodes.md#matched-person-filters)
+
 ### Data isolation and tenancy
 
 * Customer data is shared between [!DNL Marketo Engage], [!DNL Marketo Optimizer], and [!DNL Experience Platform] as part of the product data synchronization and analytics architecture.
 * Data is logically isolated per tenant and protected by Adobe security controls.
-* Data is transferred over secure, encrypted channels and stored within Adobe-managed services using industry-standard encryption and access controls.
+* Data is transferred over secure, encrypted channels and stored within Adobe-Managed Services using industry-standard encryption and access controls.
 * Depending on the data type, information may be synchronized between [!DNL Marketo Engage] and [!DNL Marketo Optimizer] or replicated to [!DNL Experience Platform] to support reporting and analytics capabilities, while maintaining security and tenant isolation.
