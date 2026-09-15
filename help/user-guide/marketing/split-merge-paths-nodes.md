@@ -11,7 +11,7 @@ feature_v2:
 ---
 # Split and merge paths nodes
 
-Use split and merge paths nodes in person journeys to segment people into distinct paths based on conditions you define, then bring those paths back together so the journey can continue. Split paths let you tailor actions and events to specific audience segments, while merge paths reunite those segments at a common point downstream.
+Use split and merge paths nodes in person journeys to segment people into distinct paths based on conditions you define, then merge those paths so the journey can continue. Split paths let you tailor actions and events to specific audience segments, while merge paths combine those segments at a common point.
 
 ## Split paths nodes
 
@@ -21,21 +21,50 @@ A Split paths node defines one or more segmented paths based on people filters.
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**How a split path by people node works**_ 
+_**How a split path node functions**_
 
-* Evaluation of each path is from top to bottom. If a person matches for the first and second paths, they proceed along the first path only.
+* Evaluation of each path is from top to bottom. If a person matches the first and second paths, they proceed along the first path only.
 * The node supports the definition of an _Other people_ path, where you can add actions or events for people that do not match one of the defined segments/paths.
 
-### Matching filters
+### Matched person filters
 
-For each path that you define for the node, use the following filter types to match people according to one or more conditions:
+For each path that you define for the node, use the following filter types to match people according to one or more conditions.
 
-* Activity history - You can define a path according to the person's activity related to:
+| Filters | Description |
+| ------- | ----------- |
+| Activity history | Activities based on conditions that are evaluated using one or more selected items |
+| Brand Concierge | Activities for leads engaging with [!DNL Brand Concierge]. |
+| Company attributes | Attributes from the company/account profile, including: <li>Annual revenue <li>Company name <li>Billing country <li>Industry <li>Num employees <li>SIC code <li>State |
+| Intent data | Attributes based on intent data associated with the person profile. |
+| Opportunities | Attributes based on the opportunities associated with the person profile. |
+| Person attributes | Attributes from the B2B person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
+| Sales apps | Lead activities related to [!DNL Sales Qualifier] or [!DNL Marketo Sales Insights]. |
+| Special filters | Filtering attributes that do not fall under the predefined categories, providing flexibility for custom or miscellaneous filter criteria. |
 
-   * Email messages
-   * Change in data value
+>[!BEGINSHADEBOX]
 
-* Person attributes - Define a condition according to a person's attributes, such as country, job title, dervived persona, or list membership.
+**Supported [!DNL Marketo Optimizer] activities for condition filters**
+
+For path conditions, [!DNL Marketo Optimizer] supports activities from the [!DNL Marketo Engage] instance that is connected as the data source. 
+
+>[!NOTE]
+>
+>There can be only one [!DNL Marketo Engage] instance as the data source and it is preconfigured at time of provisioning of your [!DNL Marketo Optimizer] instance.
+
+You can build conditions around the following [!DNL Marketo Engage] activities:
+
+* [!UICONTROL Filled Out Marketo Engage form] - Matches leads who have completed a specific [!DNL Marketo Engage] form at any point in their non-aged-out activity log.
+* [!UICONTROL Visited Marketo Engage web page] - Matches leads who have viewed a specific URL on your website or [!DNL Marketo Engage] landing pages. It functions directly using the Munchkin tracking code installed on your site. 
+* [!UICONTROL Clicked link on Marketo Engage web page] - Matches leads who have clicked a specific link or asset on a tracked page.
+* [!UICONTROL Was sent Marketo Engage email] - Matches leads to whom [!DNL Marketo Engage] attempted to send a specific email, accounting for deployment actions prior to hard bounces or server acceptances.
+* [!UICONTROL Was delivered Marketo Engage email] - Matches a lead whose mail server (MX) returned a success response (a 250 OK message) to the [!DNL Marketo Engage] sending server.
+* [!UICONTROL Marketo Engage email bounced] - Matches for leads who experienced a hard bounce (permanent delivery failure) on a specific email send or within a timeframe.
+* [!UICONTROL Marketo Engage email bounced soft] - Matches leads whose emails experienced a temporary delivery failure (such as a full inbox or an offline server) rather than a permanent hard bounce.
+* [!UICONTROL Unsubscribed from Marketo Engage email] - Matches leads who opted out of non-operational marketing emails. When this occurs, [!DNL Marketo Engage] automatically updates the lead's `Unsubscribed` field value to `true`, suppressing them from future standard email sends.
+* [!UICONTROL Opened Marketo Engage email] - Matches leads who opened a tracked [!DNL Marketo Engage] email.
+* [!UICONTROL Clicked link in Marketo Engage email] - Matches leads who clicked any link (or a specific link) inside a [!DNL Marketo Engage] email.
+
+>[!ENDSHADEBOX]
 
 ### Add a split paths node
 
@@ -47,13 +76,15 @@ For each path that you define for the node, use the following filter types to ma
 
 1. To define a condition applicable to _[!UICONTROL Path 1]_, click **[!UICONTROL Apply condition]**.
 
-1. In the conditions editor, add one or more filters to define the split path.
+1. To define the split path, add one or more filters in the conditions editor.
 
    * Drag and drop any of the people filters from the left navigation and complete the match definition.
 
-   * Fine tune your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all conditions or any one condition.
+   * Click **[!UICONTROL Add constraint]** for each constraint that you want to use to refine the filter match.
 
-      <!-- ![Split path node - conditions person filter logic](./assets/node-split-conditions-people.png){width="700" zoomable="yes"} -->
+      ![Split path node - matched person filter for path condition](./assets/journey-node-split-conditions-people.png){width="700" zoomable="yes"}
+
+   * Refine your conditions by applying the **[!UICONTROL Filter logic]** at the top. You choose to match all conditions or any one condition.
 
    * Click **[!UICONTROL Done]**.
 
@@ -79,7 +110,7 @@ When you have conditions defined for each path, you can add action or event node
 
 1. Navigate to the journey canvas and locate the split paths node with two or more paths.
 
-   Each path should have a combination of actions and events on each path.
+   Each path should have a combination of action and event nodes.
 
 1. Click the plus ( **+** ) icon at the end of any one of these paths and choose **[!UICONTROL Merge paths]** from the displayed options.
 
