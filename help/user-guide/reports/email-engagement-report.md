@@ -1,7 +1,6 @@
 ---
 title: Email Engagement Report
 description: Learn about the Email Engagement report in Adobe Marketo Optimizer, which shows email deliverability and engagement metrics by email and journey.
-hide: true
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
