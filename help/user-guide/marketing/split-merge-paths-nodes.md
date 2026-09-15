@@ -33,13 +33,13 @@ For each path that you define for the node, use the following filter types to ma
 | Filters | Description |
 | ------- | ----------- |
 | Activity history | Activities based on conditions that are evaluated using one or more selected items |
-| Brand Concierge | |
+| Brand Concierge | Activities for leads engaging with [!DNL Brand Concierge]. |
 | Company attributes | Attributes from the company/account profile, including: <li>Annual revenue <li>Company name <li>Billing country <li>Industry <li>Num employees <li>SIC code <li>State |
 | Intent data | Attributes based on intent data associated with the person profile. |
 | Opportunities | Attributes based on the opportunities associated with the person profile. |
 | Person attributes | Attributes from the B2B person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
-| Sales apps | |
-| Special filters | |
+| Sales apps | Lead activities related to [!DNL Sales Qualifier] or [!DNL Marketo Sales Insights]. |
+| Special filters | Filtering attributes that do not fall under the predefined categories, providing flexibility for custom or miscellaneous filter criteria. |
 
 >[!BEGINSHADEBOX]
 

@@ -12,22 +12,16 @@ To advance your audience to the next step in the journey when an event occurs, a
 
 ## Event triggers {#event-triggers}
 
-Define the event criteria that fire the journey node and move the audience member forward. 
-
-<!--
-
-Waiting for Steven to confirm what will be available for GA
+Define the event criteria that fire the journey node and move the audience member forward.
 
 | Triggers | Description |
 | -------- | ----------- |
-| Brand Concierge | |
-| Email | |
-| Event | |
-| Opportunities | |
-| Sales apps | |
-| Other | |
-
---> 
+| Brand Concierge | Activities for leads engaging with [!DNL Brand Concierge]. |
+| Email | Email activities for leads, including sends, delivery, and engagement. |
+| Event | Interactive webinar activities for leads, including registration, attendance, and interactions. |
+| Opportunities | Activities related to opportunity records associated with leads or accounts. |
+| Sales apps | Lead activities related to [!DNL Sales Qualifier] or [!DNL Marketo Sales Insights]. |
+| Other | Activities that do not fall under the predefined categories, providing flexibility for custom or miscellaneous event triggers. |
 
 >[!BEGINSHADEBOX]
 
@@ -60,13 +54,13 @@ You can include filtering to limit matching event triggers based on various crit
 | Filters | Description |
 | ------- | ----------- |
 | Activity history | Activities based on conditions that are evaluated using one or more selected items |
-| Brand Concierge | |
+| Brand Concierge | Activities for leads engaging with [!DNL Brand Concierge]. |
 | Company attributes | Attributes from the company/account profile, including: <li>Annual revenue <li>Company name <li>Billing country <li>Industry <li>Num employees <li>SIC code <li>State |
 | Intent data | Attributes based on intent data associated with the person profile. |
 | Opportunities | Attributes based on the opportunities associated with the person profile. |
 | Person attributes | Attributes from the B2B person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
-| Sales apps | |
-| Special filters | |
+| Sales apps | Lead activities related to [!DNL Sales Qualifier] or [!DNL Marketo Sales Insights]. |
+| Special filters | Filtering attributes that do not fall under the predefined categories, providing flexibility for custom or miscellaneous filter criteria. |
 
 >[!BEGINSHADEBOX]
 
