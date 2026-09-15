@@ -13,7 +13,7 @@ feature_v2:
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-Use the [!UICONTROL Web Engagement] report to review the top pages visited across your instance.
+Use the [!UICONTROL Web Engagement] report to review the engagement for the top interactive webinars across your instance.
 
 _To view the report:_
 
