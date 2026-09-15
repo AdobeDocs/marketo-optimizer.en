@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+      <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+<rect fill-rule="evenodd" height="8" rx="1" ry="1" width="8" x="2" y="2"></rect><rect fill-rule="evenodd" height="4" rx="0.5" ry="0.5" width="22" x="12" y="4"></rect><rect fill-rule="evenodd" height="4" rx="0.5" ry="0.5" width="22" x="12" y="16"></rect><rect fill-rule="evenodd" height="4" rx="0.5" ry="0.5" width="22" x="12" y="28"></rect><rect fill-rule="evenodd" height="8" rx="1" ry="1" width="8" x="2" y="14"></rect><rect fill-rule="evenodd" height="8" rx="1" ry="1" width="8" x="2" y="26"></rect></svg>
