@@ -38,6 +38,7 @@ It uses the following building blocks, configured by an administrator, typically
 1. [Configure DMARC, SPF, and DKIM records](#dmarc-spf-dkim) on each subdomain.
 1. [Confirm the IP pool](#ip-pools) used to send email for your subdomain.
 1. [Create one or more email channel configurations](../admin/email-channel-configuration.md#create-email-channel-configuration) that bind a subdomain, IP pool, and sender identity.
+1. [Allowlist the sending IP addresses](#allowlist-ip-addresses) with your IT department so test emails reach your inbox.
 
 ![Email deliverability setup for Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -365,6 +366,20 @@ In this release, IP pools are pre-provisioned for your organization. You assign 
 >[!IMPORTANT]
 >
 >Do not mix marketing and transactional traffic on the same IP pool, even when the shared pool is available. The Email type setting on the channel configuration (Marketing versus Transactional) governs suppression behavior, but your channel configurations should still use distinct pools where possible.
+
+## Allowlist IP addresses {#allowlist-ip-addresses}
+
+Corporate anti-spam systems sometimes block test emails you send from [!DNL Marketo Optimizer]. These systems rely on sender IP addresses to verify that an email is valid. To ensure that your test emails arrive, add [!DNL Marketo Optimizer] to your corporate allowlist.
+
+Ask your IT department to add these IP addresses to your corporate allowlist:
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>Your IT department typically manages the corporate email allowlist. Share this list of IP addresses with them during initial setup.
 
 <!--
 
