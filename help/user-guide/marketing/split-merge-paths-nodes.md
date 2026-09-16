@@ -34,10 +34,10 @@ For each path that you define for the node, use the following filter types to ma
 | ------- | ----------- |
 | Activity history | Activities based on conditions that are evaluated using one or more selected items |
 | Brand Concierge | Activities for leads engaging with [!DNL Brand Concierge]. |
-| Company attributes | Attributes from the company/account profile, including: <li>Annual revenue <li>Company name <li>Billing country <li>Industry <li>Num employees <li>SIC code <li>State |
+| Company attributes | Attributes from the company/account profile, including: <li>[!UICONTROL Annual revenue] <li>[!UICONTROL Company name] <li>[!UICONTROL Billing country] <li>[!UICONTROL Industry] <li>[!UICONTROL Num employees] <li>[!UICONTROL SIC code] <li>[!UICONTROL State] |
 | Intent data | Attributes based on intent data associated with the person profile. |
-| Opportunities | Attributes based on the opportunities associated with the person profile. |
-| Person attributes | Attributes from the B2B person profile, including: <li>City <li>Country <li>Date of birth <li>Email address <li>Email invalid <li>Email suspended <li>First name <li>Inferred state region<li>Job title <li>Last name <li>Mobile phone number <li>Person engagement score <li>Phone number <li>Postal code <li>State <li>Unsubscribed <li>Unsubscribed reason |
+| Opportunities | Status and attributes based on the opportunities associated with the person profile, including: <li>[!UICONTROL Has opportunity] <li>[!UICONTROL Number of opportunities] <li>[!UICONTROL Total opportunity amount] <li>[!UICONTROL Was added to opportunity] <li>[!UICONTROL Was removed from opportunity] |
+| Person attributes | Attributes from the B2B person profile, including: <li>[!UICONTROL City] <li>[!UICONTROL Country] <li>[!UICONTROL Date of birth] <li>[!UICONTROL Email address] <li>[!UICONTROL Email invalid] <li>[!UICONTROL Email suspended] <li>[!UICONTROL First name] <li>[!UICONTROL Inferred state region] <li>[!UICONTROL Job title] <li>[!UICONTROL Last name] <li>[!UICONTROL Mobile phone number] <li>[!UICONTROL Person engagement score] <li>[!UICONTROL Phone number] <li>[!UICONTROL Postal code] <li>[!UICONTROL State] <li>[!UICONTROL Unsubscribed] <li>[!UICONTROL Unsubscribed reason] |
 | Sales apps | Lead activities related to [!DNL Sales Qualifier] or [!DNL Marketo Sales Insights]. |
 | Special filters | Filtering attributes that do not fall under the predefined categories, providing flexibility for custom or miscellaneous filter criteria. |
 
@@ -53,16 +53,16 @@ For path conditions, [!DNL Marketo Optimizer] supports activities from the [!DNL
 
 You can build conditions around the following [!DNL Marketo Engage] activities:
 
-* [!UICONTROL Filled Out Marketo Engage form] - Matches leads who have completed a specific [!DNL Marketo Engage] form at any point in their non-aged-out activity log.
-* [!UICONTROL Visited Marketo Engage web page] - Matches leads who have viewed a specific URL on your website or [!DNL Marketo Engage] landing pages. It functions directly using the Munchkin tracking code installed on your site. 
-* [!UICONTROL Clicked link on Marketo Engage web page] - Matches leads who have clicked a specific link or asset on a tracked page.
-* [!UICONTROL Was sent Marketo Engage email] - Matches leads to whom [!DNL Marketo Engage] attempted to send a specific email, accounting for deployment actions prior to hard bounces or server acceptances.
-* [!UICONTROL Was delivered Marketo Engage email] - Matches a lead whose mail server (MX) returned a success response (a 250 OK message) to the [!DNL Marketo Engage] sending server.
-* [!UICONTROL Marketo Engage email bounced] - Matches for leads who experienced a hard bounce (permanent delivery failure) on a specific email send or within a timeframe.
-* [!UICONTROL Marketo Engage email bounced soft] - Matches leads whose emails experienced a temporary delivery failure (such as a full inbox or an offline server) rather than a permanent hard bounce.
-* [!UICONTROL Unsubscribed from Marketo Engage email] - Matches leads who opted out of non-operational marketing emails. When this occurs, [!DNL Marketo Engage] automatically updates the lead's `Unsubscribed` field value to `true`, suppressing them from future standard email sends.
-* [!UICONTROL Opened Marketo Engage email] - Matches leads who opened a tracked [!DNL Marketo Engage] email.
-* [!UICONTROL Clicked link in Marketo Engage email] - Matches leads who clicked any link (or a specific link) inside a [!DNL Marketo Engage] email.
+* **[!UICONTROL Filled Out Marketo Engage form]** - Matches leads who have completed a specific [!DNL Marketo Engage] form at any point in their non-aged-out activity log.
+* **[!UICONTROL Visited Marketo Engage web page]** - Matches leads who have viewed a specific URL on your website or [!DNL Marketo Engage] landing pages. It functions directly using the Munchkin tracking code installed on your site. 
+* **[!UICONTROL Clicked link on Marketo Engage web page]** - Matches leads who have clicked a specific link or asset on a tracked page.
+* **[!UICONTROL Was sent Marketo Engage email]** - Matches leads to whom [!DNL Marketo Engage] attempted to send a specific email, accounting for deployment actions prior to hard bounces or server acceptances.
+* **[!UICONTROL Was delivered Marketo Engage email]** - Matches a lead whose mail server (MX) returned a success response (a 250 OK message) to the [!DNL Marketo Engage] sending server.
+* **[!UICONTROL Marketo Engage email bounced]** - Matches for leads who experienced a hard bounce (permanent delivery failure) on a specific email send or within a timeframe.
+* **[!UICONTROL Marketo Engage email bounced soft]** - Matches leads whose emails experienced a temporary delivery failure (such as a full inbox or an offline server) rather than a permanent hard bounce.
+* **[!UICONTROL Unsubscribed from Marketo Engage email]** - Matches leads who opted out of non-operational marketing emails. When this occurs, [!DNL Marketo Engage] automatically updates the lead's `Unsubscribed` field value to `true`, suppressing them from future standard email sends.
+* **[!UICONTROL Opened Marketo Engage email]** - Matches leads who opened a tracked [!DNL Marketo Engage] email.
+* **[!UICONTROL Clicked link in Marketo Engage email]** - Matches leads who clicked any link (or a specific link) inside a [!DNL Marketo Engage] email.
 
 >[!ENDSHADEBOX]
 
