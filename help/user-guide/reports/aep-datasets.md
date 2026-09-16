@@ -11,7 +11,7 @@ feature_v2:
 
 # Experience Platform datasets
 
-[!DNL Adobe Marketo Optimizer] replicates lead, journey, and activity data into [!DNL Adobe Experience Platform] datasets. These datasets power the [!UICONTROL Reports] page and its embedded [!DNL Adobe Customer Journey Analytics] report experience, and you can also query them directly with [!DNL Query Service] for ad hoc analysis.
+[!DNL Adobe Marketo Optimizer] replicates lead, journey, and activity data into [!DNL Adobe Experience Platform] datasets. These datasets power the [!UICONTROL Reports] page and the embedded [!DNL Adobe Customer Journey Analytics] report experience. You can also query them directly with [!DNL Query Service] for ad hoc analysis.
 
 The datasets are system-managed. A connection in [!DNL Customer Journey Analytics] links them into the data view that [!DNL Marketo Optimizer] reports use, so you do not need to build this connection yourself. This connection is the same connection you reach when you select **[!UICONTROL Analyze in CJA]** on a report section. See [Analyze a report in Customer Journey Analytics](./reports-overview.md#analyze-a-report-in-cja). 
 
@@ -21,7 +21,7 @@ The following datasets are populated for every [!DNL Marketo Optimizer] instance
 
 >[!NOTE]
 >
->Each dataset name uses the prefix `AJOB2B`, which indicates the system name for [!DNL Marketo Optimizer]. This behavior is expected, and you can use these names to locate the datasets in your [!DNL Experience Platform] sandbox.
+>Each dataset name uses the prefix `AJOB2B`, which indicates the system name for [!DNL Marketo Optimizer] data. This behavior is expected, and you can use these names to locate the datasets in your [!DNL Experience Platform] sandbox.
 
 | Dataset | Schema | Description |
 | --- | --- | --- |
@@ -36,6 +36,8 @@ The following datasets are populated for every [!DNL Marketo Optimizer] instance
 ## Query datasets with Query Service {#query-service}
 
 Use [!DNL Query Service] to run ad hoc SQL queries against these datasets when you need analysis outside of [!DNL Customer Journey Analytics] reports. Query access requires the appropriate [!DNL Experience Platform] permissions for your sandbox. For general query syntax and setup, see [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
+
+![Query Service editor showing a SELECT query against the ajob2b_journey dataset and a table of resulting journey records.](./assets/aep-query-service.png){width="800" zoomable="yes"}
 
 >[!NOTE]
 >
