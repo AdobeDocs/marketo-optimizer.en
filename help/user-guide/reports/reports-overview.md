@@ -53,7 +53,7 @@ Select **[!UICONTROL Share]** at the top of the report page to export or schedul
 >
 >Your organization can have a maximum of 10 scheduled exports across all reports, on a weekly or monthly frequency. If you are not an administrator, you can manage only your own scheduled exports. Administrators can view and manage every scheduled export in the organization.
 
-## Analyze a report in CJA {#analyze-a-report-in-cja}
+## Analyze a report in [!DNL Customer Journey Analytics] {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
