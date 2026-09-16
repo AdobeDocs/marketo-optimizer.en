@@ -100,4 +100,9 @@ Before marketers can send email from journeys, configure the sending infrastruct
 <td>Create an email channel configuration</td>
 <td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Configure email channel</a></td>
 </tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox for task"/></td>
+<td>Ask your IT department to allowlist the sending IP addresses</td>
+<td><a href="./email-deliverability.md#allowlist-ip-addresses">Allowlist IP addresses</a></td>
+</tr>
 </tbody>
