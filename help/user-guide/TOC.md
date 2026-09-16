@@ -56,8 +56,9 @@ nudge: red
    + [Overview](./reports/reports-overview.md)
    + [Person Journey Overview](./reports/person-journey-overview-report.md)
    + [Engagement](./reports/engagement-report.md)
-   + {hide-from-toc} [Email Engagement](./reports/email-engagement-report.md)
+   + [Email Engagement](./reports/email-engagement-report.md)
    + [Web Engagement](./reports/web-engagement-report.md)
+   + [Experience Platform datasets](./reports/aep-datasets.md)
 + Audiences {#audiences}
    + [People lists](./audiences/people-lists.md)
    + [Person details](./audiences/person-details.md)
