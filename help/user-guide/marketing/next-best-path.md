@@ -1,6 +1,6 @@
 ---
 title: Next Best Path Node
-description: Use the Next best path node in Marketo Optimizer for AI-driven journey routing with natural language prompts, path simulation, confidence scores, and live split path results.
+description: Learn about the Next best path node in [!DNL Marketo Optimizer], which uses AI and natural language prompts to route journeys. Simulate paths before you publish.
 TQID: 'https://experienceleague.adobe.com/F-pxiABk7vHAktfmBUjZ8BYnxYIwQp--WutG6mvxiY0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -16,10 +16,10 @@ topic_v2:
 ---
 # Next best path node
 
-In Marketo Optimizer, the *Next best path* node brings AI-driven split path decisioning directly into the journey canvas. Instead of configuring filter conditions on a [split paths](./split-merge-paths-nodes.md) node, you describe your intent in natural language and let the system determine the most relevant path for each person.
+In [!DNL Marketo Optimizer], the *Next best path* node brings AI-driven split path decisioning directly into the journey canvas. Instead of configuring filter conditions on a [split paths](./split-merge-paths-nodes.md) node, you describe your intent in natural language and let the system determine the most relevant path for each person.
 
 In B2B buying, a profile may appear to be one type of buyer, but their behavior, firmographic data, and engagement context reveal a more nuanced story. The next best path node evaluates that context to make an intelligent routing decision, while letting you review, modify, or override any AI recommendation before activating the journey.
-
+ 
 ## Path decisioning {#path-decisioning}
 
 There are three steps to go from intent to activation.
@@ -32,7 +32,7 @@ There are three steps to go from intent to activation.
    >
    >Simulation runs only against sample data and never affects live journey execution.
 
-* **Step 3: Activate** — Publish the journey against your real audience. The AI evaluates each person at runtime, assigns the best-fit path in real time, and a default fallback ensures that no one hits a dead end.
+* **Step 3: Activate** — Publish the journey against your real audience. The AI evaluates each person at runtime, assigns the best-fit path in real time, and a default fallback ensures that no one is excluded from a path.
 
 ### AI decisioning inputs {#ai-decisioning-inputs}
 
@@ -45,7 +45,7 @@ When a person reaches the node, the system fetches profile context, applies cons
 
 ### AI context building {#ai-context-building}
 
-Underlying the routing decision, the AI constructs an inferred layer for each profile. It combines demographic and firmographic data, account details, and behavioral signals (such as persona details, problem intent, and product intent) into a contextual summary for that person. Using this enriched context, the AI can route each person to the optimal path and provide both a confidence score and the natural-language reasoning behind each decision.
+Supporting the routing decision, the AI constructs an inferred layer for each profile. It combines demographic and firmographic data, account details, and behavioral signals (such as persona details, problem intent, and product intent) into a contextual summary for that person. Using this enriched context, the AI can route each person to the optimal path and provide both a confidence score and the natural-language reasoning behind each decision.
 
 Each decision is logged with a confidence score and natural-language reasoning for transparency and observability.
 
@@ -55,7 +55,9 @@ If no path is a strong match, or if the prompt references data not available for
 
 1. Open the person journey and navigate to the journey canvas.
 
-1. Click the plus ( **+** ) icon on a path and choose **Next best path**.
+1. Click the plus ( **+** ) icon on a path and choose **[!UICONTROL Next best path]**.
+
+   ![Menu of node options after clicking the add icon on a journey path, with Next best path listed.](./assets/person-journey-canvas-add-node.png){width="200"}
 
    The node is added to the canvas and the AI split configuration panel opens on the right. It starts with one path and a default *Other people* path to route people who do not qualify for any of the defined paths.
 
@@ -63,15 +65,19 @@ If no path is a strong match, or if the prompt references data not available for
 
 For each path, define a name and a natural language prompt that describes who should be routed there. Prompt input replaces the filter condition UI entirely; there are no attribute conditions to configure.
 
-1. Click **Add path** for each additional path you want to include.
+1. For the first path, enter the properties in the path card in the right panel:
 
-   To remove a path, click the *Delete* icon on the path card.
+   * Enter a **[!UICONTROL Label]** that reflects the audience or intent for that segment.
 
-1. For each path card in the right panel:
+   * Enter a **[!UICONTROL Prompt]** in natural language describing who belongs on this path. Focus on intent and outcome, not specific attribute values.
 
-   * Enter a **Label** that reflects the audience or intent for that segment.
+   ![Path card with a Label field and a Prompt field describing the audience for that path.](./assets/next-best-path-label-prompt.png){width="500"}
 
-   * Enter a **Prompt** in natural language describing who belongs on this path. Focus on intent and outcome, not specific attribute values.
+1. Click **[!UICONTROL Add path]** for each additional path you want to include.
+
+   To remove a path, click the *Delete* ( ![Delete icon](../assets/do-not-localize/icon-delete-2.svg) ) icon on the path card.
+
+   Add the label and prompt for each path.
 
      **Example prompts for a three-path split:**
 
@@ -79,11 +85,13 @@ For each path, define a name and a natural language prompt that describes who sh
      * *Path 2 – Technical Evaluators:* Identify technical stakeholders most likely to engage with product architecture, integrations, and implementation content.
      * *Path 3 – Business Decision-Makers:* Identify business stakeholders most likely to engage with ROI, business outcomes, and case study content.
 
+   ![Three defined paths with prompts and the default Other people path on the journey canvas.](./assets/next-best-path-three-defined-paths.png){width="600"}
+
 1. If needed, reorder paths to set the priority order for matching.
 
    Path filtering is evaluated in top-down order. Each person proceeds along the first path that matches. Click the up and down arrows at the top right of each path card to move it higher or lower in the list.
 
-1. Review the default path (last in the path list) and change the label if needed.
+1. Review the **[!UICONTROL Other people]** default path (last in the path list) and change the label if needed.
 
    The default path is used when the AI cannot confidently assign a person to any defined path or when the relevant data is unavailable. When a prompt references data that does not exist in the dataset for a given profile, the system routes that profile to the default path and flags the data gap.
 
@@ -93,7 +101,7 @@ For each path, define a name and a natural language prompt that describes who sh
 
 AI recommendations are non-binding. Before activating the journey, you can:
 
-* Edit any path prompt to refine the routing logic.
+* To refine the routing logic, edit any path prompt.
 * Add, remove, or reorder paths.
 * Override AI suggestions with custom conditions as needed.
 
@@ -105,11 +113,11 @@ AI-driven path assignments do not take effect until you publish the journey.
 
 The following examples show how to write effective path prompts across common B2B marketing use cases. Use them as starting points and adapt the language to match your journey context and audience data.
 
-*  "Identify people who have engagement on HR sites (shrm.org, hbr.org/topic/human-resource-management), interested in Journey Optimizer over the last 30 days, who are likely to attend a webinar on AI in HR Operations. They should have also shown someinterest in AI products."
+* "Identify people engaged with HR sites (shrm.org, hbr.org/topic/human-resource-management) and [!DNL Journey Optimizer] over the last 30 days, likely to attend a webinar on AI in HR Operations and interested in AI products."
 
-* Identify people who have engagement on Finance sites (wsj.com/finance,investopedia.com), interested in Marketo over the last 30 days, who are likely to attenda webinar on AI in Financial Planning. They should have also shown some interest in AI products."
+* "Identify people who have engagement on Finance sites (wsj.com/finance,investopedia.com), interested in [!DNL Marketo Engage] over the last 30 days, who are likely to attend a webinar on AI in Financial Planning. They should have also shown some interest in AI products."
 
-* "Identify people who have engagement on Risk/Research sites(mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interested in GenStudio over the last 30 days, who are likely to attend a webinar on AI in RiskManagement. They should have also shown some interest in AI products."
+* "Identify people engaged with Risk/Research sites (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research) and [!DNL GenStudio] over the last 30 days, likely to attend a webinar on AI in Risk Management and interested in AI products."
 
 ## Simulate decisioning before publishing {#simulate}
 
@@ -117,13 +125,17 @@ Use simulation to test how the AI evaluates your prompts against a real audience
 
 ### Run a simulation {#run-simulation}
 
-1. Select the next best path node and click the *Simulate* icon at the top of the right panel.
+1. Select the next best path node and click the *Simulate* ( ![Simulate icon](../assets/do-not-localize/icon-simulate.svg) ) icon at the top of the right panel.
 
-1. In the dialog, choose the audience to use for the simulation:
+1. In the dialog, choose a dynamic list to use for the simulation audience.
 
+<!-- 
    * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a Marketo Engage static or dynamic list.
+   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
    * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
+
+   ![Simulate paths dialog with a dynamic list selected and Cancel and Simulate buttons.](./assets/next-best-path-simulate-paths.png){width="250"}
 
    >[!NOTE]
    >
@@ -144,6 +156,8 @@ After the simulation runs, the right panel displays the distribution of profiles
 | **Prompt** | The prompt that was evaluated for the path. |
 | **AI reasoning** | A natural-language explanation of why profiles were collectively assigned to this path. |
 
+![Simulation results showing profile count, split percentage, confidence score, and AI reasoning per path.](./assets/next-best-path-simulated-details.png){width="600"}
+
 >[!NOTE]
 >
 >When available data or scope limits a decision, the results include information about the limitation. For example, when a required attribute is not present in the dataset, the results include an explicit indicator explaining how the missing data impacted the results.
@@ -156,14 +170,16 @@ After validating the simulation results:
 
 1. Connect the people audience to the journey entry node.
 
-2. [Publish the journey](./person-journeys.md#publish).
+1. [Publish the journey](./person-journeys.md#publish).
 
 After the journey is live, the next best path node runs at execution time. As each person reaches the node, the AI evaluates them in real time using the latest signals and routes them to the most relevant path.
 
-For a published journey, open the journey canvas and select the next best path node to view the **_[!UICONTROL Live results]_** section in the right panel. Live results show:
+For a published journey, open the journey canvas and select the next best path node to view the **_[!UICONTROL Final results]_** section in the right panel. Final results show:
 
 * The percentage distribution of profiles across each path
 * The confidence score for each path assignment
 * Path-level and profile-level reasoning, with expandable detail for individual profiles
 
-Live results are also available in the Journey Console and through the Journey Observability skill in the AI Hub.
+![Final report tab showing live profile distribution, confidence scores, and AI reasoning per path.](./assets/next-best-path-final-report.png){width="600"}
+
+Live results are also available through the Journey Observability skill in the [Coworker chat interface](../agents/chat-interface.md).
