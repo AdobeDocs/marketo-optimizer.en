@@ -13,7 +13,7 @@ feature_v2:
 
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
-Use the **[!UICONTROL View Report]** button on a live or finished person journey to see how that journey is performing, including person status, engagement, email performance, and activity flow.
+Click **[!UICONTROL View Report]** for a live or finished person journey to see its performance, including status, engagement, email metrics, and activity flow.
 
 _To view the report:_
 
