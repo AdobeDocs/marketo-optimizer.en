@@ -91,11 +91,17 @@ A _skill_ is a packaged workflow that Coworker knows how to run — the building
 | `send-time-optimization` | Check STO status and enable/disable on an email node. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
 | `send-time-report` | Fetch/display the STO performance report. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] |
 
+## Analytics and reporting {#analytics-reporting}
+
+| Skill | What it does | Access | Product | Backend (data flow) |
+|---|---|---|---|---|
+| `surface-analytics` | Generate analytics reports from natural language across activity trends, email performance, lead and account data, segment and list membership, and journey metrics, returned as charts and tables. Report data refreshes every two hours. <p>See _[Generate analytics reports](./surface-analytics.md)_.</p> | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+
 ## Knowledge {#knowledge}
 
 | Skill | What it does | Access | Product | Backend (data flow) |
 |---|---|---|---|---|
-| `product-knowledge` | Answer how-to/concept questions from [!DNL Marketo Optimizer] documentation on Experience League. | Read | Both | Reads external docs — no product data |
+| `product-knowledge` | Answer how-to/concept questions from [!DNL Marketo Optimizer] documentation published on Experience League. | Read | Both | Reads external docs — no product data |
 
 ## Cross-backend {#cross-backend}
 
@@ -105,5 +111,6 @@ These skills span more than one backend:
 - **`audience-creation`** — reads [!DNL Marketo Engage] smart lists (`get_smart_list` / `get_smart_campaign`), then writes [!DNL Marketo Optimizer] people lists.
 - **`journey-observability`** — [!DNL Marketo Optimizer] reads plus a `check_lead_in_marketo_static_list` [!DNL Marketo Engage] read.
 - **`scoring-studio`** — reads [!DNL Marketo Engage] lead fields/activity types alongside [!DNL Marketo Optimizer] scoring service.
+- **`surface-analytics`** — can answer reporting questions that span both [!DNL Marketo Engage] and [!DNL Marketo Optimizer] data in a single query.
 
 All `falco-mcp_*` and journey/token/scoring/STO/FCS tools hit [!DNL Marketo Optimizer] services; CSV/program/lead tools hit [!DNL Marketo Engage].
