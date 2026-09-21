@@ -56,6 +56,7 @@ nudge: red
 + Reports {#reports}
    + [Overview](./reports/reports-overview.md)
    + [Person Journey Overview](./reports/person-journey-overview-report.md)
+   + [Person Journey Individual](./reports/person-journey-individual-report.md)
    + [Engagement](./reports/engagement-report.md)
    + [Email Engagement](./reports/email-engagement-report.md)
    + [Web Engagement](./reports/web-engagement-report.md)

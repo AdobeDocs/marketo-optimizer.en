@@ -11,7 +11,7 @@ feature_v2:
 
 # Email Engagement report
 
-<!-- SPHR-39569: content drafted, but hide: true and hide-from-toc stay until eng confirms this shipped to production. Filter by Program, Filter by Audience, and the program data point from SPHR-32511 are not documented here pending delivery-state confirmation. -->
+<!-- SPHR-32511: Filter by Program, Filter by Audience, and the program data point for the email performance table are not documented here pending delivery. -->
 
 Use the [!UICONTROL Email Engagement] report to review email deliverability and engagement performance across your instance, broken down by email and journey.
 
@@ -50,13 +50,9 @@ Metric columns are grouped under **[!UICONTROL Email Activities]**.
 | [!UICONTROL Unsubscribed] | Number of recipients who unsubscribed from the email. |
 | [!UICONTROL % Unsubscribed] | Percentage of delivered emails that resulted in an unsubscribe. |
 
-<!--
-
 ## Filters {#filters}
 
-Use filters to narrow the report to a specific journey, persona, or date range. Select **[!UICONTROL Reset all]** to clear every filter and return to the default view.
+Use filters to narrow the report to a specific journey or persona. Select **[!UICONTROL Reset all]** to clear every filter and return to the default view.
 
 * **[!UICONTROL Journey Name (Event)]** - Filter by the journey that sent the email. Default is [!UICONTROL No filter].
 * **[!UICONTROL Persona (Event)]** - Filter by the persona associated with the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Date range]** - Filter by a specific date span, shown as explicit start and end dates. Default is [!UICONTROL Last 30 days].
--->
