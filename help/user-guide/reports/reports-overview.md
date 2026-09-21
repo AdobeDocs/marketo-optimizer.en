@@ -33,7 +33,7 @@ The [!UICONTROL Reports] tab organizes pre-built reports into four sections. Eac
 Some reports focus on a single record instead of a section-wide view and are accessed from a different area in the application.
 
 * For email send-time optimization performance, open the report from the [!UICONTROL Coworker] chat interface. For steps, see [Email send-time optimization](../marketing/email-send-time-optimization.md#reporting).
-* For a person's progress through a single journey, open the report from within that journey.
+* For a person's progress through a single journey, open the [Person Journey Individual report](./person-journey-individual-report.md) from within that journey.
 
 ## Export a report {#export-a-report}
 
