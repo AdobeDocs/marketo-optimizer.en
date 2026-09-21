@@ -24,6 +24,7 @@ nudge: red
    + [Create and promote webinars](./agents/webinar-creation.md)
    + [Monitor and debug journey progression](./agents/journey-observability.md)
    + [Configure and analyze intent](./agents/intent.md)
+   + [Generate analytics reports](./agents/surface-analytics.md)
 + AI decisioning {#ai-decisioning}
    + [Overview](./agents/ai-decisioning.md)
    + [AI-decisioning health](./agents/ai-decisioning-health.md)
