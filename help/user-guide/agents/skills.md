@@ -1,116 +1,113 @@
 ---
 title: Coworker Skills
-description: Review CX Enterprise Coworker skills in Marketo Optimizer — packaged workflows for programs, journeys, audiences, scoring, content, and send-time optimization.
+description: Review Coworker skills in Marketo Optimizer for journeys, audiences, programs, content, analytics, and AI decisioning. Learn what each skill can do for you.
+autotag-review: '2026-09-22T14:02:17.516Z'
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
-  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-    internal-label: Setup
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Audiences
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-    internal-label: Journeys
-  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-    internal-label: Programs
-  - id: d4203578-d294-5145-b397-f26f4488a904
-    internal-label: Channels
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+subfeature_v2:
+  - id: b9e5c7f3-be30-563c-9e41-cc8ea76e2fee
+    internal-label: Skills
 topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-    internal-label: Data quality
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
 ---
+
 # Coworker skills
 
-A _skill_ is a packaged workflow that Coworker knows how to run — the building blocks behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one job (for example, "publish a journey", "compare two people lists", "build a scoring model"). 
+A _skill_ is a packaged workflow that Coworker can execute. Skills are the components behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one task, such as publishing a journey, comparing two people lists, or building a scoring model.
 
->[!NOTE]
->
->Each skill is classified according to whether the skill mutates the [!DNL Marketo Optimizer] or [!DNL Marketo Engage] state (**Write**), only queries/analyzes/generates (**Read**), or has co-equal query + mutation functions (**Read+Write**).
+The classification for each skill reflects the kind of action it performs:
 
-## Programs and planning {#programs-planning}
-
-| Skill | What it does | Access | Product surface | Impact / data flow |
-|---|---|---|---|---|
-| `adapt-program` | Generate migration stories from [!DNL Marketo Engage] programs for [!DNL Marketo Optimizer] adaptation. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Engage], writes [!DNL Marketo Optimizer] |
-| `folder-creation` | Create organizational folders in the asset tree. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `program-creation` *(Build Programs)* | Create Marketo programs from a campaign brief.  <p>See _[Create a program from a brief](./program-from-brief.md)_. | Write | [!DNL Marketo Engage] | Reads + writes [!DNL Marketo Engage] |
-| `program-planning` *(Plan Campaigns)* | Transform briefs into setup/implementation documents. | Read | [!DNL Marketo Engage] | Reads [!DNL Marketo Engage] |
-| `program-qa` *(Validate Programs)* | Validate/audit programs (rules-only, test plan, or brief). | Read | [!DNL Marketo Engage] | Reads [!DNL Marketo Engage] |
+* _Search_ skills look up or list existing records.
+* _Analyze_ skills review, compare, or report on data without changing it.
+* _View_ skills display a read-only report or metric.
+* _Edit_ skills change an existing object's settings or content.
+* _Create_ skills create a new object.
 
 ## Journeys {#journeys}
 
-| Skill | What it does | Access | Product | Backend (data flow) |
-|---|---|---|---|---|
-| `journey-creation` | Create and edit person journeys from natural language. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `journey-edit-dates` | Change a journey's start/end date without publishing. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `journey-publish` | Publish/launch/schedule people journeys. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `journey-stop` | Abort, close, stop, halt, or kill journeys. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `journey-reentry` | Configure re-entry: allow/disallow, cooldown, max entries. | Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `journey-trafficcontrol` | Run a traffic-control simulation showing profile routing. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] (simulation) |
-| `journey-observability` | Debug/monitor progression — paths, timing, splits, stalls, dwell. <p>See _[Debug and monitor journey progression](./journey-observability.md)_. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (static-list check) |
+These skills create, publish, debug, and manage person journeys.
 
-## Audiences and people {#audiences-people}
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **Journey Observability** | Debug and monitor person movement through a journey, including paths, timing, splits, stalls, and dwell time. See _[Debug and monitor journey progression](./journey-observability.md)_. | Analyze |
+| **Journey Traffic Control** | Simulate how profiles distribute across all active journeys. | Analyze |
+| **Journey Publish** | Publish, launch, or schedule a journey, including start mode, dates, and confirmation. | Edit |
+| **Journey Stop** | Abort a running journey to stop it immediately, or close it to wind it down gracefully. | Edit |
+| **Journey Edit Dates** | Change the start or end date on a draft, scheduled, or live journey without republishing it. | Edit |
+| **Journey Reentry** | Configure re-entry settings for a journey, including whether re-entry is allowed, the cooldown delay, and the maximum entry count. | Edit |
+| **Journey Creation** | Create and edit person journeys using natural-language requests. | Create |
+| **Webinar to Journey** | Set up a promotional journey before a webinar and a follow-up journey after it. | Create |
 
-| Skill | What it does | Access | Product | Backend (data flow) |
-|---|---|---|---|---|
-| `audience-creation` | Adapt a [!DNL Marketo Engage] smartlist, create a people list, or add/update rules. <p>See _[Create audiences for programs](./audience-creation.md)_. | Write | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Engage] + reads/writes [!DNL Marketo Optimizer].  |
-| `people-list-comparison` | Compare two people lists and show overlapping members. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] |
-| `import-leads` | Inspect CSV data quality and commit imports to [!DNL Marketo Engage]. | Read+Write | Both | Reads + writes [!DNL Marketo Engage] |
-| `lead-investigation` *(Investigate Leads)* | Investigate a lead's activity, scoring, qualification, lifecycle. | Read | [!DNL Marketo Engage] | Reads [!DNL Marketo Engage] |
+## Audience and people lists {#audience-people-lists}
 
-## Content and channels {#content-channels}
+These skills build and manage people lists and audience definitions.
 
-| Skill | What it does | Access | Product | Backend (data flow) |
-|---|---|---|---|---|
-| `content-personalization` | Browse/preview templates and edit content / generate variants. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer]. See _[Personalize email content by persona](./personalize-content.md)_. |
-| `asset-tokens` | Full token CRUD on programs/folders/journeys. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `fcs-channels` | Channel lookups and CRUD + publish/stop/delete. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **Browse Dynamic List Members** | Browse and filter the members of a dynamic or static people list. | Search |
+| **People List Comparison** | Compare two people lists and show overlapping members. | Analyze |
+| **Remove from Static List** | Remove members that match natural-language criteria from a static list. | Edit |
+| **Audience Creation** | Adapt a [!DNL Marketo Engage] smart list, create a people list, or add or update its rules. See _[Create audiences for programs](./audience-creation.md)_. | Create |
 
-## Scoring and signals {#scoring-signals}
+## Programs, folders, and channels {#programs-folders-channels}
 
-| Skill | What it does | Access | Product | Backend (data flow) |
-|---|---|---|---|---|
-| `scoring-studio` | List/get scoring models and build/publish them. <p>See _[Create custom scoring models](./lead-scoring-model.md)_. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] (scoring service); reads [!DNL Marketo Engage] lead fields/activity types. |
-| `engagementconfiguration` | Show engagement config and edit/update weights. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `intentconfiguration` | Show intent config and set/update weights. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `intent-query` | Query and explain intent scores by person/segment/list. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] |
+These skills manage program structure, tokens, and channel configuration.
 
-## Send-time optimization {#sto}
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **Create Program** | Create programs from a campaign brief. See _[Create a program from a brief](./program-from-brief.md)_. | Analyze |
+| **Adapt Program** | Generate migration stories from [!DNL Marketo Engage] programs for [!DNL Marketo Optimizer] adaptation. | Analyze |
+| **Asset Tokens** | Create and manage `{{my.token}}` values on programs, folders, and journeys. | Edit |
+| **FCS Channels** | Create, publish, stop, and clone channels in the Channels Service, including XDM schemas and provisioning. | Edit |
+| **Folder Creation** | Create organizational folders in the asset tree. | Create |
+| **WhatsApp Inline Campaign** | Create and publish a [!DNL WhatsApp] inline campaign on a journey node. | Create |
+| **Marketing Program Creation** | Create a full program, including subfolders, tokens, people lists, and journeys. | Create |
+| **Program and Journey Batch Creation** | Create multiple program and journey pairs in a single batch request. | Create |
 
-| Skill | What it does | Access | Product | Backend (data flow) |
-|---|---|---|---|---|
-| `send-time-optimization` | Check STO status and enable/disable on an email node. | Read+Write | [!DNL Marketo Optimizer] | Reads + writes [!DNL Marketo Optimizer] |
-| `send-time-report` | Fetch/display the STO performance report. | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] |
+## Content personalization {#content-personalization}
 
-## Analytics and reporting {#analytics-reporting}
+This skill browses templates and personalizes email content for different personas.
 
-| Skill | What it does | Access | Product | Backend (data flow) |
-|---|---|---|---|---|
-| `surface-analytics` | Generate analytics reports from natural language across activity trends, email performance, lead and account data, segment and list membership, and journey metrics, returned as charts and tables. Report data refreshes every two hours. <p>See _[Generate analytics reports](./surface-analytics.md)_.</p> | Read | [!DNL Marketo Optimizer] | Reads [!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **Content Personalization** | Browse and preview templates, then edit content or generate variants. See _[Personalize email content by persona](./personalize-content.md)_. | Create |
 
-## Knowledge {#knowledge}
+## Analytics and optimization {#analytics-optimization}
 
-| Skill | What it does | Access | Product | Backend (data flow) |
-|---|---|---|---|---|
-| `product-knowledge` | Answer how-to/concept questions from [!DNL Marketo Optimizer] documentation published on Experience League. | Read | Both | Reads external docs — no product data |
+These skills report on performance and configure send-time optimization and scoring models.
 
-## Cross-backend {#cross-backend}
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **Credit Usage** | Report credit usage for the instance overall and for the requesting user. | View |
+| **Surface Analytics** | Generate analytics reports from natural-language requests, covering activity trends, email performance, lead and account data, segment and list membership, and journey metrics. Report data refreshes every two hours. See _[Generate analytics reports](./surface-analytics.md)_. | Analyze |
+| **Send Time Report** | View the send-time optimization (STO) performance report at the journey level or for an individual email node. | Analyze |
+| **Email STO Simulation** | Preview the predicted send time, audience quality, and engagement heatmap for an email node before enabling STO. | Analyze |
+| **Send Time Optimization** | Enable or disable STO on a journey email node. | Edit |
+| **STO Exclusion** | List, add, or remove leads that are excluded from STO on an email node. | Edit |
+| **Engagement Configuration** | Show and edit the activity weights for the person engagement score model. | Edit |
+| **Scoring Studio** | List and view scoring models, then build and publish new ones. See _[Create custom scoring models](./lead-scoring-model.md)_. | Create |
 
-These skills span more than one backend:
+## AI decisioning and intent {#ai-decisioning-intent}
 
-- **`adapt-program`** — `gather_program_assets` reads [!DNL Marketo Engage] (`get_program`, `get_smart_campaign`, `list_emails`), then writes via `falcomcp_create_journey` — classic cross-backend.
-- **`audience-creation`** — reads [!DNL Marketo Engage] smart lists (`get_smart_list` / `get_smart_campaign`), then writes [!DNL Marketo Optimizer] people lists.
-- **`journey-observability`** — [!DNL Marketo Optimizer] reads plus a `check_lead_in_marketo_static_list` [!DNL Marketo Engage] read.
-- **`scoring-studio`** — reads [!DNL Marketo Engage] lead fields/activity types alongside [!DNL Marketo Optimizer] scoring service.
-- **`surface-analytics`** — can answer reporting questions that span both [!DNL Marketo Engage] and [!DNL Marketo Optimizer] data in a single query.
+These skills assess data readiness for AI decisioning and configure intent scoring.
 
-All `falco-mcp_*` and journey/token/scoring/STO/FCS tools hit [!DNL Marketo Optimizer] services; CSV/program/lead tools hit [!DNL Marketo Engage].
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **AI Decisioning Health** | Report whether an organization's data is ready for AI decisioning, including lead availability, persona distribution, story richness, and intent. | Analyze |
+| **Analyze Intent** | Query and validate lead-level intent ranking, trends, and the product and keyword taxonomy. | Analyze |
+| **Intent Configuration** | Show and edit the activity weights for the person intent score model. | Edit |
+
+## Knowledge and skill management {#knowledge-skill-management}
+
+These skills answer product questions and let you build new custom skills.
+
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **Product Knowledge** | Answer how-to and conceptual questions using [!DNL Marketo Optimizer] documentation published on Experience League. | Search |
+| **Skill Creation** | Create, test, and refine new custom skills. | Create |
