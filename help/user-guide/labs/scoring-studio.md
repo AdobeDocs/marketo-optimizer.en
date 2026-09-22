@@ -101,6 +101,80 @@ Below the lead segment, the **[!UICONTROL Score field name]** card shows the lea
 
 ## Publish and schedule {#publish-schedule}
 
-When your model is ready, select **[!UICONTROL Publish]**. Choose how often the model scores your audience: daily, weekly, or monthly.
+When your model is ready, click **[!UICONTROL Publish]**.
 
-For the full publish process, including how [!DNL Marketo Optimizer] provisions a scoring field automatically, see [_Publish a scoring model_](../agents/lead-scoring-model.md#publish-model).
+![The Publish button is displayed for a draft scoring model.](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+Choose how often the model scores your audience: daily, weekly, or monthly. You can also choose a manual option to run the model.
+
+![The schedule options show daily, weekly, monthly, and manual recurrence choices for running the scoring model.](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+For the full publish process using the [Coworker chat interface](../agents/chat-interface.md), including how [!DNL Marketo Optimizer] provisions a scoring field automatically, see [_Publish a scoring model_](../agents/lead-scoring-model.md#publish-model).
+
+## Use scores in filters {#filter-score}
+
+After you [publish a model](#publish-schedule), you can use its resulting score as a filter when building event-based audiences and _Listen for an event_ nodes, as a split path condition, or for people list membership.
+
+The score appears in the filter panel under the **[!UICONTROL Person attributes]** category, labeled with the model name or the custom [_Score field name_](#lead-segment) you assigned it. Enter that name into the filter panel's search field to locate the score, then drag it onto the canvas and define your criteria.
+
+### Event-based audiences and nodes {#scoring-model-event-audience}
+
+To use a scoring model result to filter for an [event-based audience](../audiences/event-based-audiences.md) or [_Listen for an event_ node](../marketing/listen-for-event-nodes.md):
+
+1. Click **[!UICONTROL Add event criteria]**.
+
+1. In the _[!UICONTROL Edit event criteria]_ dialog, select the **[!UICONTROL Filters]** tab.
+
+1. Enter the model name into the search field, then drag the score onto the canvas.
+
+   ![The Filters tab shows a model name entered in the search field and the matching score dragged onto the canvas.](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. Set the operator and value to match the scores you want to target.
+
+1. Click **[!UICONTROL Save]**.
+
+### Split path conditions {#split-path-conditions}
+
+To use a scoring model result to define path conditions for a [_Split paths_ node](../marketing/split-merge-paths-nodes.md):
+
+1. Click **[!UICONTROL Edit condition]** for the node path.
+
+1. In the _[!UICONTROL Conditions]_ dialog, enter the model name into the search field, then drag the matching score onto the canvas.
+
+   ![The Conditions dialog shows a model name entered in the search field and the matching score dragged onto the canvas.](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. Set the operator and value to match the scores you want to target.
+
+1. Click **[!UICONTROL Done]** to save the condition for the path.
+
+### People list membership {#scoring-model-people-lists}
+
+To manage [people list](../audiences/people-lists.md) membership using a scoring model result:
+
+**Static list — Add members**
+
+1. Open the static list and click **[!UICONTROL Add people]**.
+
+1. In the _[!UICONTROL Add people]_ dialog, enter the model name into the search field, then drag the matching score onto the canvas.
+
+   ![The Add people dialog shows a model name entered in the search field and the matching score dragged onto the canvas.](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. Set the operator and value to match the scores you want to target.
+
+1. Click **[!UICONTROL Done]** to apply the filter and qualify matching people into the list.
+
+**Dynamic list — Set membership rules**
+
+1. Open the dynamic list and select the **[!UICONTROL Rules]** tab.
+
+1. Click **[!UICONTROL Edit rules]**.
+
+1. In the _[!UICONTROL Edit rules]_ dialog, enter the model name into the search field, then drag the score item onto the canvas.
+
+   ![The Edit rules dialog shows a model name entered in the search field and the matching score dragged onto the canvas.](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. Set the operator and value to match the scores you want to target.
+
+1. Click **[!UICONTROL Done]** to save the rule.
+
+   Membership is updated automatically as person records are evaluated against the rule.
