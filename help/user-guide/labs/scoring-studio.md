@@ -111,6 +111,10 @@ Choose how often the model scores your audience: daily, weekly, or monthly. You 
 
 For the full publish process using the [Coworker chat interface](../agents/chat-interface.md), including how [!DNL Marketo Optimizer] provisions a scoring field automatically, see [_Publish a scoring model_](../agents/lead-scoring-model.md#publish-model).
 
+The latest scores are stored in a provisioned field that is synced to your [!DNL Marketo Engage] instance. 
+
+![The provisioned score field displayed in Marketo Engage field management](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
 ## Use scores in filters {#filter-score}
 
 After you [publish a model](#publish-schedule), you can use its resulting score as a filter when building event-based audiences and _Listen for an event_ nodes, as a split path condition, or for people list membership.
