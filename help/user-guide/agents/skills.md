@@ -21,8 +21,6 @@ topic_v2:
 
 A _skill_ is a packaged workflow that Coworker can execute. Skills are the components behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one task, such as publishing a journey, comparing two people lists, or building a scoring model.
 
-
-
 The classification for each skill reflects the kind of action it performs:
 
 * _Search_ skills look up or list existing records.
