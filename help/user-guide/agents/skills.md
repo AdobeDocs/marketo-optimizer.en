@@ -21,6 +21,8 @@ topic_v2:
 
 A _skill_ is a packaged workflow that Coworker can execute. Skills are the components behind both the `/` menu and natural-language requests. Each skill bundles step-by-step instructions and the specific tools needed for one task, such as publishing a journey, comparing two people lists, or building a scoring model.
 
+
+
 The classification for each skill reflects the kind of action it performs:
 
 * _Search_ skills look up or list existing records.
@@ -70,6 +72,20 @@ These skills manage program structure, tokens, and channel configuration.
 | **Marketing Program Creation** | Create a full program, including subfolders, tokens, people lists, and journeys. | Create |
 | **Program and Journey Batch Creation** | Create multiple program and journey pairs in a single batch request. | Create |
 
+## Email and landing pages {#email-landing-pages}
+
+These skills create and manage emails, forms, and landing pages.
+
+| Skill | What it does | Type |
+| --- | --- | --- |
+| **List Forms** | List forms and view their details and fields. | Search |
+| **List Landing Pages** | List landing pages, view their details, and manage their draft or published state. | Search |
+| **Email Audit** | Audit an email against its target group, including persona inference and a brief plus section-by-section review. | Analyze |
+| **Email Authoring** | Create or update a journey email node, including composing from a brief or PDF, linking it to a node, and writing content. | Edit |
+| **Form Authoring** | Create or update a standalone lead-capture form, publish it, and optionally embed it in a landing page. | Create |
+| **Landing Page Authoring** | Create or update a landing page from a brief, including content planning, template selection, filling slots, and adding a form, then publish it. Also attach a published landing page as a call-to-action link on an email. | Create |
+| **Email Rendering Check** | Check an email for [!DNL Microsoft Outlook] rendering issues and automatically fix what it can. | Edit |
+
 ## Content personalization {#content-personalization}
 
 This skill browses templates and personalizes email content for different personas.
@@ -84,12 +100,10 @@ These skills report on performance and configure send-time optimization and scor
 
 | Skill | What it does | Type |
 | --- | --- | --- |
-| **Credit Usage** | Report credit usage for the instance overall and for the requesting user. | View |
 | **Surface Analytics** | Generate analytics reports from natural-language requests, covering activity trends, email performance, lead and account data, segment and list membership, and journey metrics. Report data refreshes every two hours. See _[Generate analytics reports](./surface-analytics.md)_. | Analyze |
 | **Send Time Report** | View the send-time optimization (STO) performance report at the journey level or for an individual email node. | Analyze |
 | **Email STO Simulation** | Preview the predicted send time, audience quality, and engagement heatmap for an email node before enabling STO. | Analyze |
 | **Send Time Optimization** | Enable or disable STO on a journey email node. | Edit |
-| **STO Exclusion** | List, add, or remove leads that are excluded from STO on an email node. | Edit |
 | **Engagement Configuration** | Show and edit the activity weights for the person engagement score model. | Edit |
 | **Scoring Studio** | List and view scoring models, then build and publish new ones. See _[Create custom scoring models](./lead-scoring-model.md)_. | Create |
 
