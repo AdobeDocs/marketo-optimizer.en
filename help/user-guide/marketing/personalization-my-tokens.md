@@ -16,23 +16,25 @@ topic_v2:
 ---
 # Custom tokens for personalization
 
-Content personalization uses tokens as placeholders or variables that are populated when the content artifact is generated. Standard personalization tokens are available for emails, landing pages, fragments, and templates. You can also define a set of custom tokens with values that are specific to the program or folder. This set of custom tokens is called _My Tokens_ and any of these custom tokens are for personalization.
+Content personalization uses tokens as placeholders or variables that are populated when the content artifact is generated. Standard personalization tokens are available for emails, landing pages, fragments, and templates. You can also define a set of custom tokens with values that are specific to the program or folder. This set of custom tokens is called _My Tokens_ and any of these custom tokens are available for personalization.
 
-When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars.
+<!-- 
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars in your program.
+-->
 
 In addition to _My Tokens_, which are specific to the program or folder, you can use any of the standard (built-in) tokens for personalization.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->_My Tokens_ are not currently enabled in the Personalization Editor for this Beta release.
+>For the initial Marketo Optimizer release, _My Tokens_ are supported for Change Data Value journey action nodes and are limited to use in string and text attributes. _My Tokens_ are **not** currently enabled in the Personalization editor.
 
-## Access tokens
+## Access tokens {#access-tokens}
 
 1. On the left navigation, expand **[!UICONTROL Marketing Management]**.
 
 1. On the right in the **[!UICONTROL Marketing]** resource list, select **[!UICONTROL Programs]**.
 
-1. It the tree structure, slect the program or folder to open the deatils in the center workspace.
+1. In the tree structure, select the program or folder to open the details in the center workspace.
 
 1. Click the **[!UICONTROL Tokens]** tab.
 
@@ -46,7 +48,7 @@ The _My Tokens_ are custom variables that you create or modify for a program or 
 
 | Token type | Description |
 | ---------- | ----------- |
-| Text  | This type holds a standard text string. The size limit for text tokens is 524,288 characters (UTF-8), or 2 MB. |
+| Text | This type holds a standard text string. The size limit for text tokens is 524,288 characters (UTF-8), or 2 MB. |
 | Date | This type holds a date value. The date displays as month-day-year (for example, 09-23-2026). |
 | Date & Time | This type holds a date and time value. |
 | Number | This type holds a standard integer value. |
@@ -55,17 +57,17 @@ The _My Tokens_ are custom variables that you create or modify for a program or 
 | Boolean | This type holds a standard boolean value, true or false. |
 | Rich Text | This type holds formatted text. |
 
-### Token nesting
+### Token nesting {#nesting}
 
-When you create a token in a program or folder, it is available for reference by other child objects. 
+When you create a token in a program or folder, it is available for reference by objects within the hierarchy. 
 
-* Local token - The token is defined in the same program or folder.
-* Inherited token - The token is defined in a parent program or folder, one or more levels above the current program or folder.
-* Overridden token - The token is defined in a parent program or folder, but a different value is defined at the current program or folder. The token status changes to _Overridden_, and any child folders, programs, and marketing artifacts inherit the new value.
+* **Local token** - The token is defined in the same program or folder.
+* **Inherited token** - The token is defined in a parent program or folder, one or more levels above the current program or folder.
+* **Overridden token** - The token is defined in a parent program or folder, but a different value is defined at the current program or folder. The token status changes to _Overridden_, and any child folders, programs, and marketing artifacts inherit the new value.
 
 ![Token types and inheritance](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
-### Create a token
+### Create a token {#create}
 
 1. In the _[!UICONTROL Tokens]_ tab, click **[!UICONTROL Create]**.
 
@@ -75,15 +77,15 @@ When you create a token in a program or folder, it is available for reference by
 
    You cannot use spaces or special characters in the token name. You can use _camel case_, such as `EventType`, to use a multi-word name that is easily identified.
 
-1. Choose the **[!UICONTROL Type]** for the toekn.
+1. Choose the **[!UICONTROL Type]** for the token.
 
 1. Set the **[!UICONTROL Value]** for the token.
 
 1. Click **[!UICONTROL Create]**.
 
-### Edit a token
+### Edit a token {#edit}
 
-You can edit the value for any of the defined My Tokens. Do this to override the value for an inherited token.
+You can edit the value for any of the defined My Tokens, which overrides the value for an inherited token.
 
 <!-- (How does this affect live person journeys? ) -->
 
@@ -95,13 +97,21 @@ You can edit the value for any of the defined My Tokens. Do this to override the
 
 1. Click the _Save_ icon.
 
-### Delete a token
+### Delete a token {#delete}
 
 You can delete a custom token from the list if it is not currently used in journey email content.
 
 1. On the _[!UICONTROL Tokens]_ , click the _Delete_ icon next to the token name.
 
 1. In the confirmation dialog, click **[!UICONTROL Delete]**.
+
+## Autosuggest and preview {#autosuggest}
+
+When you include a _Change data value_ [action node](./action-nodes.md) in your journey, you can enter `{{` in the **[!UICONTROL New value]** field to reveal the tokens _Autosuggest_ menu. The displayed list shows supported namespaces and individual tokens. Only tokens of a compatible data type are listed.
+
+For _My Tokens_, a preview of the token value is displayed with the token name to make selecting the right value easier.
+
+![Syntax in New value field to display the autosuugest menu for tokens](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
 
 <!--
 
