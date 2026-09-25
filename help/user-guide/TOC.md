@@ -101,7 +101,4 @@ user-guide-description: Learn about Adobe Marketo Optimizer and how you can use 
       + [Form preset configuration](./admin/configuration-presets-forms.md)
    + [Business rules](./admin/business-rules.md)
    + [Program types](./admin/program-types.md)
-
-<!--
    + [Persona mapping](./admin/persona-mapping.md)
--->
