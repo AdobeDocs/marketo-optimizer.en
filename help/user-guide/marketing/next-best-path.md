@@ -129,12 +129,6 @@ Use simulation to test how the AI evaluates your prompts against a real audience
 
 1. In the dialog, choose a dynamic list to use for the simulation audience.
 
-<!-- 
-   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
-   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
--->
-
    ![Simulate paths dialog with a dynamic list selected and Cancel and Simulate buttons.](./assets/next-best-path-simulate-paths.png){width="250"}
 
    >[!NOTE]
@@ -143,6 +137,14 @@ Use simulation to test how the AI evaluates your prompts against a real audience
    >* If the selected audience is not yet materialized, simulation is blocked. An inline warning directs you to materialize the audience first.
 
 1. Click **[!UICONTROL Simulate]**.
+
+
+<!--
+after second step above...
+* **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+* **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+* **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
 ### Review simulation results {#review-results}
 
