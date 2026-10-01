@@ -2,6 +2,7 @@
 title: Data Architecture
 description: Learn how Marketo Optimizer and Marketo Engage share data, including entity sync direction and latency, activity data flow, and sandbox based data isolation.
 role: User, Admin
+autotag-review: '2026-10-01T18:40:38.362Z'
 TQID: 'https://experienceleague.adobe.com/oelEtys81g6TzM8bi-qy1nuWw6scOBry7tbZkMkZ6u0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -9,6 +10,10 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
   - id: d4203578-d294-5145-b397-f26f4488a904
