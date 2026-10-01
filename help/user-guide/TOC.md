@@ -6,7 +6,9 @@ user-guide-description: Learn about Adobe Marketo Optimizer and how you can use 
 # Marketo Optimizer User Guide {#user}
 
 + [Adobe Marketo Optimizer documentation](guide-overview.md)
-+ [Data architecture](data-architecture.md)
++ Data foundation {#data-foundation}
+   + [Data architecture](./data-architecture.md)
+   + [Interoperability with Marketo Engage](./marketo-interoperability.md)
 + Get started {#start}
    + [Setup check list](./start/setup-check-list.md)
    + [User management](./start/user-management.md)
