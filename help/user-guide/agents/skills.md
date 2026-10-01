@@ -78,7 +78,6 @@ These skills create and manage emails, forms, and landing pages.
 | --- | --- | --- |
 | **List Forms** | List forms and view their details and fields. | Search |
 | **List Landing Pages** | List landing pages, view their details, and manage their draft or published state. | Search |
-| **Email Audit** | Audit an email against its target group, including persona inference and a brief plus section-by-section review. | Analyze |
 | **Email Authoring** | Create or update a journey email node, including composing from a brief or PDF, linking it to a node, and writing content. | Edit |
 | **Form Authoring** | Create or update a standalone lead-capture form, publish it, and optionally embed it in a landing page. | Create |
 | **Landing Page Authoring** | Create or update a landing page from a brief, including content planning, template selection, filling slots, and adding a form, then publish it. Also attach a published landing page as a call-to-action link on an email. | Create |
