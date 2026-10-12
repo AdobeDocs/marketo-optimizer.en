@@ -14,6 +14,9 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Create and publish landing pages
 

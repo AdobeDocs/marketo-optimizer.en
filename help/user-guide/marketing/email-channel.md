@@ -10,6 +10,9 @@ product_v2:
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization

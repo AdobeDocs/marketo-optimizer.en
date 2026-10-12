@@ -10,6 +10,9 @@ product_v2:
 feature_v2:
   - id: d4203578-d294-5145-b397-f26f4488a904
     internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

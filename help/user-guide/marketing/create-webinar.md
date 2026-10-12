@@ -13,6 +13,9 @@ feature_v2:
     internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
     internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 
 # Create and design a webinar
