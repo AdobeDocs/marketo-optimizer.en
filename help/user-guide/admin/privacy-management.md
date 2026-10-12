@@ -12,6 +12,9 @@ feature_v2:
     internal-label: Privacy
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience

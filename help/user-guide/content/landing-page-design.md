@@ -10,6 +10,9 @@ product_v2:
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
