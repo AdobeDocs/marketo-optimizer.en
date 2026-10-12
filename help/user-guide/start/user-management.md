@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
