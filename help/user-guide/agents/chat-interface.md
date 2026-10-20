@@ -38,16 +38,6 @@ At the bottom of the panel is the message box where you can:
 * Add a message and press **Enter** to send (**Shift+Enter** inserts a newline).
 * Attach a file using the _Attach_ icon (supported formats: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Use CSV and spreadsheet uploads to start a lead import.
 
->[!BEGINSHADEBOX]
-
-## Sales Qualifier
-
-[!DNL Adobe Sales Qualifier] is an AI-driven application that you can use with [!DNL Marketo Optimizer]. It implements the Account Qualification Agent and is designed to streamline workflows for Business Development Representatives (BDRs). [!DNL Sales Qualifier] automates prospect qualification, outreach, and buyer engagement workflows across channels. It reduces manual BDR load and accelerates pipeline velocity for Enterprise B2B companies.
-
-For more information, refer to the [Sales Qualifier documentation](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
-
->[!ENDSHADEBOX]
-
 ## Ask Coworker
 
 There are two equally valid ways to get work done — you never have to use the slash menu.
