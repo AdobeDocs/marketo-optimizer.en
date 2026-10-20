@@ -28,6 +28,13 @@ Program types define important aspects of [programs](../marketing/programs.md) a
 >
 >If a program type is used by at least one program, it cannot be edited.
 
+>[!PREREQUISITES]
+>
+>Working with program types requires the following [permissions](../start/permissions-reference.md):
+>
+>* **[!UICONTROL View B2B Program Types]** - Required to view marketing program types.
+>* **[!UICONTROL Manage B2B Program Types]** - Required to create, edit, and delete marketing program types.
+
 _To define a custom program type:_
 
 1. In the [!DNL Adobe Marketo Optimizer] left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Program types]**.

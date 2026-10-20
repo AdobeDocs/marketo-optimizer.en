@@ -215,7 +215,7 @@ When the landing page settings and content are defined, you can use test profile
 
 >[!PREREQUISITES]
 >
->To preview and test landing pages, you must have the **[!UICONTROL Publish Messages]** permission and a defined dataset that contains test profiles.
+>To preview and test landing pages, you must have the **[!UICONTROL Publish B2B Landing Page]** permission and a defined dataset that contains test profiles.
 
 1. Click **[!UICONTROL Preview & test]** to open the test profile selection.
 
@@ -255,7 +255,7 @@ When the landing page settings and content are defined, you can use test profile
 
 >[!PREREQUISITES]
 >
->To publish landing pages, you must have the **[!UICONTROL Publish Messages]** permission. Before publishing, [check and resolve all alerts](#check-alerts).
+>To publish landing pages, you must have the **[!UICONTROL Publish B2B Landing Page]** permission. Before publishing, [check and resolve all alerts](#check-alerts).
 
 When the draft page meets your criteria and you want to make it available for linking in your journey messages, click **[!UICONTROL Publish]** at the top right. In the confirmation dialog, click **[!UICONTROL Publish]** again to confirm.
 

@@ -21,6 +21,15 @@ In [!DNL Adobe Marketo Optimizer], person journeys are automated, multistep lead
 >
 >Each journey resides within a defined [program](./programs.md). You must have at least one program to use as a parent before you create a journey.
 
+>[!PREREQUISITES]
+>
+>Working with person journeys requires the following [permissions](../start/permissions-reference.md):
+>
+>* **[!UICONTROL View B2B Person Journeys]** - Required for read-only access to the _[!UICONTROL Person Journeys]_ list and journey details.
+>* **[!UICONTROL Manage B2B Person Journeys]** - Required to access the _[!UICONTROL Person Journeys]_ list and perform all person journey operations.
+>* **[!UICONTROL Publish B2B Person Journeys]** - Required to publish person journeys.
+>* **[!UICONTROL View B2B Person Journey Reports]** - Required to view person journey reports.
+
 _To build a new person journey:_
 
 1. Create the person journey.

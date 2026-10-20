@@ -58,7 +58,7 @@ The **Status** column provides information on the subdomain creation and delegat
 
 A landing page subdomain configuration is **common to all environments**. Therefore:
 
-* To access and edit landing page subdomains, you must have the **[!UICONTROL Manage Landing Page Subdomains]** permission on the production sandbox.
+* To access and edit landing page subdomains, you must have the **[!UICONTROL Manage B2B Landing Page Settings]** permission on the production sandbox. To access the _[!UICONTROL Channels]_ in the left navigation, you must also have the **[!UICONTROL Manage B2B Channels Configurations]** permission. For more information, see [Permission resources](../start/permissions-reference.md).
 
 * Any modification to a landing page subdomain also impacts the production sandboxes.
 

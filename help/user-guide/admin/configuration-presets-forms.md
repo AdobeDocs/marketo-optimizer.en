@@ -31,15 +31,11 @@ To use web forms, you must have one or more _**HTTP API streaming connections**_
 
 For detailed information about creating a streaming source connections, refer to the [_Experience Platform documentation_](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-<!-- 
-permissions coming in GA
+Forms channel configuration in [!DNL Marketo Optimizer] requires the following [permissions](../start/permissions-reference.md):
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish Forms Presets]_ - Required to publish forms preset configurations.
--->
+* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View B2B Forms Preset]_ - Required to view form preset configurations.
+* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage B2B Forms Preset]_ - Required to create, edit, and delete form preset configurations.
+* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish B2B Forms Preset]_ - Required to publish form preset configurations.
 
 >[!ENDSHADEBOX]
 

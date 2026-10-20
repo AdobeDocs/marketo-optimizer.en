@@ -17,6 +17,10 @@ Each report is built on [!DNL Adobe Customer Journey Analytics] and embedded dir
 
 ![Reports page listing Person Journey Overview, Engagement, Email Engagement, and Web Engagement sections](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
+>[!PREREQUISITES]
+>
+>To view the reports in the _[!UICONTROL Reports]_ tab, you must have the **[!UICONTROL View B2B Embedded Reports]** [permission](../start/permissions-reference.md).
+
 ## Report sections {#report-sections}
 
 The [!UICONTROL Reports] tab organizes pre-built reports into four sections. Each section has one or more downloadable items, and its own documentation page with details about its metrics and visualizations.
