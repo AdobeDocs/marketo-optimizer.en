@@ -1,8 +1,7 @@
 ---
 title: Product Permissions
 description: Reference list of the Experience Platform permissions that control access to Marketo Optimizer features, with descriptions and recommended permissions for admin, all-access, and read-only users.
-autotag-review: '2026-10-20T17:03:48.312Z'
-TQID: 'https://experienceleague.adobe.com/Q4HnGxPkiE0dsZUjIgPvVJHgs0dPwLJiOKVSL1edS4Y'
+TQID: https://experienceleague.adobe.com/Q4HnGxPkiE0dsZUjIgPvVJHgs0dPwLJiOKVSL1edS4Y
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
@@ -22,6 +21,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+autotag-review: '2026-10-20T17:03:48.312Z'
 ---
 # Product permissions
 
@@ -48,7 +48,7 @@ Use the permission recommendations in the tables on this page as a starting poin
 | **Who it is for** | People who set up and manage [!DNL Marketo Optimizer] for your team. | Marketers and operators who work in [!DNL Marketo Optimizer] every day. | People who need to see [!DNL Marketo Optimizer] but not change anything, such as executives, analysts, and auditors. |
 | **What they can do** | Everything, including setup and admin settings. | Use every feature: journeys, programs, content, lists, reports, and the assistant. | View journeys, programs, content, lists, and reports, and ask the assistant questions. |
 | **Permissions to assign** | Every permission on this page (select **[!UICONTROL Add all]** in the role editor). | The permissions with a ✔ in the _All Access_ column of the tables on this page. | The permissions with a ✔ in the _Read Only_ column of the tables on this page. |
-| **Not included** | – | <li>Admin and channel settings<li>Email settings and WhatsApp presets<li>Data usage labels<li>Creating or changing program types and traffic control<li>Creating destinations, sources, and profile settings | <li>Creating, editing, publishing, or exporting<li>Activating audiences to destinations<li>Admin, channel, and email settings<li>Managing destinations, sources, and profile settings |
+| **Not included** | – | <li>Admin configurations<li>Channel configurations, including email settings, form presets, landing page settings, and WhatsApp presets and settings<li>Program types (view and manage) | <li>Creating, editing, deleting, publishing, or exporting (all _Manage_ and _Publish_ permissions, except chat access)<li>Activating audiences to destinations<li>Admin configurations and channel configurations, including viewing email settings and form presets<li>Viewing program types |
 | **Suggested user group** | Marketo Optimizer Administrators Group | Marketo Optimizer Users Group | Marketo Optimizer Read Only Users Group |
 | **Suggested role** | Marketo Optimizer Administrator | Marketo Optimizer All Access User | Marketo Optimizer Read Only Access User |
 
