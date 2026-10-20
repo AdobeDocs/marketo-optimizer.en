@@ -146,7 +146,9 @@ Access to webinar features depends on your assigned permissions for webinars. Fo
 | View B2B Webinars | View the webinars list, and a webinar configuration, details, and reports. The create, design, edit, and enter controls are not available through this permission, and you cannot be assigned to a webinar as a co-host or presenter. |
 | Manage B2B Webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this permission. |
 
-<!-- | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
+<!-- 
+
+| Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 
 >[!NOTE]
