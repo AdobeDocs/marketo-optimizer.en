@@ -13,6 +13,13 @@ feature_v2:
 
 Scoring Studio includes a model list, an editable canvas for each model, and the [Coworker chat interface](../agents/chat-interface.md). Use the canvas to review or adjust dimensions and signals directly, while Coworker continues to propose changes in natural language alongside you. For information about building a model from a prompt, see [_Create custom scoring models_](../agents/lead-scoring-model.md).
 
+>[!PREREQUISITES]
+>
+>Scoring Studio is a Labs feature and requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Labs]** - Required to view the Labs features that are available and enabled.
+>* **[!UICONTROL Manage B2B Labs]** - Required to enable and configure Labs features.
+
 ## Model list {#model-list}
 
 The model list is the landing view for Scoring Studio. It shows every scoring model in your [!DNL Marketo Optimizer] instance as rows in a table, or as cards if you switch to grid view.

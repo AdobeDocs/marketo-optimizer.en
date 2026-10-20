@@ -58,6 +58,13 @@ The library supports two layout options:
 * **[!UICONTROL List]** — Click the _List view_ ( ![List view icon](../assets/do-not-localize/icon-falco-list-view.svg) ) icon to display assets in a sortable table with metadata columns.
 * **[!UICONTROL Gallery]** — Click the _Gallery view_ ( ![Gallery view icon](../assets/do-not-localize/icon-falco-gallery-view.svg) ) icon to display assets as a visual thumbnail grid.
 
+>[!PREREQUISITES]
+>
+>Working with assets requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Assets]** - Required to view the _[!UICONTROL Assets]_ library and asset file details.
+>* **[!UICONTROL Manage B2B Assets]** - Required to create, edit, and delete asset files.
+
 ## Search for assets {#find-assets}
 
 Use the _[!UICONTROL Search]_ field to find assets by describing what you need in natural language. Search results are based on AI-generated metadata, so you are not limited to searching by file name.

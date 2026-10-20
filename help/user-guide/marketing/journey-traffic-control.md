@@ -56,6 +56,7 @@ Dimensions for which a person has no data are skipped automatically, so scoring 
 
 Before journey traffic control can produce results, keep the following in mind:
 
+* **Permissions.** You need the **[!UICONTROL View B2B Journey Traffic Control]** permission to view journey traffic control settings and the **[!UICONTROL Manage B2B Journey Traffic Control]** permission to configure journey traffic control, including simulating its effect. For more information, see [Permission resources](../start/user-management.md#permissions).
 * **Reporting requires a published, JTC-enabled journey.** The _[!UICONTROL Reporting]_ tab does not show any data until at least one journey is published with journey traffic control enabled.
 * **Simulation requires at least one published journey in the instance.** Simulation evaluates [profiles](../audiences/people-lists.md) that are already in live journeys, so it requires at least one published journey in the instance to draw profiles from. Simulation itself does not require JTC to be enabled (see [_Simulate scoring_](#simulate-scoring)).
 

@@ -22,6 +22,13 @@ topic_v2:
 
 Programs are designed to give shared context to your marketing collateral and journeys, so you can manage all the aspects of a marketing effort from a single place. Use program attributes to describe your program, and use the _Member of Program_ filter to segment audiences based on program membership, member status, and success. From the Tokens tab, you can manage both local _My Tokens_ and tokens that are inherited in your folder structure.
 
+>[!PREREQUISITES]
+>
+>Working with programs requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Programs]** - Required to view marketing programs.
+>* **[!UICONTROL Manage B2B Programs]** - Required to create, edit, and delete marketing programs.
+
 ## Access programs {#access-programs}
 
 Each program lives in the _[!UICONTROL Marketing]_ folder structure, and can contain journeys, lists, and other resources to organize your marketing efforts. 

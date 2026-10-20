@@ -25,11 +25,14 @@ There are two ways to activate people to a connected destination:
 
 ## Required permissions {#required-permissions}
 
-Full destination capability requires the following [!DNL Adobe Experience Platform] permissions to be enabled.
+Full destination capability requires the following [!DNL Adobe Experience Platform] permissions to be enabled. For descriptions and recommended permissions for each type of user, see [Permission resources](../start/user-management.md#permissions) and [External destinations permissions](../start/user-management.md#external-destinations-permissions).
 
 | Category | Permission | Required |
 |--- |--- |--- |
 | Sandboxes | Sandbox access _(enabled by default)_ | Yes |
+| B2B Destinations | View B2B Destinations | Yes |
+| B2B Destinations | Manage B2B Destinations | Yes |
+| B2B Destinations | Activate B2B Destinations | Yes |
 | Dashboards | View Standard Dashboards | Yes |
 | Dashboards | Manage Standard Dashboards | Yes |
 | Destinations | View Destinations | Yes |

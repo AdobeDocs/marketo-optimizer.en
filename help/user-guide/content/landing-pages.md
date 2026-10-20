@@ -23,6 +23,14 @@ Common use cases for landing pages:
 * Direct people to campaign-specific information designed for your journey orchestration.
 * Redirect people to a dedicated web form without building an external page outside of [!DNL Marketo Optimizer].
 
+>[!PREREQUISITES]
+>
+>Working with landing pages requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Landing Page]** - Required to view landing pages.
+>* **[!UICONTROL Manage B2B Landing Page]** - Required to create, edit, and delete landing pages.
+>* **[!UICONTROL Publish B2B Landing Page]** - Required to publish landing pages.
+
 ## Landing page workflow {#workflow}
 
 To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Marketo Optimizer]: 

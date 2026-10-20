@@ -24,8 +24,6 @@ Marketo Optimizer sends WhatsApp messages through Meta's Cloud API. Before marke
 
 ![WhatsApp task flow for Marketo Optimizer](assets/whatsapp-flow-diagram.png)
 
-## Prerequisites {#prerequisites}
-
 Before configuring the WhatsApp channel, ensure that you have the following:
 
 * [A Meta Business Manager account](https://business.facebook.com/)
@@ -58,6 +56,14 @@ Complete the following tasks:
 1. [Create the WhatsApp API credentials](#create-whatsapp-api-credentials)
 1. [Add the WhatsApp webhooks](#configure-webhooks)
 1. [Create the WhatsApp channel configuration](#create-channel-configuration)
+
+>[!PREREQUISITES]
+>
+>To complete these tasks in [!DNL Marketo Optimizer], you need the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL Manage B2B Channels Configurations]** - Required to access the _[!UICONTROL Channels]_ menu.
+>* **[!UICONTROL Manage B2B WhatsApp Settings]** - Required to configure the WhatsApp channel.
+>* **[!UICONTROL Manage B2B WhatsApp Presets]** - Required to create the API credentials and webhooks.
 
 ### Create WhatsApp API credentials {#create-whatsapp-api-credentials}
 

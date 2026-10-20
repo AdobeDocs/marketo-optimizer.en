@@ -26,6 +26,14 @@ Open the panel using one of two methods from the Coworker [chat interface](../ag
 
 ![The intent configuration panel opened from the chat interface](./assets/intent-configuration-panel.png){width="700" zoomable="yes"}
 
+>[!PREREQUISITES]
+>
+>Intent configuration requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Intent Configuration]** - Required to view intent configurations (intent weighting models).
+>* **[!UICONTROL Manage B2B Intent Configuration]** - Required to create, edit, and delete intent configurations.
+>* **[!UICONTROL Manage B2B Conversational Experience]** - Required to open the panel from the chat interface.
+
 ## Model list view
 
 Landing in the panel shows **[!UICONTROL Intent score weighting]**, with the total model count below the title, a search field to filter by name, and a sortable table:

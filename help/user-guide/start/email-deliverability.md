@@ -67,6 +67,18 @@ Before configuring email, review these concepts that apply to email channel deli
 | **_IP pool_** | A group of IP addresses associated with one or more subdomains. [!DNL Marketo Optimizer] supports a shared IP pool managed by Adobe in this release; dedicated IP pools are on the GA roadmap. |
 | **_Channel configuration_** | A reusable set of email-sending settings (sender identity, reply-to address, subdomain, IP pool, email type, and tracking) that you attach to email actions in journeys. You can have multiple named channel configurations for different brands, business units, or send types. |
 
+## Required permissions {#required-permissions}
+
+Deliverability and channel setup are administrator-level tasks. The following permissions in the _B2B Channel Configurations_ category control access:
+
+| Permission | What it allows |
+| ---------- | -------------- |
+| View B2B Email Settings | View email settings (subdomains, PTR records, IP pools, suppression lists, seed lists, IP warm-up plans). |
+| Manage B2B Email Settings | Configure email settings. These settings are required before users can send emails. |
+| Manage B2B Channels Configurations | Access to the _Channels_ menu item in the left navigation and all channel configuration operations. |
+
+For descriptions of all permissions and recommended permissions for each type of user, see [Permission resources](./user-management.md#permissions).
+
 <!--
 
 ## Roles and permissions {#roles-permissions}
@@ -151,7 +163,7 @@ Subdomain delegation tells the internet that Adobe is authorized to send email o
 >* Decide on a subdomain naming convention (for example, `mail.contoso.com` for marketing, `alerts.contoso.com` for transactional).
 >* Confirm with your IT/DNS team that they can delegate the subdomain (NS records) to Adobe.
 >* Create the new subdomain in your DNS provider, then wait 24–48 hours for DNS propagation before delegating to Adobe.
->* Confirm you have the Administrator role in [!DNL Marketo Optimizer].
+>* Confirm you have the **[!UICONTROL Manage B2B Email Settings]** permission. For more information, see [Required permissions](#required-permissions).
 
 1. In the [!DNL Marketo Optimizer] left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Channels]**.
 1. In the panel, expand **[!UICONTROL Email settings]** and select **[!UICONTROL Subdomains]**.

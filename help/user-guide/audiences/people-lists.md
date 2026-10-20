@@ -28,6 +28,13 @@ topic_v2:
 
 In [!DNL Adobe Marketo Optimizer], people lists are the person-level audience containers for targeting and person journey entry, with dynamic lists for rule-based live qualification and static lists for fixed or journey-managed membership.
 
+>[!PREREQUISITES]
+>
+>Working with people lists requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Person Lists]** - Required to view static and dynamic person lists.
+>* **[!UICONTROL Manage B2B Person Lists]** - Required to create, edit, and delete person lists, and manage list membership.
+
 ## Access and browse people lists {#access-browse}
 
 1. On the left navigation, expand **[!UICONTROL Marketing Management]**.

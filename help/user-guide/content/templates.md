@@ -22,6 +22,13 @@ Email templates in [!DNL Adobe Marketo Optimizer] allow content specialists to b
 
 When a template is applied to a new email, the content is copied at that point. Edits to the template do not affect emails that were previously created from it.
 
+>[!PREREQUISITES]
+>
+>Working with templates requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Templates]** - Required to view the templates list and details.
+>* **[!UICONTROL Manage B2B Templates]** - Required to create, edit, and delete templates.
+
 ## Access email templates {#access}
 
 Navigate to **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** in the left navigation. The template library opens in table format, sorted by most recently modified by default.

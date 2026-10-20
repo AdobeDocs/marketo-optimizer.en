@@ -30,6 +30,14 @@ To make the best use of fragments in your workflows:
 * _Create your own fragments_ - Create visual fragments, either from scratch or by saving content as a fragment from the visual content design space.
 * _Reuse fragments_ - Use them as many times as needed in your email or email template content.
 
+>[!PREREQUISITES]
+>
+>Working with fragments requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Fragments]** - Required to view the fragments list and details.
+>* **[!UICONTROL Manage B2B Fragments]** - Required to create, edit, and delete fragments.
+>* **[!UICONTROL Publish B2B Fragments]** - Required to publish fragments for use in templates, emails, and landing pages.
+
 ## Access and manage fragments {#access-manage-fragments}
 
 To access visual fragments in [!DNL Marketo Optimizer], go to the left navigation and expand **[!UICONTROL Content Management]**. Then, select **[!UICONTROL Fragments]**. This action opens a listing page with all the fragments created in the instance listed in a table.

@@ -18,7 +18,7 @@ Content locking allows template authors to define governance rules that restrict
 >
 >Content locking is an editor-level governance feature. It controls what authors can edit in the email design space but does not prevent changes made through the API.
 
-Only users with the **[!UICONTROL Manage content templates]** permission can configure governance settings.
+Only users with the **[!UICONTROL Manage B2B Templates]** permission can configure governance settings.
 
 ## Enable governance {#enable}
 

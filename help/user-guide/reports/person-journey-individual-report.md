@@ -15,6 +15,10 @@ feature_v2:
 
 Click **[!UICONTROL View Report]** for a live or finished person journey to see its performance, including status, engagement, email metrics, and activity flow.
 
+>[!PREREQUISITES]
+>
+>To view this report, you must have the **[!UICONTROL View B2B Person Journey Reports]** [permission](../start/user-management.md#permissions).
+
 _To view the report:_
 
 1. Open a **[!UICONTROL Live]** or **[!UICONTROL Finished]** person journey from the _[!UICONTROL Person journeys]_ list.

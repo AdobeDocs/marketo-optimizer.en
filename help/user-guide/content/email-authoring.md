@@ -28,6 +28,14 @@ In [!DNL Adobe Marketo Optimizer], the email design space provides a visual canv
 >
 >For administrator setup of subdomains, authentication, IP pools, and email channel configurations, see [Email deliverability](../start/email-deliverability.md) and [Email channel configuration](../admin/email-channel-configuration.md).
 
+>[!PREREQUISITES]
+>
+>Email authoring requires the following [permissions](../start/user-management.md#permissions):
+>
+>* **[!UICONTROL View B2B Emails]** - Required to view email messages.
+>* **[!UICONTROL Manage B2B Emails]** - Required to create, edit, and delete email messages.
+>* **[!UICONTROL Manage B2B Person Journeys]** - Required to add the email to a person journey.
+
 In [!DNL Marketo Optimizer], every email is associated with a _[!UICONTROL Send Email]_ action within a person journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send Email_ node](../marketing/action-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the process. First you define the Actions and content settings for the email. Click **[!UICONTROL Edit email body]** to launch the email content design space, where you can choose how you want to design your email from the following options:
 
 * [Design your email from scratch](#design-from-scratch) using the visual design interface. Build the email layout component by component using drag-and-drop on a blank canvas. This method is best for creating new templates or one-off emails.

@@ -41,7 +41,7 @@ A channel configuration is the central object that ties together your sender ide
 >
 >* At least one [subdomain](../start/email-deliverability.md#subdomain-delegation) must be delegated and Active.
 >* At least one [IP pool](../start/email-deliverability.md#ip-pools) must be assigned to your organization.
->* You need the Administrator role.
+>* You need the **[!UICONTROL Manage B2B Channels Configurations]** and **[!UICONTROL View B2B Email Settings]** permissions. For more information, see [Required permissions](../start/email-deliverability.md#required-permissions).
 >* Review [current limitations](../start/email-deliverability.md#limitations) — dedicated IP pools are not available at Beta.
 
 1. In the [!DNL Adobe Marketo Optimizer] left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Channels]**.

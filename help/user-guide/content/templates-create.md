@@ -75,7 +75,7 @@ The original journey email is unaffected. The saved template is available in the
 Before you begin:
 
 * Your organization must have signed the Generative AI addendum with Adobe.
-* You must have the **[!UICONTROL Generate Content]** permission in addition to **[!UICONTROL Manage content templates]**.
+* You must have the **[!UICONTROL Generate B2B Content AI Assistant]** permission in addition to **[!UICONTROL Manage B2B Templates]**.
 * The image file must meet these specifications:
   * Format: JPEG (.jpg, .jpeg) or PNG (.png)
   * Maximum file size: 10 MB
