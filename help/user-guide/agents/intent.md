@@ -58,7 +58,7 @@ For details about these metrics, including AI Suggested weight, content relevanc
 
 >[!PREREQUISITES]
 >
->Intent reports require the **[!UICONTROL View B2B Intent Reports]** [permission](../start/user-management.md#permissions).
+>Intent reports require the **[!UICONTROL View B2B Intent Reports]** [permission](../start/permissions-reference.md).
 
 To introduce the four report types it can generate, invoke `/analyze-intent` to prompt Coworker. Coworker then waits for a follow-up request naming a lead, product, or comparison. Each report opens as its own tab in the workspace panel, and Coworker also adds a summary card in the chat with an _[!UICONTROL Open report]_ button.
 

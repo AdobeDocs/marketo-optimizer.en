@@ -23,7 +23,7 @@ In [!DNL Adobe Marketo Optimizer], person journeys are automated, multistep lead
 
 >[!PREREQUISITES]
 >
->Working with person journeys requires the following [permissions](../start/user-management.md#permissions):
+>Working with person journeys requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Person Journeys]** - Required for read-only access to the _[!UICONTROL Person Journeys]_ list and journey details.
 >* **[!UICONTROL Manage B2B Person Journeys]** - Required to access the _[!UICONTROL Person Journeys]_ list and perform all person journey operations.

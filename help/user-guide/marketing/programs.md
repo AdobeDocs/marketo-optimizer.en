@@ -24,7 +24,7 @@ Programs are designed to give shared context to your marketing collateral and jo
 
 >[!PREREQUISITES]
 >
->Working with programs requires the following [permissions](../start/user-management.md#permissions):
+>Working with programs requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Programs]** - Required to view marketing programs.
 >* **[!UICONTROL Manage B2B Programs]** - Required to create, edit, and delete marketing programs.

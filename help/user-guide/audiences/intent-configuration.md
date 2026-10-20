@@ -28,7 +28,7 @@ Open the panel using one of two methods from the Coworker [chat interface](../ag
 
 >[!PREREQUISITES]
 >
->Intent configuration requires the following [permissions](../start/user-management.md#permissions):
+>Intent configuration requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Intent Configuration]** - Required to view intent configurations (intent weighting models).
 >* **[!UICONTROL Manage B2B Intent Configuration]** - Required to create, edit, and delete intent configurations.

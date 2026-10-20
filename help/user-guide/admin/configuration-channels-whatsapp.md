@@ -59,7 +59,7 @@ Complete the following tasks:
 
 >[!PREREQUISITES]
 >
->To complete these tasks in [!DNL Marketo Optimizer], you need the following [permissions](../start/user-management.md#permissions):
+>To complete these tasks in [!DNL Marketo Optimizer], you need the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL Manage B2B Channels Configurations]** - Required to access the _[!UICONTROL Channels]_ menu.
 >* **[!UICONTROL Manage B2B WhatsApp Settings]** - Required to configure the WhatsApp channel.

@@ -19,7 +19,7 @@ Each report is built on [!DNL Adobe Customer Journey Analytics] and embedded dir
 
 >[!PREREQUISITES]
 >
->To view the reports in the _[!UICONTROL Reports]_ tab, you must have the **[!UICONTROL View B2B Embedded Reports]** [permission](../start/user-management.md#permissions).
+>To view the reports in the _[!UICONTROL Reports]_ tab, you must have the **[!UICONTROL View B2B Embedded Reports]** [permission](../start/permissions-reference.md).
 
 ## Report sections {#report-sections}
 

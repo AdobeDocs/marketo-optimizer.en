@@ -25,7 +25,7 @@ Common use cases for landing pages:
 
 >[!PREREQUISITES]
 >
->Working with landing pages requires the following [permissions](../start/user-management.md#permissions):
+>Working with landing pages requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Landing Page]** - Required to view landing pages.
 >* **[!UICONTROL Manage B2B Landing Page]** - Required to create, edit, and delete landing pages.

@@ -60,7 +60,7 @@ The library supports two layout options:
 
 >[!PREREQUISITES]
 >
->Working with assets requires the following [permissions](../start/user-management.md#permissions):
+>Working with assets requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Assets]** - Required to view the _[!UICONTROL Assets]_ library and asset file details.
 >* **[!UICONTROL Manage B2B Assets]** - Required to create, edit, and delete asset files.

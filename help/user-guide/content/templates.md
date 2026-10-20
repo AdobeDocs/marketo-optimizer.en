@@ -24,7 +24,7 @@ When a template is applied to a new email, the content is copied at that point. 
 
 >[!PREREQUISITES]
 >
->Working with templates requires the following [permissions](../start/user-management.md#permissions):
+>Working with templates requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Templates]** - Required to view the templates list and details.
 >* **[!UICONTROL Manage B2B Templates]** - Required to create, edit, and delete templates.

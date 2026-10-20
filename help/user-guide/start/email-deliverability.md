@@ -77,7 +77,7 @@ Deliverability and channel setup are administrator-level tasks. The following pe
 | Manage B2B Email Settings | Configure email settings. These settings are required before users can send emails. |
 | Manage B2B Channels Configurations | Access to the _Channels_ menu item in the left navigation and all channel configuration operations. |
 
-For descriptions of all permissions and recommended permissions for each type of user, see [Permission resources](./user-management.md#permissions).
+For descriptions of all permissions and recommended permissions for each type of user, see [Product permissions](./permissions-reference.md).
 
 <!--
 

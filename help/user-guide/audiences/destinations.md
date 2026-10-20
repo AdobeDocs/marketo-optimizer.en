@@ -25,7 +25,7 @@ There are two ways to activate people to a connected destination:
 
 ## Required permissions {#required-permissions}
 
-Full destination capability requires the following [!DNL Adobe Experience Platform] permissions to be enabled. For descriptions and recommended permissions for each type of user, see [Permission resources](../start/user-management.md#permissions) and [External destinations permissions](../start/user-management.md#external-destinations-permissions).
+Full destination capability requires the following [!DNL Adobe Experience Platform] permissions to be enabled. For descriptions and recommended permissions for each type of user, see the [Product permissions](../start/permissions-reference.md) page and [External destinations permissions](../start/permissions-reference.md#external-destinations-permissions).
 
 | Category | Permission | Required |
 |--- |--- |--- |

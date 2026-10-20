@@ -17,7 +17,7 @@ Click **[!UICONTROL View Report]** for a live or finished person journey to see 
 
 >[!PREREQUISITES]
 >
->To view this report, you must have the **[!UICONTROL View B2B Person Journey Reports]** [permission](../start/user-management.md#permissions).
+>To view this report, you must have the **[!UICONTROL View B2B Person Journey Reports]** [permission](../start/permissions-reference.md).
 
 _To view the report:_
 

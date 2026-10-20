@@ -139,7 +139,7 @@ Before you start building a webinar, make sure the following are in place.
 
 ### Permissions
 
-Access to webinar features depends on your assigned permissions for webinars. For the full list of permissions and recommended roles, see [User access and permissions](../start/user-management.md#permissions).
+Access to webinar features depends on your assigned permissions for webinars. For the full list of permissions and recommended roles, see [User access and permissions](../start/permissions-reference.md).
 
 | Permission | What it grants |
 |---|---|

@@ -32,7 +32,7 @@ To make the best use of fragments in your workflows:
 
 >[!PREREQUISITES]
 >
->Working with fragments requires the following [permissions](../start/user-management.md#permissions):
+>Working with fragments requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Fragments]** - Required to view the fragments list and details.
 >* **[!UICONTROL Manage B2B Fragments]** - Required to create, edit, and delete fragments.

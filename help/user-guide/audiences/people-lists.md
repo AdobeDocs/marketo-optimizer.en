@@ -30,7 +30,7 @@ In [!DNL Adobe Marketo Optimizer], people lists are the person-level audience co
 
 >[!PREREQUISITES]
 >
->Working with people lists requires the following [permissions](../start/user-management.md#permissions):
+>Working with people lists requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Person Lists]** - Required to view static and dynamic person lists.
 >* **[!UICONTROL Manage B2B Person Lists]** - Required to create, edit, and delete person lists, and manage list membership.

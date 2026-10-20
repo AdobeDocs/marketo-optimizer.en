@@ -30,7 +30,7 @@ Program types define important aspects of [programs](../marketing/programs.md) a
 
 >[!PREREQUISITES]
 >
->Working with program types requires the following [permissions](../start/user-management.md#permissions):
+>Working with program types requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Program Types]** - Required to view marketing program types.
 >* **[!UICONTROL Manage B2B Program Types]** - Required to create, edit, and delete marketing program types.

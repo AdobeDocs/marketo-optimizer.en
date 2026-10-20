@@ -28,7 +28,7 @@ The amount of information that the form should capture depends on the value of t
 >
 >Before marketing teams can create and use forms to capture information, an administrator must define one or more form presets. For more information, see [_Forms configurations_](../admin/configuration-presets-forms.md).
 >
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#permissions):
+>Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/permissions-reference.md):
 >
 >* _[!UICONTROL B2B Assets]_ > _[!UICONTROL View B2B Forms]_ - Required to access and view forms.
 >* _[!UICONTROL B2B Assets]_ > _[!UICONTROL Manage B2B Forms]_ - Required to create, edit, and delete forms.

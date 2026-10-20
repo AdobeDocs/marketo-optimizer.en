@@ -30,7 +30,7 @@ In [!DNL Adobe Marketo Optimizer], the email design space provides a visual canv
 
 >[!PREREQUISITES]
 >
->Email authoring requires the following [permissions](../start/user-management.md#permissions):
+>Email authoring requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Emails]** - Required to view email messages.
 >* **[!UICONTROL Manage B2B Emails]** - Required to create, edit, and delete email messages.

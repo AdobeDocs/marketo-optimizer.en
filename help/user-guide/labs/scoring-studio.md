@@ -15,7 +15,7 @@ Scoring Studio includes a model list, an editable canvas for each model, and the
 
 >[!PREREQUISITES]
 >
->Scoring Studio is a Labs feature and requires the following [permissions](../start/user-management.md#permissions):
+>Scoring Studio is a Labs feature and requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Labs]** - Required to view the Labs features that are available and enabled.
 >* **[!UICONTROL Manage B2B Labs]** - Required to enable and configure Labs features.

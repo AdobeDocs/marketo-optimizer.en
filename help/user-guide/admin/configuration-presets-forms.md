@@ -31,7 +31,7 @@ To use web forms, you must have one or more _**HTTP API streaming connections**_
 
 For detailed information about creating a streaming source connections, refer to the [_Experience Platform documentation_](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-Forms channel configuration in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#permissions):
+Forms channel configuration in [!DNL Marketo Optimizer] requires the following [permissions](../start/permissions-reference.md):
 
 * _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View B2B Forms Preset]_ - Required to view form preset configurations.
 * _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage B2B Forms Preset]_ - Required to create, edit, and delete form preset configurations.
