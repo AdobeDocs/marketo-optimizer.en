@@ -23,6 +23,10 @@ AI decisioning is the intelligence layer behind Adobe Marketo Optimizer. Instead
 
 This continuous evaluation moves orchestration from static rules toward outcome-driven automation: rather than defining every condition in advance, you describe the outcome you want, and the system determines how to get there for each person.
 
+Watch this short overview to see how the AI reasoning in [!DNL Adobe Marketo Optimizer] uses Marketo Engage data to optimize your workflows and outcomes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
+
 ## Capabilities {#capabilities}
 
 AI decisioning is made up of the following capabilities:
