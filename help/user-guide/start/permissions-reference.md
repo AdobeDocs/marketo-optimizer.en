@@ -139,7 +139,14 @@ For the procedure to create these groups and roles, see [Create user groups and 
 
 ## Chat permissions {#chat-permissions}
 
-Chat permissions follow feature-level permissions. _Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions. Coworker checks every skill or action in chat against the same permission that the feature needs outside chat: _Manage_ permissions to create, edit, or publish, and _View_ permissions for read-only skills. If a user lacks the feature permission, [!DNL Coworker] cannot perform that action for them. For example, creating a journey requires _Manage B2B Person Journeys_, and listing forms requires _View B2B Forms_.
+Chat permissions follow feature-level permissions. [!DNL Coworker for Marketo Optimizer] checks every skill or action in chat against the same permission that the feature needs outside chat: _Manage_ permissions to create, edit, or publish, and _View_ permissions for read-only skills. If a user lacks the feature permission, [!DNL Coworker] cannot perform that action for them. For example, creating a journey requires _Manage B2B Person Journeys_, and listing forms requires _View B2B Forms_.
+
+<!--
+_Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions.
+
+Per wiki: 
+Update 10/02: We are no longer mapping b2b-conversational-experience read or write to any tools. It was decided that chat will be available for all users without permissions, but what they can do within the chat (i.e. tools they can use) will be defined by other permissions.
+-->
 
 ## External destinations permissions {#external-destinations-permissions}
 
