@@ -34,6 +34,12 @@ topic_v2:
 
 [!DNL Adobe Marketo Optimizer] is an AI-first marketing automation solution that empowers marketers and business development representatives (BDRs) to bring their lead, account, and buying group journeys together with powerful AI reasoning that enriches customer context with continuously updated semantic stories and scales engagement with next-best actions across marketing, paid media, and BDR channels.
 
+## Overview
+
+Watch this short overview to see how [!DNL Adobe Marketo Optimizer] uses AI reasoning to engage each lead with the right next-best action.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+
 ## Start with the basics {#basics}
 
 <table style="table-layout:fixed">
