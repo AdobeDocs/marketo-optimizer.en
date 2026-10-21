@@ -26,11 +26,9 @@ The chat panel is embedded throughout [!DNL Adobe Marketo Optimizer]. It is wher
 
 >[!PREREQUISITES]
 >
->To use the Coworker chat panel in [!DNL Marketo Optimizer], you must have the **[!UICONTROL Manage B2B Conversational Experience]** [permission](../start/permissions-reference.md).
->
->This permission gives access to the chat panel but does not grant access to any feature. The system checks every skill or action in chat against the same permission that the feature needs outside chat: _Manage_ permissions to create, edit, or publish, and _View_ permissions for read-only skills. If you lack the feature permission, the assistant cannot perform that action for you. For example, creating a journey requires **[!UICONTROL Manage B2B Person Journeys]**, and listing forms requires **[!UICONTROL View B2B Forms]**.
+>The system checks every skill or action in chat against the same [permissions](../start/permissions-reference.md) that the feature needs outside chat: _Manage_ permissions to create, edit, or publish, and _View_ permissions for read-only skills. If you lack the feature permission, [!DNL Coworker] cannot perform that action for you. For example, creating a journey requires **[!UICONTROL Manage B2B Person Journeys]**, and listing forms requires **[!UICONTROL View B2B Forms]**.
 
-Select the _Coworker_ icon in the left navigation to open the panel. The panel header has four controls:
+Select the _Chat_ icon in the left navigation to open the panel. The panel header has four controls:
 
 | Control | Description |
 |---------|-------------|
