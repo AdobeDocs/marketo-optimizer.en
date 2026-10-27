@@ -1,26 +1,29 @@
 ---
 title: Home Page
 description: Learn how to use the Adobe Marketo Optimizer home page to start AI conversations, launch skills, and navigate to marketing workspaces, content, and reports.
+autotag-review: '2026-10-27T19:17:10.631Z'
 TQID: 'https://experienceleague.adobe.com/QdAQalH-ETbVtJL3O4rPC8z70Yzm1gvnx9DYhJP9Bb0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Audiences
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-    internal-label: Journeys
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+  - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
     internal-label: Programs
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Home page
 
 Use the [!UICONTROL Home] page in [!DNL Adobe Marketo Optimizer] to start AI conversations, launch skills, and open marketing workspaces. Select **[!UICONTROL Home]** in the navigation to return to this page.
 
-The personalized welcome message asks what you are working on. Choose how to begin with the conversation input, intent options, quick access cards, or skill cards.
+The personalized welcome message asks about your current tasks. Choose how to begin with the conversation input, intent options, quick access cards, or skill cards.
 
 Watch the video for a tour of the home page and marketing workspace. The following sections provide written instructions.
 
@@ -89,7 +92,7 @@ Select the **[!UICONTROL Marketing]** quick access card or **[!UICONTROL Marketi
 
 1. Select **[!UICONTROL Programs]**, **[!UICONTROL Person journeys]**, or **[!UICONTROL People lists]** in the **[!UICONTROL Marketing]** panel to browse resources.
 1. Select a resource to open it in a workspace tab. Alternatively, select an item in **[!UICONTROL Recently accessed]**.
-1. Switch between open tabs to continue working with different resources.
+1. To continue working with different resources, switch between open tabs.
 
 The [!UICONTROL Coworker] panel reflects the resource you open. Its prompts can target a selected program, people list, or person. For example, opening a person record provides prompts for exploring that person's persona and engagement activity.
 
