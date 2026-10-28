@@ -85,7 +85,7 @@ When you edit a configuration that is in use:
 >
 >Deleting a channel configuration is permanent. You cannot delete a configuration that an active journey references. Remove or reassign all email actions first.
 
-To delete a configuration, first remove or update every email action that references it in [Add emails to journeys](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] does not delete a configuration that is currently used by an active journey.
+To delete a configuration, first remove or update every email action that references it in [Create emails and add them to journeys](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] does not delete a configuration that is currently used by an active journey.
 
 ## Multiple channel configurations {#multiple-channel-configurations}
 

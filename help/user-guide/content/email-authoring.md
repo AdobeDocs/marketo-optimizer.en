@@ -36,7 +36,9 @@ In [!DNL Adobe Marketo Optimizer], the email design space provides a visual canv
 >* **[!UICONTROL Manage B2B Emails]** - Required to create, edit, and delete email messages.
 >* **[!UICONTROL Manage B2B Person Journeys]** - Required to add the email to a person journey.
 
-In [!DNL Marketo Optimizer], every email is associated with a _[!UICONTROL Send Email]_ action within a person journey. The full workflow from journey design to email definition happens in one continuous experience. When you [add a _Send Email_ node](../marketing/action-nodes.md#add-an-action-node) to a person journey, click **[!UICONTROL Create email]** to start the process. First you define the Actions and content settings for the email. Click **[!UICONTROL Edit email body]** to launch the email content design space, where you can choose how you want to design your email from the following options:
+In [!DNL Marketo Optimizer], an email is an independent asset that you [create in a program or folder](../marketing/email-channel.md#create-email-from-programs), and then [publish and select in a journey](../marketing/email-channel.md#lifecycle). First you define the _Properties_ and _Actions_. Then you define the content.
+
+Click **[!UICONTROL Edit email body]** to launch the email body design space, where you can choose how you want to design your email from the following options:
 
 * [Design your email from scratch](#design-from-scratch) using the visual design interface. Build the email layout component by component using drag-and-drop on a blank canvas. This method is best for creating new templates or one-off emails.
 
@@ -289,7 +291,7 @@ Beyond `default`, the personalization editor includes built-in Handlebars helper
 
 +++AI-assisted expressions {#ai-personalization}
 
-The Coworker in the personalization editor can generate Handlebars expressions from a plain-language description, explain what an existing expression does, and identify potential issues. Use it to accelerate expression authoring, especially for conditional logic or date-formatting helpers.
+The [!DNL Coworker] in the personalization editor can generate Handlebars expressions from a plain-language description, explain what an existing expression does, and identify potential issues. Use it to accelerate expression authoring, especially for conditional logic or date-formatting helpers.
 
 +++
 

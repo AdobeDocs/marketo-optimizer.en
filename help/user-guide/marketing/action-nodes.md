@@ -182,9 +182,9 @@ Use this action to add people to a request campaign in a connected Marketo Engag
 
 Use this action to send an email to opted-in people. People who are unsubscribed, block listed, email suspended, or marketing suspended skip this action.
 
-![Take an action - Send email](./assets/person-action-node-send-email.png){width="450"}
+![Take an action - Send email](./assets/person-action-node-email-source.png){width="450"}
 
-You can create an email, edit an existing email, or use an AI-personalized email. For information about creating and editing emails, see [Email channel](./email-channel.md). To generate persona-based variants for an existing email, see [Personalize email content by persona](../agents/personalize-content.md).
+You can choose a published email from the program tree, which adds a copy of the email to the journey, or use an AI-personalized email. The copy is read-only. For information about creating, publishing, and duplicating emails, see [_Create emails and add them to journeys_](./email-channel.md). To generate persona-based variants for a draft email, see [_Personalize email content by persona_](../agents/personalize-content.md).
 
 You can use [Send-time optimization](./email-send-time-optimization.md) to personalize email delivery timing by predicting when each profile is most likely to engage.
 

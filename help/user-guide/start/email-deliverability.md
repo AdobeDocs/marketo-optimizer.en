@@ -49,7 +49,7 @@ It uses the following building blocks, configured by an administrator, typically
 > See the following topics for additional information about email channels:
 >
 >* Configuring email channels - [Email channel configuration](../admin/email-channel-configuration.md)
->* Creating emails - [Add emails to journeys](../marketing/email-channel.md)
+>* Creating emails - [Create emails and add them to journeys](../marketing/email-channel.md)
 >* Designing email content - [Email content authoring](../content/email-authoring.md)
 
 ## Current limitations {#limitations}

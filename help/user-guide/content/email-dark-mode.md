@@ -154,7 +154,7 @@ As dark mode adoption increases across major email clients, it is essential to c
 
 Dark mode can alter colors, backgrounds, and images — sometimes overriding design choices. To ensure visual consistency, accessibility, and brand integrity, follow these best practices:
 
-| Practice |            |
+| Practice | |
 | -------- | ---------- |
 | Optimize your images and logos | Checklist:<ul><li>Save logos and icons as PNG files with transparent backgrounds to avoid visible white boxes in dark mode. <li>Avoid images with hardcoded white or light backgrounds. <li>If transparency is not an option, place images on a solid background in your design to prevent awkward color inversions. |
 | Watch your backgrounds | Checklist:<ul><li>Ensure sufficient contrast between text and background colors for readability in both light and dark modes. <li>Avoid relying on background colors alone for critical content. Some clients override background colors in dark mode, so ensure that key information is still visible. |
