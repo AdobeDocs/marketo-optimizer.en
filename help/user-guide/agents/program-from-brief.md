@@ -33,7 +33,7 @@ Click the _Attach_ icon in the chat input to upload the file, and then describe 
 ### Supported file types
 
 | Format | Behavior |
-|---|---|
+| --- | --- |
 | `.txt`, `.md` | Read directly in the browser |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | Sent to the backend text-extraction service |
 
@@ -84,7 +84,7 @@ No creation tool is called until you respond with a clear go-ahead (such as _pro
 The build steps run in a fixed order; each depends on IDs produced by the previous step.
 
 | Step | Description | Tools | Output |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. Folder** | Resolves the parent folder by name or uses workspace root; can create a new subfolder | `getRootTree`, `browseFolders`, `createFolder` | Folder name + ID |
 | **1.5. Program type** | Looks up tenant program types and picks the match for the brief | `browseProgramTypes` | Type name + `programTypeId` |
 | **2. Program** | Creates the Program under the resolved folder, bound to the chosen type | `createProgram` | Program name, ID, type |
@@ -107,7 +107,7 @@ The build steps run in a fixed order; each depends on IDs produced by the previo
 The top-level container. Its detail view exposes the following tabs:
 
 | Tab | Content |
-|---|---|
+| --- | --- |
 | **Overview** | Name, description, program type, status, folder location, timestamps |
 | **Attributes** | Type-defined custom fields (only if the program type enables them) |
 | **Tokens** | `my.*` tokens scoped to this program |
@@ -130,7 +130,7 @@ A person journey starting with a Person audience entry node bound to the Step 4 
 Programs are **permanently bound** to a tenant-defined program type at creation — this cannot be changed afterward. The flow resolves the type explicitly via `browseProgramTypes` in every case.
 
 | Case | Behavior |
-|---|---|
+| --- | --- |
 | **Multiple types available** | Matches brief wording to a type (such as tradeshow/booth/expo = *Tradeshow*/*Event*; webinar = *Webinar*/*Event*; nurture/drip = *Nurture*; no clear signal = *Default*). If no match is found, Coworker lists available types and asks. |
 | **Default-only tenant** | Uses *Default* and notes that an admin can add custom [program types](../admin/program-types.md). |
 | **No types configured** | Stops — creation would fail. Prompts an admin to provision program types before retrying. |
@@ -138,7 +138,7 @@ Programs are **permanently bound** to a tenant-defined program type at creation 
 ## Defaults
 
 | Setting | Default |
-|---|---|
+| --- | --- |
 | **Folder** | Workspace root (if no folder is specified) |
 | **Program type** | *Default* (if no brief signal and no manual selection) |
 | **Personalization attributes** | Derived Persona, Derived Intent, Engagement Tier included by default (opt-out available) |
@@ -148,7 +148,7 @@ Programs are **permanently bound** to a tenant-defined program type at creation 
 ## Limitations
 
 | Limitation | Detail |
-|---|---|
+| --- | --- |
 | **Brief length cap** | ~30K characters; truncated briefs lose trailing content — put essentials first |
 | **Immutable program type** | Cannot be changed after creation; verify the correct type before approving |
 | **Required internal fields** | `parent` and `programTypeId` are always set; omitting `parent` causes access-denied; omitting type silently falls back to *Default* |

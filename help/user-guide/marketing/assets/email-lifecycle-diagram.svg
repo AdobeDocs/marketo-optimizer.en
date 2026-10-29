@@ -1,0 +1,70 @@
+<svg width="100%" viewBox="0 0 800 340" role="img" aria-labelledby="email-lifecycle-title email-lifecycle-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="email-lifecycle-title">Email lifecycle</title>
+  <desc id="email-lifecycle-desc">Create an email as a draft, resolve blocking alerts, and publish it. Selecting the published email in a Send email action creates a separate, read-only published copy in the journey. Duplicate a published email to create a new draft without changing the original or any existing journey copies.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#A32D2D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; text-anchor: middle; }
+      .box-fill { fill: #FCEBEB; stroke: #A32D2D; stroke-width: 0.5; }
+      .box-title { font-size: 16px; font-weight: 600; fill: #791F1F; }
+      .box-text { font-size: 12px; fill: #791F1F; }
+      .label { font-size: 12px; font-weight: 500; fill: #791F1F; }
+      .note { font-size: 12px; fill: #5F5E5A; }
+      .icon { fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .arr { stroke: #A32D2D; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="340" fill="#FFFFFF"/>
+
+  <text class="label" x="130" y="40">Create an email</text>
+  <path class="arr" d="M130 50 V90" marker-end="url(#arrow)"/>
+
+  <rect class="box-fill" x="20" y="90" width="220" height="140" rx="8"/>
+  <g class="icon" stroke="#A32D2D" transform="translate(130,118)">
+    <rect x="-16" y="-11" width="32" height="22" rx="2"/>
+    <path d="M-16 -9 L0 2 L16 -9"/>
+  </g>
+  <text class="box-title" x="130" y="154">Draft</text>
+  <text class="box-text" x="130" y="178">Edit, personalize, and analyze</text>
+  <text class="box-text" x="130" y="198">Resolve blocking alerts</text>
+  <text class="box-text" x="130" y="218">Rename or delete</text>
+
+  <text class="label" x="265" y="40">Publish</text>
+  <path class="arr" d="M240 160 H290" marker-end="url(#arrow)"/>
+
+  <rect class="box-fill" x="290" y="90" width="220" height="140" rx="8"/>
+  <g class="icon" stroke="#3A8A12" transform="translate(400,118)">
+    <rect x="-16" y="-11" width="32" height="22" rx="2"/>
+    <path d="M-16 -9 L0 2 L16 -9"/>
+    <circle cx="14" cy="10" r="7" fill="#3A8A12"/>
+    <path d="M10 10 L13 13 L18 7" stroke="#FFFFFF"/>
+  </g>
+  <text class="box-title" x="400" y="154">Published</text>
+  <text class="box-text" x="400" y="178">Locked and ready to send</text>
+  <text class="box-text" x="400" y="198">Cannot edit or unpublish</text>
+  <text class="box-text" x="400" y="218">Original stays in the program</text>
+
+  <text class="label" x="535" y="40">Select in a</text>
+  <text class="label" x="535" y="58">Send email action</text>
+  <path class="arr" d="M510 160 H560" marker-end="url(#arrow)"/>
+
+  <rect class="box-fill" x="560" y="90" width="220" height="140" rx="8"/>
+  <g class="icon" stroke="#E68619" transform="translate(670,118)">
+    <path d="M-20 6 V-15 H10"/>
+    <rect x="-14" y="-10" width="32" height="22" rx="2"/>
+    <path d="M-14 -8 L2 3 L18 -8"/>
+  </g>
+  <text class="box-title" x="670" y="154">In a journey</text>
+  <text class="box-text" x="670" y="178">Separate, published copy</text>
+  <text class="box-text" x="670" y="198">Read-only content and settings</text>
+  <text class="box-text" x="670" y="218">Each journey gets its own copy</text>
+
+  <path class="arr" d="M400 230 V260 H130 V230" marker-end="url(#arrow)"/>
+  <text class="label" x="265" y="282">Duplicate to create a new draft</text>
+  <text class="note" x="265" y="302">The published original is unchanged.</text>
+
+  <text class="note" x="400" y="330">Later changes to the original do not update existing journey copies.</text>
+</svg>

@@ -45,7 +45,7 @@ user-guide-description: Learn about Adobe Marketo Optimizer and how you can use 
    + Email channel {#email-channel}
       + [Overview](./marketing/email-channel.md)
       + [Email send-time optimization](./marketing/email-send-time-optimization.md)
-      + [Content authoring](./content/email-authoring.md)
+      + [Email content authoring](./content/email-authoring.md)
       + [Dark mode design](./content/email-dark-mode.md)
    + [WhatsApp channel](./content/whatsapp-authoring.md)
    + Webinar channel {#webinar-channel}

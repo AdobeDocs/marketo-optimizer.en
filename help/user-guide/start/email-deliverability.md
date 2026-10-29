@@ -49,7 +49,7 @@ It uses the following building blocks, configured by an administrator, typically
 > See the following topics for additional information about email channels:
 >
 >* Configuring email channels - [Email channel configuration](../admin/email-channel-configuration.md)
->* Creating emails - [Add emails to journeys](../marketing/email-channel.md)
+>* Creating emails - [Create emails and add them to journeys](../marketing/email-channel.md)
 >* Designing email content - [Email content authoring](../content/email-authoring.md)
 
 ## Current limitations {#limitations}
@@ -61,7 +61,7 @@ It uses the following building blocks, configured by an administrator, typically
 
 Before configuring email, review these concepts that apply to email channel deliverability features:
 
-| Concept | What it means in [!DNL Marketo Optimizer]  |
+| Concept | What it means in [!DNL Marketo Optimizer] |
 | ------- | ---------------------- |
 | **_Subdomain_** | A delegated portion of your sending domain (for example, `mail.contoso.com`) used to send email through [!DNL Marketo Optimizer]. Subdomains isolate your B2B marketing reputation from corporate or transactional mail. |
 | **_IP pool_** | A group of IP addresses associated with one or more subdomains. [!DNL Marketo Optimizer] supports a shared IP pool managed by Adobe in this release; dedicated IP pools are on the GA roadmap. |
