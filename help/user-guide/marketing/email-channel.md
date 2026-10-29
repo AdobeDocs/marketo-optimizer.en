@@ -37,6 +37,8 @@ An email is always in one of the following states:
 
 An email moves from draft to published when you publish it. When selected for a _Send email_ action node, a copy resides in the journey. To change a published email, [duplicate it](#duplicate-email). The duplicate is created as a draft with the same content and settings.
 
+![Email lifecycle: publish a draft, select the published email to create a read-only journey copy, or duplicate the published email to create a new draft.](./assets/email-lifecycle-diagram.svg){width="800" zoomable="yes"}
+
 The email state determines action availability:
 
 | Action | Draft | Published | In a journey |
@@ -50,7 +52,23 @@ The email state determines action availability:
 | Delete | Yes | No | No. Delete the _Send email_ node instead. |
 | Select in a journey | No | Yes | Not applicable |
 
-## Before you begin {#before-you-begin}
+## Prerequisites {#before-you-begin}
+
+Make sure that your user role includes the following [product permissions](../start/permissions-reference.md) for the tasks that you perform:
+
+* **[!UICONTROL View B2B Programs]** and **[!UICONTROL View B2B Folders]** - View the programs and folders where emails reside.
+* **[!UICONTROL View B2B Emails]** - View email messages.
+* **[!UICONTROL Manage B2B Emails]** - Create, edit, duplicate, rename, delete, and publish emails.
+* **[!UICONTROL Manage B2B Person Journeys]** - Add or replace email actions in a person journey. For read-only access to journeys, use **[!UICONTROL View B2B Person Journeys]**.
+* **[!UICONTROL Manage B2B Conversational Experience]** - Access [!DNL Coworker] to personalize or analyze an email. Actions in [!DNL Coworker] also require the corresponding email permissions.
+
+Additional permissions are required only if you perform these related setup or sending tasks:
+
+* **[!UICONTROL Manage B2B Programs]** - Create a program if one does not already exist.
+* **[!UICONTROL Manage B2B Channels Configurations]** and **[!UICONTROL View B2B Email Settings]** - Create an email channel configuration. Administrators also need **[!UICONTROL Manage B2B Email Settings]** to configure email delivery settings.
+* **[!UICONTROL Publish B2B Person Journeys]** - Publish the journey that sends the email.
+
+Before creating an email, confirm the following:
 
 * Emails reside in a program or one of its folders. Define the program before you create an email. A journey can only send emails from its own program.
 * To select an email channel configuration, use the email **[!UICONTROL Actions]** tab. Administrators manage [email channel configuration](../admin/email-channel-configuration.md).
@@ -70,6 +88,8 @@ The email state determines action availability:
 * **Role-Based Access Control (RBAC)** — Apply granular permissions for creating, editing, approving, and sending email. 
 -->
 
+>[!BEGINSHADEBOX]
+
 ## Current limitations {#limitations}
 
 * **Test profiles, Simulate Content, and Send Proof** are not available in the current release. Litmus rendering and SpamAssassin-based spam reports are planned for a future release.
@@ -78,20 +98,22 @@ The email state determines action availability:
 * **Email comments and collaboration** (inline comments, @mentions, request-review workflow) are planned for a future release.
 * **AEM Assets, AEM Content Fragments, and Adobe Express** integrations are planned for a future release.
 
+>[!ENDSHADEBOX]
+
 ## Key concepts {#key-concepts}
 
 Before creating emails for person journeys and authoring email content, review these concepts:
 
 | Concept | In [!DNL Adobe Marketo Optimizer] |
 | ------- | ---------------------- |
-| **_Email design space_** | The visual canvas and design tools used to compose email content. It includes drag-and-drop layout components, templates, fragments, themes, and a personalization editor. |
-| **_Template_** | A reusable email layout that is available for creating a new email. It can be either a built-in sample template provided by Adobe or a custom-built template created by your team. |
-| **_Visual fragment_** | A reusable block of content (such as a header, footer, CTA, legal disclaimer) that can be inserted into multiple emails. Updating a fragment propagates the change to every email that uses it. |
-| **_Theme_** | A reusable styling preset (colors, typography, spacing, button styles) applied across an email. |
-| **_Personalization token_** | A Handlebars expression — for example, `{{profile.firstName}}` — resolved at send time using each recipient's profile data. |
-| **_Standalone email_** | An email asset that exists independently of any journey. It is created in a program or one of its folders, and it moves from draft to published. See [Email lifecycle](#lifecycle). |
-| **_Email type_** | The classification you choose when you create an email, **[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**. It tells [!DNL Marketo Optimizer] how to treat the message for consent purposes. See [Email types](#email-types). |
-| **_Send Email action_** | The journey action node that uses a channel configuration and email content to deliver an email. |
+| **_[Email design space](../content/email-authoring.md#email-design-tools)_** | The visual canvas and design tools used to compose email content. It includes drag-and-drop layout components, templates, fragments, themes, and a personalization editor. |
+| **_[Template](../content/templates.md)_** | A reusable email layout that is available for creating a new email. It can be either a built-in sample template provided by Adobe or a custom-built template created by your team. |
+| **_[Visual fragment](../content/fragments.md)_** | A reusable block of content (such as a header, footer, CTA, legal disclaimer) that can be inserted into multiple emails. Updating a fragment propagates the change to every email that uses it. |
+| **_[Theme](../content/email-authoring.md#design-from-scratch)_** | A reusable styling preset (colors, typography, spacing, button styles) applied across an email. |
+| **_[Personalization token](../content/personalization-expressions.md)_** | A Handlebars expression — for example, `{{profile.firstName}}` — resolved at send time using each recipient's profile data. |
+| **_[Standalone email](#lifecycle)_** | An email asset that exists independently of any journey. It is created in a program or one of its folders, and it moves from draft to published. |
+| **_[Email type](#email-types)_** | The classification you choose when you create an email, **[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**. It tells [!DNL Marketo Optimizer] how to treat the message for consent purposes. |
+| **_[Send Email action](./action-nodes.md#add-an-action-node)_** | The journey action node that uses a channel configuration and email content to deliver an email. |
 
 ## Email types {#email-types}
 
@@ -132,9 +154,80 @@ The email opens in its own tab and appears under the program in the programs tre
 
 Next, [set up the email](#define-email-properties), [resolve any alerts](#alerts), and [publish it](#publish-email).
 
+### Define email properties and actions {#define-email-properties}
+
+A draft email has three tabs: **[!UICONTROL Properties]**, **[!UICONTROL Actions]**, and **[!UICONTROL Content]**. Work through them in order, and then save your changes. The email page opens when you create an email in the programs tree. To open a draft later, select the email in the programs tree.
+
+#### Complete the Properties and Actions tabs {#properties-actions-tabs}
+
+1. (Optional) In the **[!UICONTROL Properties]** tab, enter a **[!UICONTROL Description]** and any other descriptive information that you want to capture for the email.
+
+   ![Email Properties tab](./assets/email-properties-tab.png){width="800" zoomable="yes"}
+
+1. Select the **[!UICONTROL Actions]** tab and complete the functional settings for the email:
+
+   * **[!UICONTROL Email]** - Select or create an **[!UICONTROL Email channel configuration]** to use.
+
+      This is the reusable set of email-delivery settings that defines the sender identity, reply-to address, subdomain, IP pool, email type (marketing or transactional), and tracking. Click the _View_ icon to review the settings for the selected configuration.
+
+      Administrators create configurations in [Email channel configuration](../admin/email-channel-configuration.md).
+
+   * **[!UICONTROL Business rules]** - (Optional) Apply capping or quiet hours rules to your email action by selecting a rule set.
+
+      For more information about business rules and how to define and activate rule sets for channel communications, see [_Business rules_](../admin/business-rules.md).
+
+   * **[!UICONTROL Action tracking]** - Select the check boxes for the actions that you want to track for the email.
+
+   ![Email channel - Actions tab](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+
+#### Add the subject line and content {#content-tab}
+
+1. Click **[!UICONTROL Edit content]**, or select the **[!UICONTROL Content]** tab.
+
+   ![Email Content tab](./assets/email-content-tab.png){width="500" zoomable="yes"}
+
+1. Enter the **[!UICONTROL Subject line]** text that you want to display in the subject field for the email.
+
+   The subject line is required.
+
+   Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field.
+
+1. (Optional) Select the **[!UICONTROL Optimize HTML size]** check box to reduce the size of your email HTML during the publishing process.
+
+   This helps prevent email clipping in clients such as Gmail. Gmail truncates messages exceeding 100 KB. See [_Optimize email HTML size_](#optimize-html-size) for more information.
+
+1. Click **[!UICONTROL Edit email body]** to access the visual design tools and start [building your content](../content/email-authoring.md).
+
+   Alternatively, you can click **[!UICONTROL Code Editor]** to code your own content in plain HTML. If you have existing HTML to reuse for your email design, you can copy and paste it into the editor.
+
+### Check alerts {#alerts}
+
+The **[!UICONTROL Alerts]** button in the email header shows how many issues [!DNL Adobe Marketo Optimizer] has found. Click it to display the list.
+
+![Blocking alerts for a draft email](./assets/email-alerts-blocking.png){width="450"}
+
+Alerts come in two kinds:
+
+* **Blocking issues** - While any of these issues remain, **[!UICONTROL Publish]** is unavailable, and the email's _More_ menu shows **[!UICONTROL Resolve email alerts to publish]**. Resolve all blocking issues before you publish the email.
+
+   Examples include:
+
+   * From name is empty
+   * Subject line is missing
+   * Email content is empty
+
+* **Warnings** - These point out things worth reviewing but don't prevent you from publishing. An email can show an alert and still be published if the remaining alerts are warnings.
+
+   Examples include:
+
+   * Opt-out link is not present in the email body
+   * Text version of HTML is empty
+   * Empty links detected
+   * Email exceeds 100 K
+
 ## Manage emails in the programs tree {#manage-emails}
 
-Emails appear in the programs tree with an envelope icon. A red envelope marks a draft. A green envelope marks a published email, including the copies that live under journeys. Click the _More_ icon (**...**) next to an email to manage it.
+Emails appear in the programs tree with an envelope icon. A red envelope marks a draft. A green envelope marks a published email. Click the _More_ icon (**...**) next to an email to manage it.
 
 ![Email More menu in the programs tree](./assets/email-tree-more-menu.png){width="400"}
 
@@ -188,7 +281,7 @@ To change a published email, duplicate it. To try a variation without changing t
 
 The duplicate is created as a draft with the same content and settings. Make your changes, and then publish it.
 
-## Add an email from a journey {#add-email-from-journey}
+## Add an email to a journey {#add-email-from-journey}
 
 To send an email, add it to a journey in the same program. When you select an email, [!DNL Marketo Optimizer] makes a copy of it for that journey and publishes the copy automatically. Emails come from the programs tree, so [create and publish the email](#create-email-from-programs) first.
 
@@ -236,7 +329,7 @@ You can use the same email in more than one journey. Each time you select it, a 
 
 ### Journey email copy {#journey-copy}
 
-The copy is added to the journey, published, and listed under the journey in the programs tree. It has its own Action ID and is read-only.
+The copy is added to the journey, published, and listed under the journey in the programs tree with an orange icon. It has its own Action ID and is read-only.
 
 ![Journey copy of the email in the programs tree](./assets/email-journey-copy-tree.png){width="700" zoomable="yes"}
 
@@ -253,77 +346,6 @@ Because the journey's copy is read-only, you replace it rather than edit it.
 1. In the journey, select the _Send email_ node and delete it by using the trash icon in the _Take an action_ panel.
 
 1. Add a new _Send email_ action in its place and select the updated email.
-
-## Define email properties and actions {#define-email-properties}
-
-A draft email has three tabs: **[!UICONTROL Properties]**, **[!UICONTROL Actions]**, and **[!UICONTROL Content]**. Work through them in order, and then save your changes. The email page opens when you create an email in the programs tree. To open a draft later, select the email in the programs tree.
-
-### Complete the Properties and Actions tabs {#properties-actions-tabs}
-
-1. (Optional) In the **[!UICONTROL Properties]** tab, enter a **[!UICONTROL Description]** and any other descriptive information that you want to capture for the email.
-
-   ![Email Properties tab](./assets/email-properties-tab.png){width="800" zoomable="yes"}
-
-1. Select the **[!UICONTROL Actions]** tab and complete the functional settings for the email:
-
-   * **[!UICONTROL Email]** - Select or create an **[!UICONTROL Email channel configuration]** to use. 
-   
-      This is the reusable set of email-delivery settings that defines the sender identity, reply-to address, subdomain, IP pool, email type (marketing or transactional), and tracking. Click the _View_ icon to review the settings for the selected configuration.
-
-      Administrators create configurations in [Email channel configuration](../admin/email-channel-configuration.md).
-
-   * **[!UICONTROL Business rules]** - (Optional) Apply capping or quiet hours rules to your email action by selecting a rule set.
-    
-      For more information about business rules and how to define and activate rule sets for channel communications, see [_Business rules_](../admin/business-rules.md). 
-
-   * **[!UICONTROL Action tracking]** - Select the check boxes for the actions that you want to track for the email.
-
-   ![Email channel - Actions tab](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"} 
-
-### Add the subject line and content {#content-tab}
-
-1. Click **[!UICONTROL Edit content]**, or select the **[!UICONTROL Content]** tab. 
-
-   ![Email Content tab](./assets/email-content-tab.png){width="500" zoomable="yes"}
-
-1. Enter the **[!UICONTROL Subject line]** text that you want to display in the subject field for the email.
-
-   The subject line is required.
-
-   Click the _Personalize_ icon ( ![Personalize icon](../assets/do-not-localize/icon-personalize.svg) ) to use a personalization token in the field.
-
-1. (Optional) Select the **[!UICONTROL Optimize HTML size]** check box to reduce the size of your email HTML during the publishing process.
-
-   This helps prevent email clipping in clients such as Gmail. Gmail truncates messages exceeding 100 KB. See [_Optimize email HTML size_](#optimize-html-size) for more information.
-
-1. Click **[!UICONTROL Edit email body]** to access the visual design tools and start [building your content](../content/email-authoring.md).
-
-   Alternatively, you can click **[!UICONTROL Code Editor]** to code your own content in plain HTML. If you have existing HTML to reuse for your email design, you can copy and paste it into the editor.
-
-### Check alerts {#alerts}
-
-The **[!UICONTROL Alerts]** button in the email header shows how many issues [!DNL Adobe Marketo Optimizer] has found. Click it to display the list.
-
-![Blocking alerts for a draft email](./assets/email-alerts-blocking.png){width="450"}
-
-Alerts come in two kinds:
-
-* **Blocking issues** - While any of these issues remain, **[!UICONTROL Publish]** is unavailable, and the email's _More_ menu shows **[!UICONTROL Resolve email alerts to publish]**. Resolve all blocking issues before you publish the email.
-
-   Examples include:
-
-   * From name is empty
-   * Subject line is missing
-   * Email content is empty
-
-* **Warnings** - These point out things worth reviewing but don't prevent you from publishing. An email can show an alert and still be published if the remaining alerts are warnings.
-
-   Examples include:
-
-   * Opt-out link is not present in the email body
-   * Text version of HTML is empty
-   * Empty links detected
-   * Email exceeds 100 K
 
 ## Optimize email HTML size {#optimize-html-size}
 

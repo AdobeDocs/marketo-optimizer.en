@@ -24,17 +24,12 @@ topic_v2:
 
 In [!DNL Adobe Marketo Optimizer], the email design space provides a visual canvas where marketers compose email. The email design tools in the left and top panels (structures, content components, templates, fragments, and more) support building from scratch with drag and drop. You can also choose to start from a template, paste raw HTML, or assemble messages from reusable visual fragments.
 
->[!IMPORTANT]
->
->For administrator setup of subdomains, authentication, IP pools, and email channel configurations, see [Email deliverability](../start/email-deliverability.md) and [Email channel configuration](../admin/email-channel-configuration.md).
-
 >[!PREREQUISITES]
 >
 >Email authoring requires the following [permissions](../start/permissions-reference.md):
 >
 >* **[!UICONTROL View B2B Emails]** - Required to view email messages.
 >* **[!UICONTROL Manage B2B Emails]** - Required to create, edit, and delete email messages.
->* **[!UICONTROL Manage B2B Person Journeys]** - Required to add the email to a person journey.
 
 In [!DNL Marketo Optimizer], an email is an independent asset that you [create in a program or folder](../marketing/email-channel.md#create-email-from-programs), and then [publish and select in a journey](../marketing/email-channel.md#lifecycle). First you define the _Properties_ and _Actions_. Then you define the content.
 
@@ -81,7 +76,6 @@ Use the visual content design space to define the structure and content of the e
 
 1. From the _[!UICONTROL Design your email]_ page, select the **[!UICONTROL Design from scratch]** option.
 
-<!-- 
 
 1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
 
@@ -89,7 +83,7 @@ Use the visual content design space to define the structure and content of the e
 
    * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
 
--->
+   ![Create your email dialog](./assets/email-design-create-your-email-dialog.png){width="450"}
 
 1. [Add structure and content components](#structure-content) in the canvas.
 
@@ -100,8 +94,6 @@ Use the visual content design space to define the structure and content of the e
 When you are satisfied with the content, click **[!UICONTROL Save]**.
 
 ## Import existing HTML content {#import-html-content}
-
-<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
 
 Imported content can be:
 
@@ -138,17 +130,27 @@ When you open the email design space, use the **[!UICONTROL Select design templa
 
 Use the visual email editor to build out your email message. Add a preheader, structure the layout with columns and dividers, then populate those structures with content components such as images, buttons, and text. You can also apply custom CSS for advanced styling and preview how the design renders in dark mode.
 
-### Set the preheader {#preheader}
+### Define the body settings {#body-settings}
 
-The preheader is the snippet of text shown after the subject line in inbox previews. In [!DNL Marketo Optimizer], the preheader is configured on the visual canvas in the email design space — not on the email properties screen alongside the subject line.
+The body settings define the preheader, document title, and document language for the email. Configure this metadata in the email design space, separately from the email subject line.
 
-With the **[!UICONTROL Body]** selected in the left navigation tree, open the **[!UICONTROL Settings]** panel on the right.
+1. Select **[!UICONTROL Body]** in the left navigation tree, and then select the **[!UICONTROL Settings]** tab in the right panel.
 
-Click in the **[!UICONTROL Preheader]** text region and enter your preheader copy. Click the _Add personalization_ ( ![Add personalization icon](../assets/do-not-localize/icon-personalization-field.svg) ) icon to apply formatting and [personalization tokens](#personalize-content) as needed using the rich-text controls. 
+   ![Body settings in the right panel](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
->[!TIP]
->
->Keep your preheader between 40 and 100 characters. It should complement the subject line (not repeat it) and give the recipient an extra reason to open the email.
+1. Complete the following fields:
+
+   * **[!UICONTROL Preheader]** - Enter the snippet of text that appears after the subject line in inbox previews.
+
+     >[!TIP]
+     >
+     >Keep your preheader between 40 and 100 characters. It should complement the subject line (not repeat it) and give the recipient an extra reason to open the email.
+
+   * **[!UICONTROL Document title]** - Enter a title for the email HTML document. This is separate from the email subject line.
+
+   * **[!UICONTROL Document language]** - Specify the language of the email document.
+
+   You can click the _Add personalization_ ( ![Add personalization icon](../assets/do-not-localize/icon-personalization-field.svg) ) icon next to a field to insert [personalization tokens](#personalize-content).
 
 ### Dark mode {#dark-mode}
 
@@ -161,6 +163,8 @@ For detailed guidance on previewing, configuring custom dark mode settings, emai
 Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas.
 
 Drag items from the **[!UICONTROL Structures]** and **[!UICONTROL Contents]** sections in the left panel, then configure each component in the _[!UICONTROL Settings]_ and _[!UICONTROL Styles]_ tabs on the right.
+
+![Drag and drop structural components and content elements into the page](./assets/content-components-add.png){width="700" zoomable="yes"}
 
 ### Add custom CSS {#custom-css}
 
@@ -250,7 +254,7 @@ Use the navigation tree to select components and columns, then adjust their sett
 [!DNL Marketo Optimizer] uses Handlebars syntax for personalization. Tokens are replaced at send time with values from each recipient's profile data. There are multiple places where you can use personalization in an email:
 
 * **Subject line** — most common personalization point.
-* **Preheader** — set inside the visual canvas; supports profile attribute tokens.
+* **Body metadata** — set inside the visual canvas; supports profile attribute tokens.
 * **Email body text** — first names and other profile attributes inserted inline.
 * **Button URLs** — append per-recipient parameters.
 
